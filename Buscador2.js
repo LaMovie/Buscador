@@ -533,3 +533,19 @@ var Lista2 = [
     { NAME: "🍿Agentes Del Desorden", URL: "https://drive.google.com/file/d/10j-eMI6Z1bBW3gdU8rk9gerV9e4pe6S4/view?usp=drivesdk"}
 ];
 
+// Selecciona la lista existente
+var lista = document.getElementById("Lista");
+ 
+// Agrega los nuevos elementos dinámicamente
+Lista2.forEach(item => {
+  var li = document.createElement("li");
+  var a = document.createElement("a");
+
+  a.href = item.URL || item.url;
+  a.textContent = item.NAME || item.name;
+  a.classList.add("Data");
+
+  li.appendChild(a);
+  lista.appendChild(li);
+});
+
