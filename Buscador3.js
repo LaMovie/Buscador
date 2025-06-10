@@ -15,6 +15,19 @@ var Lista3 = [
   { NAME: "🍿THE WITCHER ANIMATION", URL: "https://play.okpeliz.com/embed/1203329" }, 
   { NAME: "🍿JUEGO DE TRONOS", URL: "https://lamovie.github.io/JUEGO-DE-TRONOS/" }, 
   { NAME: "🍿SCARY MOVIE 4", URL: "https://play.okpeliz.com/embed/4257" }, 
+  { NAME: "🍿AZRAEL", URL: "https://lamovie.link/embed-088v1zqs1yu0.html" },
+  { NAME: "🍿IRON MAN 2", URL: "https://lamovie.link/embed-yn6e1n7nots7.html" },
+  { NAME: "🍿MALOS PADRES", URL: "https://lamovie.link/embed-xx5cm6q8lhr4.html" },
+  { NAME: "🍿BAKI Vs KENGAN", URL: "https://lamovie.link/embed-y3jqmuqc2f1b.html" },
+  { NAME: "🍿LA VIUDA NEGRA", URL: "https://lamovie.link/embed-mu7qoutr9wy4.html" },
+  { NAME: "🍿MISIÓN IMPOSIBLE 6", URL: "https://lamovie.link/embed-70wua6dwdl5w.html" },
+  { NAME: "🍿LA CAIDA DEL VUELO 811", URL: "https://lamovie.link/embed-dus822o2u8fm.html" },
+  { NAME: "🍿CRIATURAS ASOMBROSAS", URL: "https://lamovie.link/embed-2zyxkofxb9vc.html" },
+  { NAME: "🍿LA LIGA EXTRAORDINARIA", URL: "https://lamovie.link/embed-2x6jfl7ke0we.html" },
+  { NAME: "🍿LA FUENTE DE LA JUVENTUD", URL: "https://lamovie.link/embed-x8ddf63skke4.html" },
+  { NAME: "🍿LOS SIMPSON: SANTA HOMERO", URL: "https://lamovie.link/embed-4wr2dyyqomht.html" },
+  { NAME: "🍿LOS SIMPSON: EN PLUSNIVERSARIO", URL: "https://lamovie.link/embed-g6hw1r7a27rn.html" },
+  { NAME: "🍿LOS SIMPSON: EL BUENO, EL BART Y EL LOKI", URL: "https://lamovie.link/embed-mt1828un9umq.html" },  
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
@@ -73,6 +86,8 @@ Lista3.forEach(item => {
   
   
   
+ 
   
+ 
   
   
