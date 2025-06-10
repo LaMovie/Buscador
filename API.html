@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌐 NAVEGAR 🌐</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+    body {
+        background: #000;
+        font-family: 'Lacquer', cursive;
+    }
+    #Input {
+        color: #000;
+        height: 30px;
+        margin-top: 8vh;
+        background: gold;
+        font-weight: bold;
+        border-radius: 20px;
+        border: 2px solid red;
+        width: 60%;
+        padding-left: 10px;
+    }
+    #H {
+        color: gold;
+        margin-top: 10vh;
+    }
+    #resultados {
+        color: white;
+        margin-top: 20px;
+        padding: 20px;
+        max-width: 80%;
+        text-align: left;
+    }
+    img {
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    a {
+        color: lightblue;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <center>
+    <h3 id="H">🌐 NAVEGAR EN WEB 🌐</h3>
+    <form onsubmit="event.preventDefault(); Check()">
+      <input id="Input" type="text" placeholder="Escribe tu búsqueda..." />
+    </form>
+    <div id="resultados"></div>
+  </center>
+
+  <script>
+    async function Check() {
+      const Input = document.getElementById('Input');
+      const InputValue = Input.value.trim();
+      const resultados = document.getElementById('resultados');
+      const H = document.getElementById('H');
+
+      if (!InputValue) {
+        H.style.color = 'red';
+        H.textContent = '❌ Búsqueda no válida';
+        return;
+      }
+
+      H.style.color = 'gold';
+      H.textContent = '🌐 NAVEGAR EN WEB 🌐';
+      resultados.innerHTML = '⏳ Buscando...';
+
+      try {
+        const response = await fetch(`https://serpapi.com/search.json?q=${encodeURIComponent(InputValue)}&api_key=4516ec39ed44d93d00aceec1ebdcc31535ce7815c6d13949b37dd97de9a6fefe&engine=google`);
+        const data = await response.json();
+
+        if (data.answer_box) {
+          resultados.innerHTML = `
+            <h4 style="color:gold;">${data.answer_box.title || 'Respuesta'}</h4>
+            <p>${data.answer_box.answer || data.answer_box.snippet || 'Sin respuesta directa'}</p>
+            ${data.answer_box.image ? `<img src="${data.answer_box.image}" width="300">` : ''}
+          `;
+        } else if (data.organic_results && data.organic_results.length > 0) {
+          resultados.innerHTML = '<h4 style="color:gold;">Resultados:</h4>';
+          data.organic_results.slice(0, 3).forEach(result => {
+            resultados.innerHTML += `
+              <div style="margin-bottom: 10px;">
+                <a href="${result.link}" target="_blank">${result.title}</a>
+                <p>${result.snippet || ''}</p>
+              </div>
+            `;
+          });
+        } else {
+          resultados.innerHTML = '⚠️ No se encontró una respuesta generada ni resultados orgánicos.';
+        }
+      } catch (error) {
+        resultados.innerHTML = '❌ Error al buscar. Intenta nuevamente.';
+        console.error(error);
+      }
+
+      Input.value = '';
+    }
+  </script>
+</body>
+</html>
+
+
+https://www.deepl.com/es/translator
+
+
+
+
+
