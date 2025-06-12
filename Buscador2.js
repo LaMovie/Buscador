@@ -496,7 +496,7 @@ var Lista2 = [
   { NAME: "🍿Evil Dead 1", URL: "https://drive.google.com/file/d/1NCDSC_xcgQnH-X-EiToNlG5b6ldbVCfr/view?usp=drivesdk" },
   { NAME: "🍿El Bar", URL: "https://drive.google.com/file/d/1PnObRCUoUECtB-TMNE7TBgrTInQl76T9/view?usp=drivesdk" },
   { NAME: "🍿Verdad O Reto", URL: "https://drive.google.com/file/d/1hMBpk83kbgUUa-4-pdMuyGIkAcXJgg4J/view?usp=drivesdk" },
-  { NAME: "🍿Heroes", URL: "https://lamovie.github.io/HEROES/" },
+  { NAME: "🍿Heroes", URL: "https://lamovie.github.io/CONTENIDO/HEROES.html" },
   { NAME: "🍿El Astronauta", URL: "https://drive.google.com/file/d/1jqHmSdsdd1SyvqJuHhwp9B5x4E4QaR5n/view?usp=drivesdk" },
   { NAME: "🍿Bad Boys 4", URL: "https://drive.google.com/file/d/1kDpXxuLzNpR4GqLFKYq_3ZIVItSEmDNy/view?usp:drivesdk" },
   { NAME: "🍿Deadpool 3", URL: "https://drive.google.com/file/d/1X8lkdllwCh1Fm53iMg-24fsq0irex8UA/view?usp=drivesdk" },
