@@ -29,6 +29,20 @@ var Lista3 = [
   { NAME: "🍿LOS SIMPSON: EN PLUSNIVERSARIO", URL: "https://lamovie.link/embed-g6hw1r7a27rn.html" },
   { NAME: "🍿LOS SIMPSON: EL BUENO, EL BART Y EL LOKI", URL: "https://lamovie.link/embed-mt1828un9umq.html" },  
   { NAME: "🍿TIERRA DE MAFIA", URL: "https://lamovie.github.io/CONTENIDO/TIERRA%20DE%20MAFIA.html" }, 
+  { name: "🍿 FUTURAMA", url: "https://h5.swplayer.com/es/detail/drama/tHa42lElZ3P8PDRyZbtEo-Futurama-Season-1" },
+  { name: "🍿 LA CASA DE PAPEL", url: "https://h5.swplayer.com/es/detail/drama/w4T1wpuJxUu5b0bHfQnU5-Money-Heist-Season-1" },
+  { name: "🍿 FAMILY GUY", url: "https://h5.swplayer.com/es/detail/drama/QTUVOLeIYWjsO8Fv2PcxM-Family-Guy-Season-1" },
+  { name: "🍿 NARUTO", url: "https://h5.swplayer.com/es/detail/drama/GGCScosEDKZxW5ejPWH9n-Naruto%5BAudio-Latino%5D" },
+  { name: "🍿 OUTLANDER", url: "https://h5.swplayer.com/es/detail/drama/SC5e4d5u7ZQBPnkhz675G-Outlander-Season-1/1" },
+  { name: "🍿 THE WALKING DEAD", url: "https://h5.swplayer.com/es/detail/drama/Gr410ksu2cfhFfQP75H9j-The-Walking-Dead-Season-1" },
+  { name: "🍿 LOS SIMPSONS", url: "https://h5.swplayer.com/es/detail/drama/MNxoJpARCrPHvVPu1ljH1-The-Simpsons-Season-1" },
+  { name: "🍿 ONE PIECE", url: "https://h5.swplayer.com/es/detail/drama/vdXAbbyiZgaslQlAZ9Z6H-One-Piece" },
+  { name: "🍿 DESTINO FINAL", url: "https://h5.swplayer.com/es/detail/movie/kL3SvPkWfniVKPIPhXcdc-Final-Destination" },
+  { name: "🍿 VIS A VIS", url: "https://h5.swplayer.com/es/detail/drama/br2opIQsBK8hepOpdQEDI-Vis-a-vis-Season-1" },
+  { name: "🍿 MY HERO ACADEMIA", url: "https://h5.swplayer.com/detail/drama/C1lUW7UsRxfbGSHuD2Vax-My-Hero-Academia%5BAudio-Latino%5D/1" },
+  { name: "🍿 VIKINGOS", url: "https://h5.swplayer.com/es/detail/drama/3TVD1tXGJbNUvPc0u3mP8-Vikings-Season-1/1" },
+  { name: "🍿 EVIL", url: "https://h5.swplayer.com/es/detail/drama/ddsgdunU4e2xi7R5NT3K4-Evil-Season-1" },
+  { name: "🍿 THE LAST OF US", url: "https://h5.swplayer.com/es/detail/drama/rvYsv23lPziLIw5oz2KjV-The-Last-of-Us-Season-1%5BAudio-Latino%5D/1" },  
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
@@ -86,7 +100,7 @@ Lista3.forEach(item => {
   
   
   
- 
+  
   
  
   
