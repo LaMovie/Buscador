@@ -29,7 +29,7 @@ var Lista3 = [
   { NAME: "🍿LOS SIMPSON: EN PLUSNIVERSARIO", URL: "https://lamovie.link/embed-g6hw1r7a27rn.html" },
   { NAME: "🍿LOS SIMPSON: EL BUENO, EL BART Y EL LOKI", URL: "https://lamovie.link/embed-mt1828un9umq.html" },  
   { NAME: "🍿TIERRA DE MAFIA", URL: "https://lamovie.github.io/CONTENIDO/TIERRA%20DE%20MAFIA.html" }, 
-  { name: "🍿 FUTURAMA", url: "https://h5.swplayer.com/es/detail/drama/tHa42lElZ3P8PDRyZbtEo-Futurama-Season-1" },
+  { name: "🍿 FUTURAMA FULL", url: "https://h5.swplayer.com/es/detail/drama/tHa42lElZ3P8PDRyZbtEo-Futurama-Season-1" },
   { name: "🍿 LA CASA DE PAPEL", url: "https://h5.swplayer.com/es/detail/drama/w4T1wpuJxUu5b0bHfQnU5-Money-Heist-Season-1" },
   { name: "🍿 FAMILY GUY", url: "https://h5.swplayer.com/es/detail/drama/QTUVOLeIYWjsO8Fv2PcxM-Family-Guy-Season-1" },
   { name: "🍿 NARUTO", url: "https://h5.swplayer.com/es/detail/drama/GGCScosEDKZxW5ejPWH9n-Naruto%5BAudio-Latino%5D" },
