@@ -18,7 +18,7 @@ var Lista3 = [
   { NAME: "🍿IRON MAN 2", URL: "https://lamovie.link/embed-yn6e1n7nots7.html" },
   { NAME: "🍿MALOS PADRES", URL: "https://lamovie.link/embed-xx5cm6q8lhr4.html" },
   { NAME: "🍿BAKI Vs KENGAN", URL: "https://lamovie.link/embed-y3jqmuqc2f1b.html" },
-  { NAME: "🍿LA VIUDA NEGRA", URL: "https://lamovie.link/embed-mu7qoutr9wy4.html" },
+  { NAME: "🍿LA VIUDA NEGRA", URL: "https://lamovie.link/embed-dv4uypnajwak.html" },
   { NAME: "🍿MISIÓN IMPOSIBLE 6", URL: "https://lamovie.link/embed-70wua6dwdl5w.html" },
   { NAME: "🍿LA CAIDA DEL VUELO 811", URL: "https://lamovie.link/embed-dus822o2u8fm.html" },
   { NAME: "🍿CRIATURAS ASOMBROSAS", URL: "https://lamovie.link/embed-2zyxkofxb9vc.html" },
