@@ -57,7 +57,7 @@ var Lista1 = [
   {name: "🍿Criatura Voraz", url: "https://drive.google.com/file/d/11dp_uM5fdtHvCx-LWwgiJHljKLnQirkI/view?usp=drivesdk"}, 
   {name: "🍿Traela De Vuelta", url: "https://drive.google.com/file/d/1brXNmY7jXEIqsWWpRCzfU2RH7DNos2vB/view?usp=drivesdk"}, 
   {name: "🍿Happy Gilmore 2", url: "https://drive.google.com/file/d/19fH0jz8Q1VNTgy1vepBubiwIXRdV3q3-/view?usp=drivesdk"}, 
-  {name: "🍿MERLINA ADDAMS 2", url: "https://drive.google.com/drive/folders/1Shr3KmMS4J4wELZwIg5k_Ji-WMmipXzh"}, 
+  {name: "🍿Merlina Addams 2", url: "https://drive.google.com/drive/folders/1Shr3KmMS4J4wELZwIg5k_Ji-WMmipXzh"}, 
   {name: "🍿", url: ""}, 
   {name: "🍿", url: ""}, 
   {name: "🍿", url: ""}, 
