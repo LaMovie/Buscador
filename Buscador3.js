@@ -10,7 +10,7 @@ var Lista3 = [
   { NAME: "🍿CAPITANA MARVEL", URL: "https://player.okpeliz.com/embed/299537?alt=5347&referer=" },
   { NAME: "🍿CAPITAN AMERICA CIVIL WAR", URL: "https://player.okpeliz.com/embed/271110" }, 
   { NAME: "🍿IRON MAN 3", URL: "https://player.okpeliz.com/embed/68721" },
-  { NAME: "🍿NO HABLES CON EXTRAÑOS", URL: "https://player.okpeliz.com/embed/1114513" },
+  { NAME: "🍿LOS 4 FANTASTICOS", URL: "https://player.okpeliz.com/embed/617126" },
   { NAME: "🍿NO TE MUEVAS", URL: "https://player.okpeliz.com/embed/1063877" }, 
   { NAME: "🍿THE WITCHER ANIMATION", URL: "https://player.okpeliz.com/embed/1203329" }, 
   { NAME: "🍿JUEGO DE TRONOS", URL: "https://lamovie.github.io/CONTENIDO/GAME%20OF%20THRONES.html" },  
