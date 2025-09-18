@@ -15,7 +15,6 @@ var Lista2 = [
   { name: "📺Toons Tv", url: "https://is.gd/Y01en3"}, 
   { name: "📺Comedy Center Tv", url: "https://is.gd/AV8Q3O"}, 
   { name: "📺GH Tv", url: "https://tv.ghtelevision.com:3018/live/ghtelevisionlive.m3u8"}, 
-  { name: "📺El Hormiguero Tv", url: "https://fast-channels.atresmedia.com/648ef5882bfab0e4627e0d61/648ef5882bfab0e4627e0d61.m3u8"}, 
   { name: "📺Classic Tv", url: "https://is.gd/7CaWXu"},
   { name: "⚙️Sofia 1", url: "https://drive.google.com/drive/folders/1-1XNTcBjHMPOia_zXKWZNhdQQUe2SaNE" },
   { name: "⚙️Sofia 2", url: "https://drive.google.com/drive/folders/1-1wPR4nf8fmRQ-HNQvkfP0H1HJHxm6yb" },
