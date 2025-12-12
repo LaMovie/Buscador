@@ -72,7 +72,7 @@ var Lista1 = [
   {name: "🍿El Conjuro 4", url: "https://drive.google.com/file/d/1zlUISL4r6E2jLYHkwAt8FXXKdjb7sh_x/view?usp=drivesdk"}, 
   {name: "🍿Black Phone 2", url: "https://drive.google.com/file/d/1wxy7HTa0FkqOPgkLRLLnMjjuNTewa8LQ/view?usp=drivesdk"}, 
   {name: "🍿Frankestein 2025", url: "https://drive.google.com/file/d/1vNgKyYfg0BAJWTOF_YPqO8Cy80BOUMF5/view?usp=drivesdk"}, 
-  {name: "🍿", url: ""}, 
+  {name: "🍿Stranger Things 5", url: "https://drive.google.com/drive/folders/1lvRqt0taQz9BrIyZwnNQHNS98-b2X7fD"}, 
   {name: "🍿", url: ""}, 
   {name: "🍿", url: ""}, 
   {name: "🍿", url: ""}, 
