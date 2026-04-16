@@ -27,7 +27,7 @@ var Lista3 = [
   { name: "🍿VIKINGOS", url: "https://h5.onfilom.com/es/detail/drama/3TVD1tXGJbNUvPc0u3mP8-Vikings-Season-1/1" },
   { name: "🍿EVIL", url: "https://h5.onfilom.com/es/detail/drama/ddsgdunU4e2xi7R5NT3K4-Evil-Season-1" },
   { name: "🍿THE LAST OF US", url: "https://h5.onfilom.com/es/detail/drama/rvYsv23lPziLIw5oz2KjV-The-Last-of-Us-Season-1%5BAudio-Latino%5D/1" },  
-  { NAME: "🍿", URL: "" },
+  { NAME: "🍿KARMA", URL: "https://youtu.be/TkZsog3y-FU?si=VJgFBVKCG645oI0k" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
