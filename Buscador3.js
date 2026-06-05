@@ -29,7 +29,7 @@ var Lista3 = [
   { NAME: "🍿DIRK GENTLY", URL: "https://ver.123pelicula.com/es/detail/drama/9BmxQONumy1KNNbbmGpt0-Dirk-Gentlys-Holistic-Detective-Agency-Season-1/1" }, 
   { name: "🍿GHOSTS", url: "https://latino.solo-latino.com/es/detail/drama/wmYN3J8hhwugbQZjnwBNL-Ghosts-Season-1/1" },
   { NAME: "🍿CAPITANA MARVEL 2", URL: "https://data-limit-c.solo-latino.com/6020445724d271f0998e5014c1ca0102/364cd6c84f424999a158dbf54d0c6959-dc70e610a63b71197d6f53be1afd4621-sd.m3u8?hdnts=exp=1780987840_acl=/6020445724d271f0998e5014c1ca0102/*_hmac=0ebbb308e60737f5d4b2d42e72993797519b674e75000a6f6cd5970f2aa325b6" }, 
-  { NAME: "🍿", URL: "" },
+  { NAME: "🍿Scary Movie 6", URL: "https://latino.solo-latino.com/es/detail/movie/JonKAKpeSbz6qdgfwBmws-Scary-Movie-6" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
