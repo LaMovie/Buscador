@@ -1,5 +1,5 @@
 var Lista2 = [
-  { name: "📺Aida Tv", url: "https://lamovie.github.io/AIDA-TV/" },
+  { name: "📺Aida tv", url: "https://lamovie.github.io/AIDA-TV/" },
   { name: "📺Autentica Tv", url: "https://live.obslivestream.com/autenticatvmux/index.m3u8" },
   { name: "📺Bum Tv", url: "https://movil.ejeserver.com/live/visiondorada.m3u8" },
   { name: "📺Lilo y Stitch Tv", url: "https://cloudvideo.servers10.com:8081/impactotv/index.m3u8" },
