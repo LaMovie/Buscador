@@ -523,8 +523,7 @@ var Lista2 = [
     { NAME: "🍿Agentes Del Desorden", URL: "https://drive.google.com/file/d/10j-eMI6Z1bBW3gdU8rk9gerV9e4pe6S4/view?usp=drivesdk"}, 
     { NAME: "🌐OBSESION", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐MORTAL KOMBAT 2", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
-    { NAME: "🌐AMOS DEL UNIVERSO", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
-    { NAME: "🌐BACKROOMS", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}
+    { NAME: "🌐AMOS DEL UNIVERSO", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}
 ];
 
 // Selecciona la lista existente
