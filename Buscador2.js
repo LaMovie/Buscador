@@ -12,7 +12,7 @@ var Lista2 = [
   { name: "📺Universal Tv", url: "https://imagenuniversaltv.net:3771/live/iutvlive.m3u8" },
   { name: "📺IPTV", url: "https://lamovie.github.io/IPTV/" }, 
   { name: "📺Bass Nation tv", url: "https://lamovie.github.io/BASS-NATION-TV/" },
-  { name: "📺X tv", url: "https://lamovie.github.io/CONTENIDO/X-TV.html/" }, 
+  { name: "📺X tv", url: "https://lamovie.github.io/CONTENIDO/X-TV.html" }, 
   { name: "⚙️Sofia 1", url: "https://drive.google.com/drive/folders/1-1XNTcBjHMPOia_zXKWZNhdQQUe2SaNE" },
   { name: "⚙️Sofia 2", url: "https://drive.google.com/drive/folders/1-1wPR4nf8fmRQ-HNQvkfP0H1HJHxm6yb" },
   { name: "⚙️Sofia 3", url: "https://drive.google.com/drive/folders/1DgwNQiBR3xvrI3yOgw4Wlv4uUCZxugmf" },
