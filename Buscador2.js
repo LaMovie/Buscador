@@ -524,7 +524,7 @@ var Lista2 = [
     { NAME: "🍿Agentes Del Desorden", URL: "https://drive.google.com/file/d/10j-eMI6Z1bBW3gdU8rk9gerV9e4pe6S4/view?usp=drivesdk"}, 
     { NAME: "🍿La Reunion", URL: "https://www.dropbox.com/scl/fi/465v6m1etmyremitb8ws1/LA-REUNION-2026.mp4?rlkey=dty640cj4kt0fr2e5fttc6e1f&st=f15x9xna&dl=0"}, 
     { NAME: "🍿La Habitacion", URL: "https://www.dropbox.com/scl/fi/hvnznhorj56qvtqhddqlh/LA-HABITACI-N-2019.mp4?rlkey=bh4bhrd6mw07usgytm44yl5ep&st=scdow0nq&dl=0"},    
-    { NAME: "🌐OBSESION", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
+    { NAME: "🌐LA ODISEA", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐MORTAL KOMBAT 2", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐AMOS DEL UNIVERSO", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐EVIL DEAD EN LLAMAS", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
