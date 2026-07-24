@@ -529,7 +529,10 @@ var Lista2 = [
     { NAME: "🌐AMOS DEL UNIVERSO", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐EVIL DEAD EN LLAMAS", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐EL DIA DE LA REVELACION", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
-    { NAME: "🌐SUPER GIRL", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}
+    { NAME: "🌐SUPER GIRL", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
+    { NAME: "🌐OBSESION", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS.html"}, 
+    { NAME: "🌐MINIONS & MONSTRUOS", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS.html"}, 
+    { NAME: "🌐TOY STORY 5", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS.html"} 
 ];
 
 // Selecciona la lista existente
