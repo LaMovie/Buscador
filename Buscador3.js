@@ -181,7 +181,7 @@ var Lista3 = [
   { NAME: "🍿BIENVENIDOS A DERRY", URL: "https://latino.solo-latino.com/es/detail/drama/YIbEmf0CEN7cHMhfUqX8W-IT-Welcome-to-Derry-Season-1/1"},  
   { NAME: "🍿LEGACIES", URL: "https://latino.solo-latino.com/es/detail/drama/fMOjyend99yykB2F1vuOi-Legacies-Season-1"},    
   { NAME: "🍿ALGO TERRIBLE ESTA A PUNTO DE SUCEDER", URL: "https://latino.solo-latino.com/es/detail/drama/cBb8QFEOuq8D9RjT861fQ-Something-Very-Bad-Is-Going-to-Happen/1" },
-  { NAME: "🍿", URL: "" }, 
+  { NAME: "🍿PROYECTO FIN DEL MUNDO", URL: "https://player.okpeliz.com/embed/687163" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
