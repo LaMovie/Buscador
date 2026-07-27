@@ -526,6 +526,7 @@ var Lista2 = [
     { NAME: "🍿La Habitacion", URL: "https://www.dropbox.com/scl/fi/hvnznhorj56qvtqhddqlh/LA-HABITACI-N-2019.mp4?rlkey=bh4bhrd6mw07usgytm44yl5ep&st=scdow0nq&dl=0"},    
     { NAME: "🍿Los Aristogatos", URL: "https://www.dropbox.com/scl/fi/crg9ychjf5ltoba15x1uw/LOS-ARISTOGATOS-1970.mp4?rlkey=q75x8c2gqo6tgaopluhek9pta&st=y2g491fl&dl=0"}, 
     { NAME: "🍿Mortal Kombat 2", URL: "https://www.dropbox.com/scl/fi/onx67snle25kt92k4c83q/Mortal-Kombat-II-2026.mp4?rlkey=8hsjj3g0pb7zpzov8wv435rkn&st=xi6ug8id&dl=0"}, 
+    { NAME: "🍿The Big Bang Theory", URL: "https://www.dropbox.com/scl/fi/77ulrdas331l21kda77js/THE-BIG-BANG-THEORY-2026.mp4?rlkey=0mv9xfaz5lhdx89n681wmpvpr&st=6d2mibbi&dl=0"},  
     { NAME: "🍿Amos Del Universo", URL: "https://play.vidyard.com/3qQDpRxSkmPiopVNcC37iQ"},  
     { NAME: "🍿Sobre Tu Cadaver", URL: "https://play.vidyard.com/UyzN4qYVfPebJrckVs6B3z"}, 
     { NAME: "🌐LA ODISEA", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
