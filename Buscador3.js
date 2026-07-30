@@ -180,7 +180,7 @@ var Lista3 = [
   { NAME: "🍿DEMON SLAYER", URL: "https://latino.solo-latino.com/es/detail/drama/fLlJJ08QFlnGTLNPD9uFs-Demon-Slayer-Kimetsu-no-Yaiba/1" }, 
   { NAME: "🍿PROYECTO FIN DEL MUNDO", URL: "https://player.okpeliz.com/embed/687163" }, 
   { NAME: "🍿SOLO LIVING", URL: "https://latino.solo-latino.com/es/detail/drama/7JUAhDRqVPu4tHaTeglTV-Solo-Leveling" },
-  { NAME: "🍿", URL: "" }, 
+  { NAME: "🍿KICK ASS", URL: "https://latino.solo-latino.com/es/detail/movie/W8ur5UQqkX9ePHvXcGIGG-Kick-Ass" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
