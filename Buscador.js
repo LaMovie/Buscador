@@ -102,7 +102,7 @@ var Lista1 = [
   {name: "🍿Ip Man 4", url: "https://drive.google.com/file/d/1LDctjF-JXrPOV8iEFv-tsm9rMt-RSSMZ/view?usp=drivesdk"}, 
   {name: "🍿Orgullo Y Prejuicio Zombis", url: "https://play.vidyard.com/TUUdWH9LD6oRMQLb5rsiGd"}, 
   {name: "🍿Pixeles", url: "https://www.dropbox.com/scl/fi/9jfi8tsvwtr9rp8xoufrk/PIXELES-2015.mp4?rlkey=5zlz3snspg02y69om7er6dm44&st=hed4tvz8&dl=0"}, 
-  {name: "🍿Tetris", url: "https://www.dropbox.com/scl/fi/ktus6c8jvkblwp92ek6wn/TETRIS-2023.mp4?rlkey=gld4lrg6a1znpkfga3t3k9ch3&st=n3l380ov&dl=0"}, 
+  {name: "🍿Tetris", url: "https://drive.google.com/file/d/13T4HlhA53qS4drzO-mE3dvhJ1I2ko6L9/view?usp=drivesdk"}, 
   {name: "🍿", url: ""}, 
   {name: "🍿", url: ""}, 
   {name: "🍿", url: ""}, 
