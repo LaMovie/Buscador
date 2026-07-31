@@ -181,7 +181,7 @@ var Lista3 = [
   { NAME: "🍿PROYECTO FIN DEL MUNDO", URL: "https://player.okpeliz.com/embed/687163" }, 
   { NAME: "🍿SOLO LIVING", URL: "https://latino.solo-latino.com/es/detail/drama/7JUAhDRqVPu4tHaTeglTV-Solo-Leveling" },
   { NAME: "🍿KICK ASS", URL: "https://latino.solo-latino.com/es/detail/movie/W8ur5UQqkX9ePHvXcGIGG-Kick-Ass" }, 
-  { NAME: "🍿", URL: "" },
+  { NAME: "🍿ONE PIECE LIVE ACTION", URL: "https://latino.solo-latino.com/es/detail/drama/1c257F3xS5x26ncKmMq28-One-Piece-Season-2" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
