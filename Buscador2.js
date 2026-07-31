@@ -535,7 +535,8 @@ var Lista2 = [
     { NAME: "🌐SUPER GIRL", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐OBSESION", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS.html"}, 
     { NAME: "🌐MINIONS & MONSTRUOS", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS.html"}, 
-    { NAME: "🌐TOY STORY 5", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS.html"} 
+    { NAME: "🌐TOY STORY 5", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS.html"}, 
+    { NAME: "🌐SPIDER MAN NEW DAY", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS.html"} 
 ];
 
 
