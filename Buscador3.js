@@ -213,21 +213,10 @@ var Lista3 = [
   { NAME: "🍿", URL: "" }
 ]
    
-// Selecciona la lista existente
-var lista = document.getElementById("Lista");
 
-// Agrega los nuevos elementos dinámicamente
-Lista3.forEach(item => {
-  var li = document.createElement("li");
-  var a = document.createElement("a");
 
-  a.href = item.URL || item.url;
-  a.textContent = item.NAME || item.name;
-  a.classList.add("Data");
 
-  li.appendChild(a);
-  lista.appendChild(li);
-});
+
 
   
   

@@ -538,19 +538,13 @@ var Lista2 = [
     { NAME: "🌐TOY STORY 5", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS.html"} 
 ];
 
-// Selecciona la lista existente
-var lista = document.getElementById("Lista");
- 
-// Agrega los nuevos elementos dinámicamente
-Lista2.forEach(item => {
-  var li = document.createElement("li");
-  var a = document.createElement("a");
 
-  a.href = item.URL || item.url;
-  a.textContent = item.NAME || item.name;
-  a.classList.add("Data");
 
-  li.appendChild(a);
-  lista.appendChild(li);
-});
+
+
+
+
+
+
+
 
