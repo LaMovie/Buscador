@@ -182,7 +182,7 @@ var Lista3 = [
   { NAME: "🍿KICK ASS", URL: "https://latino.solo-latino.com/es/detail/movie/W8ur5UQqkX9ePHvXcGIGG-Kick-Ass" }, 
   { NAME: "🍿ONE PIECE LIVE ACTION", URL: "https://latino.solo-latino.com/es/detail/drama/1c257F3xS5x26ncKmMq28-One-Piece-Season-2" },
   { NAME: "🍿SOUTH PARK", URL: "https://latino.solo-latino.com/es/detail/drama/JmvmVU4RmBGaR52QyFrPp-South-Park-Season-1/1" }, 
-  { NAME: "🍿", URL: "" },
+  { NAME: "🍿EL PRESIDENTE CURTIS", URL: "https://latino.solo-latino.com/es/detail/drama/aTJ82o0KT7WSbhBD6pAae-President-Curtis/1" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
