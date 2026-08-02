@@ -316,19 +316,16 @@ a {
           var destino = document.querySelector('#H');
           if (destino) {
               var posicionY = destino.getBoundingClientRect().top + window.scrollY;
-              window.scroll({
-                  top: posicionY - 20,
-                  behavior: 'smooth'
-              });
+   window.scroll({top: posicionY - 20, behavior: 'smooth'});
           }
       }
       
       items.forEach(li => {
          var texto = li.textContent.toLowerCase();
-         if (texto.includes(query)) {
-             li.style.display = 'flex';
+  if (texto.includes(query)) {
+       li.style.display = 'flex';
          } else {
-             li.style.display = 'none';
+    li.style.display = 'none';
          }
       });
     }
