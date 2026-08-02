@@ -83,9 +83,13 @@ body {
     text-align: center;
     margin-left: -12vh;
     margin-top: 25px;
-    font-size: 15px;
+    font-size: 14.5px;
     font-weight: 600;
-    color: white;
+    color: #fff;   
+    text-shadow: 0 0 10px rgb(0, 195, 255), 0 0 20px blue;
+    transition: .4s ease;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 #Search {
     margin-top: 20px;
@@ -112,28 +116,38 @@ h4 {
     background: #000;
 }
 #I {
-    color: #fff;
-    width: 90%;
+    color: gold;
+    width: 85%;
     height: 6vh;
-    margin: 3vh;
+    margin: 3vh auto;
     display: none;
-    background: blue;    
+    background: #000918;    
     font-weight: bold;
-    border-radius: 20px;
-    border: 1px solid gray;
-    box-shadow: 0px 0px 30px orange;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid #0051a8;
+    box-shadow: 0px 0px 20px rgba(0, 150, 255, 0.6), inset 0px 0px 10px rgba(0, 100, 255, 0.4);
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 1.5px;
+    transition: all 0.4s ease;
 }
 #I::placeholder {
-    color: #aaa;
+    color: #4a6c98;
+    text-shadow: none;
 }
 #I:focus {
     outline: none;
+    border-color: #00f0ff;
+    box-shadow: 0px 0px 25px #00f0ff, inset 0px 0px 15px #00f0ff;
+    scale: 1.02;
 }
 .material-icons {
     color: #fff;
     transform: translateX(-1vh);
   &:hover {
-      color: blue;
+      color: #00f0ff;
+      text-shadow: 0 0 15px #00f0ff;
   }
 }
 #Lista {
@@ -151,7 +165,7 @@ h4 {
 }
 #Lista li {
     margin-left: 0vh;
-    color: gold;
+    color: #4f9;
     width: 13vh;
     height: 13vh;
     display: flex;
@@ -159,9 +173,12 @@ h4 {
     border-radius: 20px;    
     align-items: center;
     justify-content: center;    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
    
    &:hover {
-     color: #4f9;
+     color: gold;
+     transform: translateY(-3px);
+     box-shadow: 0 5px 15px rgba(0, 255, 136, 0.2);
  }
 }
 a {
@@ -171,18 +188,21 @@ a {
     text-decoration: none;
 }
 #H {
-    color: gray;
+    color: gold;
     font-family: Luckiest Guy, cursive;
-    -webkit-text-stroke: .1px #003;
-    text-shadow: 0px .1px 0 #001;
+    font-size: 20px;
+    letter-spacing: 2px;
+    -webkit-text-stroke: .5px #000;
+    text-shadow: 0px 0px 10px orange, 0px 0px 20px red;
+    transition: all 0.3s ease;
 }
 </style>
 </head>
 <body>
             <center> 
        <div class="Todo"> 
-<form onsubmit="event.preventDefault(); Check()"> 
-  <input id="I" placeholder="Buscar..." type="text"/>
+<form onsubmit="event.preventDefault(); AccionEnter()"> 
+  <input id="I" placeholder="FILTRAR EN PANTALLA..." type="text" oninput="FiltrarLista()"/>
 </form>
                                            
 <h3 id="Logo">🧿 LA MOVIE 🧿</h3> 
@@ -264,7 +284,7 @@ a {
      }
   });           
 </script>
-     <!-- FUNCION INTENT -->
+     <!-- FUNCION INTENT Y FILTRADO VISUAL -->
 <script>
 // Función maestra que fuerza el menú de aplicaciones de Android
 
@@ -285,6 +305,54 @@ a {
     
       abrirFuera(domain);
           I.value = "";
+    }
+
+// FILTRA VISUALMENTE Y HACE SCROLL HACIA #H SOLO CUANDO EL INPUT NO ESTÁ VACÍO
+       function FiltrarLista() {
+      var query = I.value.toLowerCase().trim();
+      var items = document.querySelectorAll('#Lista li');
+      
+      if (query !== "") {
+          var destino = document.querySelector('#H');
+          if (destino) {
+              var posicionY = destino.getBoundingClientRect().top + window.scrollY;
+              window.scroll({
+                  top: posicionY - 20,
+                  behavior: 'smooth'
+              });
+          }
+      }
+      
+      items.forEach(li => {
+         var texto = li.textContent.toLowerCase();
+         if (texto.includes(query)) {
+             li.style.display = 'flex';
+         } else {
+             li.style.display = 'none';
+         }
+      });
+    }
+
+// ACCIÓN DEL ENTER: SIMULA EL CLIC O EJECUTA CHECK() SI NO HAY COINCIDENCIAS
+       function AccionEnter() {
+      var query = I.value.toLowerCase().trim();
+      var items = document.querySelectorAll('#Lista li');
+      var coincidencia = null;
+
+      if (query !== "") {
+          items.forEach(li => {
+              var texto = li.textContent.toLowerCase();
+              if (!coincidencia && li.style.display !== 'none' && texto.includes(query)) {
+                  coincidencia = li;
+              }
+          });
+      }
+
+      if (coincidencia) {
+          coincidencia.click();
+      } else {
+          Check();
+      }
     }
 </script>
 <!-- SCRIPT DE FILTRADO, REDIRECCIÓN Y PARÁMETROS DE URL -->
@@ -309,6 +377,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     if (esModoSerie) {
       H.textContent = "SERIES";
+      H.style.color = 'orange';
     } else {
       H.textContent = "PELÍCULAS";
     }
@@ -343,17 +412,17 @@ window.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
       LIST.forEach(other => {
   other.style.border = '';
-  other.style.color = 'gold';
+  other.style.color = '#4f9';
   other.style.background = '#001';
    });
 
-   lis.style.color = '#4f3';
+   lis.style.color = '#7F05FF';
    lis.style.background = '#000';
-   lis.style.borderTop = '1px solid #4f3';
+   lis.style.borderTop = '1px solid blue';
    lis.style.borderBottom = '.1px solid #4f3';
 
- var Enlace = e.target.href;
- var Titulo = e.target.textContent;
+ var Enlace = lis.querySelector('a') ? lis.querySelector('a').href : e.target.href;
+ var Titulo = lis.textContent;
         var LIMPIO = Titulo.replace(/🍿|🌐|📺|⚙️/g, '').trim();
 
         H.textContent = Titulo;
@@ -397,11 +466,5 @@ setTimeout(() => {
    I.style.display = visible ? 'block' : 'none';
    Logo.style.display = visible ? 'none' : 'block';
     };
-  });  --> 
-    				    
-				    				    
-				    				    
-				    				    
-				    				    
-				    				    
-				    				
+  });  -->
+  
