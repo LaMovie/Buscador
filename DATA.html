@@ -347,8 +347,10 @@ a {
 
       if (coincidencia) {
           coincidencia.click();
+          I.value = '';
       } else {
           Check();
+          I.value = '';
       }
     }
 </script>
@@ -432,6 +434,7 @@ window.addEventListener('DOMContentLoaded', () => {
   window.location.href = Enlace;
     }
        }, 1000);
+           I.value = '';
      };
    });    
  });
