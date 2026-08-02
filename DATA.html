@@ -202,7 +202,7 @@ a {
             <center> 
        <div class="Todo"> 
 <form onsubmit="event.preventDefault(); AccionEnter()"> 
-  <input id="I" placeholder="FILTRAR EN PANTALLA..." type="text" oninput="FiltrarLista()"/>
+  <input id="I" placeholder="Buscar..." type="text" oninput="FiltrarLista()"/>
 </form>
                                            
 <h3 id="Logo">🧿 LA MOVIE 🧿</h3> 
@@ -374,7 +374,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
     if (esModoSerie) {
       H.textContent = "SERIES";
-      H.style.color = 'orange';
     } else {
       H.textContent = "PELÍCULAS";
     }
