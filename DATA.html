@@ -361,9 +361,9 @@ window.addEventListener('DOMContentLoaded', () => {
     const paramSerie = params.get('serie');
 
     
-    var FILM  = ['file', 'movie', 'vidyard.com', 'dropbox', '.m3u8', 'filemanager'];
+    var FILM  = ['file', 'movie', 'vidyard.com', 'dropbox', '.m3u8', 'gallery=open'];
     var SERE  = ['folders', 'drama', 'publicfoldergrid'];
-    var MOVIE = ['dropbox', 'play.vidyard', 'file', '.m3u8'];
+    var MOVIE = ['dropbox', 'play.vidyard', 'google.com/file', '.m3u8'];
 
     var PELIS = [...Lista1, ...Lista2, ...Lista3].reverse();
     
@@ -431,6 +431,7 @@ window.addEventListener('DOMContentLoaded', () => {
        window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}&url=${encodeURIComponent(Enlace)}`;
         } else {
   window.location.href = Enlace;
+  H.textContent = '⏳Espere...';
     }
        }, 1000);
            I.value = '';
@@ -465,4 +466,6 @@ setTimeout(() => {
    Logo.style.display = visible ? 'none' : 'block';
     };
   });  -->
+  
+       
   
