@@ -533,10 +533,11 @@ var Lista2 = [
     { NAME: "🌐EVIL DEAD EN LLAMAS", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐EL DIA DE LA REVELACION", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐SUPER GIRL", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
+    { NAME: "🌐SPIDER MAN NEW DAY", URL: "https://lamovie.github.io/PRE-ESTRENOS/"},  
     { NAME: "🌐OBSESION", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS.html"}, 
     { NAME: "🌐MINIONS & MONSTRUOS", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS.html"}, 
     { NAME: "🌐TOY STORY 5", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS.html"}, 
-    { NAME: "🌐SPIDER MAN NEW DAY", URL: "https://lamovie.github.io/PRE-ESTRENOS"} 
+    { NAME: "🌐PROYECTO FIN DEL MUNDO", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS.html"} 
 ];
 
 

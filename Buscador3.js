@@ -177,7 +177,6 @@ var Lista3 = [
   { NAME: "🍿LEGACIES", URL: "https://latino.solo-latino.com/es/detail/drama/fMOjyend99yykB2F1vuOi-Legacies-Season-1"},    
   { NAME: "🍿ALGO TERRIBLE ESTA A PUNTO DE SUCEDER", URL: "https://latino.solo-latino.com/es/detail/drama/cBb8QFEOuq8D9RjT861fQ-Something-Very-Bad-Is-Going-to-Happen/1" }, 
   { NAME: "🍿DEMON SLAYER", URL: "https://latino.solo-latino.com/es/detail/drama/fLlJJ08QFlnGTLNPD9uFs-Demon-Slayer-Kimetsu-no-Yaiba/1" }, 
-  { NAME: "🍿PROYECTO FIN DEL MUNDO", URL: "https://player.okpeliz.com/embed/687163" }, 
   { NAME: "🍿SOLO LIVING", URL: "https://latino.solo-latino.com/es/detail/drama/7JUAhDRqVPu4tHaTeglTV-Solo-Leveling" },
   { NAME: "🍿KICK ASS", URL: "https://latino.solo-latino.com/es/detail/movie/W8ur5UQqkX9ePHvXcGIGG-Kick-Ass" }, 
   { NAME: "🍿ONE PIECE LIVE ACTION", URL: "https://latino.solo-latino.com/es/detail/drama/1c257F3xS5x26ncKmMq28-One-Piece-Season-2" },
@@ -213,7 +212,7 @@ var Lista3 = [
 ]
    
 
-
+ // https://latino.solo-latino.com/es/detail/movie/Ytie5e3eJ95h5gZtMmbWq-Spider-Man-Brand-New-Day
 
 
 
