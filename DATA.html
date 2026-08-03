@@ -427,6 +427,7 @@ window.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
       if (esModoSerie || SERE.some(s => Enlace.includes(s))) {
    window.location.href = Enlace;
+   H.textContent = '⏳Espere...';
   } else if (MOVIE.some(mov => Enlace.includes(mov))) {
        window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}&url=${encodeURIComponent(Enlace)}`;
         } else {
