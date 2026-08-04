@@ -449,44 +449,48 @@ window.addEventListener('DOMContentLoaded', () => {
     }
  });
 
-           // CLIC
+           // CLICK
     var LIST = document.querySelectorAll('#Lista li');
 
     LIST.forEach(lis => {
       lis.onclick = (e) => {
         e.preventDefault();
-      LIST.forEach(other => {
-  other.style.border = '';
-  other.style.color = '#4f9';
-  other.style.background = '#001';
-   });
+        
+        LIST.forEach(other => {
+   other.style.border = '';
+   other.style.background = '#001';
+          let otherA = other.querySelector('a');
+          if (otherA) otherA.style.color = '#4f7'; 
+     });
 
-   lis.style.color = '#7F05FF';
-   lis.style.background = '#000';
-   lis.style.borderTop = '1px solid blue';
-   lis.style.borderBottom = '.1px solid #4f3';
+ 
+  lis.style.background = '#000';
+  lis.style.borderTop = '1px solid blue';
+  lis.style.borderBottom = '.1px solid #4f3';        
+        let activeA = lis.querySelector('a');
+        if (activeA) activeA.style.color = '#7F05FF';
 
- var Enlace = lis.querySelector('a') ? lis.querySelector('a').href : e.target.href;
- var Titulo = lis.textContent;
+        var Enlace = activeA ? activeA.href : e.target.href;
+        var Titulo = lis.textContent;
         var LIMPIO = Titulo.replace(/🍿|🌐|📺|⚙️/g, '').trim();
 
         H.textContent = Titulo;
 
         setTimeout(() => {
-      if (esModoSerie || SERE.some(s => Enlace.includes(s))) {
-   window.location.href = Enlace;
-   H.textContent = '⏳Espere...';
-  } else if (MOVIE.some(mov => Enlace.includes(mov))) {
-       window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}&url=${encodeURIComponent(Enlace)}`;
-        } else {
-  window.location.href = Enlace;
-  H.textContent = '⏳Espere...';
-    }
-       }, 1000);
-           I.value = '';
-     };
-   });    
- });
+          if (esModoSerie || SERE.some(s => Enlace.includes(s))) {
+            window.location.href = Enlace;
+            H.textContent = '⏳Espere...';
+          } else if (MOVIE.some(mov => Enlace.includes(mov))) {
+            window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}&url=${encodeURIComponent(Enlace)}`;
+          } else {
+            window.location.href = Enlace;
+            H.textContent = '⏳Espere...';
+        }
+          }, 1000);
+        
+        I.value = '';
+   };
+});    
 </script>
 <script>
 // SCROLL
