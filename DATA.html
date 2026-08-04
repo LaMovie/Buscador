@@ -304,19 +304,7 @@ a {
 <script src="Buscador.js"></script>
 <script src="Buscador2.js"></script>
 <script src="Buscador3.js"></script>
-<script>
-  var ENLACE = document.querySelectorAll('#Oculto a');
-   
-  ENLACE.forEach(item => { 
-    item.onclick = (event) => {
-      event.preventDefault();
-        var URL = item.href;
-    setTimeout(() => {
-        window.location.href = URL;
-    }, 1000);
-   }
-});
-</script>
+
 <script>
    var SEARCH = document.querySelectorAll('#Search, #Logo');
    
