@@ -1,4 +1,4 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html Lang="es">
 <head>
     <meta charset="UTF-8"/>
@@ -240,9 +240,15 @@ a {
     color: rgba(0, 240, 255, 0.15);
 }
 
+/* HOVER MODO PELIS (DEFAULT) */
 #Lista li:hover a {
     color: #7F05FF;
-} /* #00f0ff */
+}
+
+/* HOVER MODO SERIE */
+#Lista.modo-serie li:hover a {
+    color: #4f3;
+}
 </style>
 </head>
 <body>
@@ -408,7 +414,6 @@ window.addEventListener('DOMContentLoaded', () => {
     const paramPeli  = params.get('peli');
     const paramSerie = params.get('serie');
 
-    
     var FILM  = ['file', 'movie', 'vidyard.com', 'dropbox', '.m3u8', 'gallery=open'];
     var SERE  = ['folders', 'drama', 'publicfoldergrid'];
     var MOVIE = ['dropbox', 'play.vidyard', 'google.com/file', '.m3u8'];
@@ -418,38 +423,40 @@ window.addEventListener('DOMContentLoaded', () => {
     var Lista = document.getElementById("Lista");
     var H = document.getElementById("H");
 
-    
     var esModoSerie = params.has('serie');
+    
+    var colorPorDefecto = esModoSerie ? '#ff4bb2' : '#4f7';
+    var colorActivo     = esModoSerie ? '#4f9' : '#7F05FF';
 
     if (esModoSerie) {
+      Lista.classList.add('modo-serie');
       H.textContent = "🧋 SERIES 🧋";
     } else {
       H.textContent = "🍿 PELÍCULAS 🍿";
     }
 
-   
     PELIS.forEach(item => {
-  let NN = item.NAME || item.name;
-  let URL = item.URL || item.url;
+      let NN = item.NAME || item.name;
+      let URL = item.URL || item.url;
   
       if (!URL) return;
 
       let debeMostrar = false;
 
       if (esModoSerie) {
-   debeMostrar = SERE.some(s => URL.includes(s));
-        } else {
-   debeMostrar = FILM.some(f => URL.includes(f));
+        debeMostrar = SERE.some(s => URL.includes(s));
+      } else {
+        debeMostrar = FILM.some(f => URL.includes(f));
       }
 
       if (debeMostrar) {
         let li = document.createElement('li');
-        li.innerHTML = `<a class="Data" href="${URL}">${NN}</a>`;
+        li.innerHTML = `<a class="Data" href="${URL}" style="color: ${colorPorDefecto};">${NN}</a>`;
         Lista.appendChild(li);
-    }
- });
+      }
+    });
 
-           // CLICK
+    // CLIC
     var LIST = document.querySelectorAll('#Lista li');
 
     LIST.forEach(lis => {
@@ -457,18 +464,17 @@ window.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         
         LIST.forEach(other => {
-   other.style.border = '';
-   other.style.background = '#001';
+          other.style.border = '';
+          other.style.background = '#001';
           let otherA = other.querySelector('a');
-          if (otherA) otherA.style.color = '#4f7'; 
-     });
+          if (otherA) otherA.style.color = colorPorDefecto; 
+        });
 
- 
-  lis.style.background = '#000';
-  lis.style.borderTop = '1px solid blue';
-  lis.style.borderBottom = '.1px solid #4f3';        
+        lis.style.background = '#000';
+        lis.style.borderTop = '1px solid blue';
+        lis.style.borderBottom = '.1px solid #4f3';        
         let activeA = lis.querySelector('a');
-        if (activeA) activeA.style.color = '#7F05FF';
+        if (activeA) activeA.style.color = colorActivo;
 
         var Enlace = activeA ? activeA.href : e.target.href;
         var Titulo = lis.textContent;
@@ -478,20 +484,20 @@ window.addEventListener('DOMContentLoaded', () => {
 
         setTimeout(() => {
           if (esModoSerie || SERE.some(s => Enlace.includes(s))) {
-            window.location.href = Enlace;
-            H.textContent = '⏳Espere...';
+    window.location.href = Enlace;
+   H.textContent = '⏳Espere...';
           } else if (MOVIE.some(mov => Enlace.includes(mov))) {
             window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}&url=${encodeURIComponent(Enlace)}`;
           } else {
-            window.location.href = Enlace;
-            H.textContent = '⏳Espere...';
-        }
-          }, 1000);
+    window.location.href = Enlace;
+   H.textContent = '⏳Espere...';
+          }
+        }, 1000);
         
         I.value = '';
-   };
- });    
-});
+      };
+    });    
+}); 
 </script>
 <script>
 // SCROLL
@@ -509,17 +515,4 @@ setTimeout(() => {
 }, 800);
 </script>
 </body>
-</html>				  
-
-<!-- var visible = false;
-
-        SEARCH.forEach(S => {
-         S.onclick = () => {
-     visible = !visible;
-   I.style.display = visible ? 'block' : 'none';
-   Logo.style.display = visible ? 'none' : 'block';
-    };
-  });  -->
-  
-       
-  
+</html>
