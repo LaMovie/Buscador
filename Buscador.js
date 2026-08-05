@@ -114,7 +114,7 @@ var Lista1 = [
   {name: "🍿La Liga Extraordinaria", url: "https://www.dropbox.com/scl/fi/czwirxif59t1ickjiz0oq/LA-LIGA-EXTRAORDINARIA.mp4?rlkey=g591mgat0llxn08zxw27qu5yc&st=ldcx702x&dl=0"}, 
   {name: "🍿Evil Dead En Llamas", url: "https://www.dropbox.com/scl/fi/ukzuge1vaj6ehqpkonxmv/EVIL-DEAD-EN-LLAMAS-2026.mp4?rlkey=ri8vy1nc17goeohu0glqddwcj&st=fmxdsb9e&dl=0"}, 
   {name: "🍿El Dia De La Revelación", url: "https://play.vidyard.com/Th39joJBXv5SMeeXLAzSVd"}, 
-  {name: "🍿Super Girl", url: ""}, 
+  {name: "🍿Super Girl", url: "https://share.vidyard.com/watch/BdznLivqxFYam7cHs1kqsJ?autoplay=1"}, 
   {name: "🍿", url: ""}, 
   {name: "🍿", url: ""}, 
   {name: "🍿", url: ""}, 
