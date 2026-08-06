@@ -438,7 +438,7 @@ var Lista2 = [
   { NAME: "🍿Dune", URL: "https://drive.google.com/file/d/1pzFLZwwmmIVERWVWGpBY5qQbVCLK--kJ/view?usp=drivesdk" },
   { NAME: "🍿Hipnotico", URL: "https://drive.google.com/file/d/1rUk3v2LS8lc0hJYnc0iWkwiMJOQlVZ_d/view?usp=drivesdk" },
   { NAME: "🍿La Hierba Alta", URL: "https://drive.google.com/file/d/14xqPt1BKTORRLwXUu1G2kJbVZizMdGsy/view?usp=drivesdk" },
-  { NAME: "🍿La Leyenda De Los Diez Anillos", URL: "https://drive.google.com/file/d/1RXgrXUVk6OgZ-4iq5rlq1ijpKmQ54v1N/view?usp=drivesdk" },
+  { NAME: "🍿La Leyenda De Los Diez Anillos", URL: "https://www.dropbox.com/scl/fi/f4asdzfbx9shitmgcg5e0/LA-LEYENDA-DE-LOS-10-ANILLOS-2021.mp4?rlkey=wk14xsx453cr1xtdj28wooebe&st=mqq8in75&dl=0" },
   { NAME: "🍿Mortal Kombat", URL: "https://drive.google.com/file/d/15_bZQwUDQ_gowPfazzVED7YTo1naUw5a/view?usp=drivesdk" },
   { NAME: "🍿The House Next Door", URL: "https://drive.google.com/file/d/1XXuLDeqV6xqeC_AAkLsAJoD68L0FRaSz/view?usp=drivesdk" },
   { NAME: "🍿Venom 2", URL: "https://drive.google.com/file/d/1psSUnjkUb-aOYxdJv1r4Uzm4nUD8seWH/view?usp=drivesdk" },
