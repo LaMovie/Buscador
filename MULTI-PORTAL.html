@@ -133,13 +133,32 @@ body {
    <!-- PelisPedia (Directo) -->
                 <button type="button" onclick="openSite('pelispedia')" class="group flex flex-col items-center gap-2 w-[30%] sm:w-28 outline-none">
                     <div class="w-full aspect-square rounded-[1.1rem] border-2 border-orange-500/40 bg-base overflow-hidden glow-icon transition-all duration-300">
-                        <img src="https://da.gd/gG4SkU" alt="Pelis Plus" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <img src="https://da.gd/gG4SkU" alt="Pelispedia" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     </div>
                     <span class="font-luckiest text-amber-400 text-xs sm:text-sm tracking-wide transition group-hover:text-amber-200">PELISPEDIA</span>
              </button>
                       
+  <!-- Sololatino (Directo) -->
+                <button type="button" onclick="openSite('sololatino')" class="group flex flex-col items-center gap-2 w-[30%] sm:w-28 outline-none">
+                    <div class="w-full aspect-square rounded-[1.1rem] border-2 border-orange-500/40 bg-base overflow-hidden glow-icon transition-all duration-300">
+                        <img src="https://da.gd/qzDY8i" alt="Sololatino" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <span class="font-luckiest text-amber-400 text-xs sm:text-sm tracking-wide transition group-hover:text-amber-200">SOLOLATINO</span>
+            </button>   
             
-     <!-- Pelis Plus (Directo) -->
+  <!-- Entrepeliculasyseries (Directo) -->
+                <button type="button" onclick="openSite('entrepelisyseries')" class="group flex flex-col items-center gap-2 w-[30%] sm:w-28 outline-none">
+                    <div class="w-full aspect-square rounded-[1.1rem] border-2 border-orange-500/40 bg-base overflow-hidden glow-icon transition-all duration-300">
+                        <img src="https://da.gd/QQMT69" alt="Entrepelisyseries" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <span class="font-luckiest text-amber-400 text-xs sm:text-sm tracking-wide transition group-hover:text-amber-200">ENTREPELISYSERIES</span>
+              </button>                              
+            </div>
+
+<!-- Fila Inferior 2 (1 elemento) -->
+            <div class="flex justify-center gap-4 sm:gap-6 w-full mt-2"> 
+            
+   <!-- Pelis Plus (Directo) -->
                 <button type="button" onclick="openSite('pelisplus')" class="group flex flex-col items-center gap-2 w-[30%] sm:w-28 outline-none">
                     <div class="w-full aspect-square rounded-[1.1rem] border-2 border-orange-500/40 bg-base overflow-hidden glow-icon transition-all duration-300">
                         <img src="https://da.gd/GVnUM" alt="Pelis Plus" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
@@ -154,15 +173,11 @@ body {
                     </div>
                     <span class="font-luckiest text-amber-400 text-xs sm:text-sm tracking-wide transition group-hover:text-amber-200">CINECALIDAD</span>
              </button>
-             
-            </div>
-
-<!-- Fila Inferior 2 (1 elemento) -->
-            <div class="flex justify-center gap-4 sm:gap-6 w-full mt-2">
+                       
   <!-- Poseidonhd2 (Directo) -->
                 <button type="button" onclick="openSite('poseidonhd2')" class="group flex flex-col items-center gap-2 w-[30%] sm:w-28 outline-none">
                     <div class="w-full aspect-square rounded-[1.1rem] border-2 border-orange-500/40 bg-base overflow-hidden glow-icon transition-all duration-300">
-                        <img src="https://da.gd/pmajp" alt="Pelis Plus" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <img src="https://da.gd/pmajp" alt="Poseidonhd2" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     </div>
                     <span class="font-luckiest text-amber-400 text-xs sm:text-sm tracking-wide transition group-hover:text-amber-200">POSEIDONHD2</span>
             </button>                
@@ -261,7 +276,7 @@ body {
                 embeddable: true 
             },
             pelispedia: { 
-                name: 'Gnula', 
+                name: 'Pelispedia', 
                 url: 'https://pelispedia.mov/', 
                 searchUrl: 'https://pelispedia.mov/search?s=', 
                 embeddable: false 
@@ -278,8 +293,20 @@ body {
                 searchUrl: 'https://ww2.cinecalidad.pro/?s=',
                 embeddable: false 
             }, 
+            sololatino: { 
+                name: 'Sololatino', 
+                url: 'https://lamovie.github.io/SeeKee/PLATAFORMAS.html', 
+                searchUrl: 'https://sololatino.net/buscar?q=', 
+                embeddable: false 
+            }, 
+            entrepelisyseries: { 
+                name: 'Entrepelisyseries', 
+                url: 'https://entrepeliculasyseries.nz/', 
+                searchUrl: 'https://entrepeliculasyseries.nz/search?s=', 
+                embeddable: false 
+            }, 
             poseidonhd2: { 
-                name: 'Gnula', 
+                name: 'Poseidonhd2', 
                 url: 'https://www.poseidonhd2.co/', 
                 searchUrl: 'https://www.poseidonhd2.co/search?q=', 
                 embeddable: false 
