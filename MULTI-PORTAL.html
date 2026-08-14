@@ -379,7 +379,7 @@ body {
                 window.open(site.searchUrl + encodeURIComponent(query), '_blank');
             }
             
-            input.value = ''; // Limpiar tras buscar
+            input.value = ''; 
         }
 
         // Búsqueda dentro de la vista de navegador
@@ -449,6 +449,16 @@ body {
                 pendingAction = null;
             }
         }
+        
+window.addEventListener('DOMContentLoaded', () => {
+            var Int = document.querySelector('#main-search-input');
+            var params = new URLSearchParams(window.location.search);
+            var textCapt = params.get('texto');
+
+        if (textCapt) {
+     Int.value = textCapt;
+   }
+});
 </script>
 </body>
 </html>
