@@ -127,8 +127,18 @@ body {
                 </button>
             </div>
 
-<!-- Fila Inferior (2 elementos) -->
+<!-- Fila Inferior 1 (3 elementos) -->
             <div class="flex justify-center gap-4 sm:gap-6 w-full mt-2">
+            
+   <!-- PelisPedia (Directo) -->
+                <button type="button" onclick="openSite('pelispedia')" class="group flex flex-col items-center gap-2 w-[30%] sm:w-28 outline-none">
+                    <div class="w-full aspect-square rounded-[1.1rem] border-2 border-orange-500/40 bg-base overflow-hidden glow-icon transition-all duration-300">
+                        <img src="https://da.gd/gG4SkU" alt="Pelis Plus" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <span class="font-luckiest text-amber-400 text-xs sm:text-sm tracking-wide transition group-hover:text-amber-200">PELISPEDIA</span>
+             </button>
+                      
+            
      <!-- Pelis Plus (Directo) -->
                 <button type="button" onclick="openSite('pelisplus')" class="group flex flex-col items-center gap-2 w-[30%] sm:w-28 outline-none">
                     <div class="w-full aspect-square rounded-[1.1rem] border-2 border-orange-500/40 bg-base overflow-hidden glow-icon transition-all duration-300">
@@ -144,7 +154,18 @@ body {
                     </div>
                     <span class="font-luckiest text-amber-400 text-xs sm:text-sm tracking-wide transition group-hover:text-amber-200">CINECALIDAD</span>
              </button>
-        
+             
+            </div>
+
+<!-- Fila Inferior 2 (1 elemento) -->
+            <div class="flex justify-center gap-4 sm:gap-6 w-full mt-2">
+  <!-- Poseidonhd2 (Directo) -->
+                <button type="button" onclick="openSite('poseidonhd2')" class="group flex flex-col items-center gap-2 w-[30%] sm:w-28 outline-none">
+                    <div class="w-full aspect-square rounded-[1.1rem] border-2 border-orange-500/40 bg-base overflow-hidden glow-icon transition-all duration-300">
+                        <img src="https://da.gd/pmajp" alt="Pelis Plus" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <span class="font-luckiest text-amber-400 text-xs sm:text-sm tracking-wide transition group-hover:text-amber-200">POSEIDONHD2</span>
+            </button>                
             </div>
         </div>
 
@@ -239,20 +260,31 @@ body {
                 searchUrl: 'https://www.cinecalidad.rs/?s=', 
                 embeddable: true 
             },
+            pelispedia: { 
+                name: 'Gnula', 
+                url: 'https://pelispedia.mov/', 
+                searchUrl: 'https://pelispedia.mov/search?s=', 
+                embeddable: false 
+            },
             pelisplus: { 
                 name: 'Pelis Plus', 
                 url: 'https://www.pelisplushd.la/', 
+                searchUrl: 'https://www.pelisplushd.la/search?s=',
                 embeddable: false 
             },
             cinecalidad_pro: { 
                 name: 'Cinecalidad', 
                 url: 'https://ww2.cinecalidad.pro/', 
+                searchUrl: 'https://ww2.cinecalidad.pro/?s=',
+                embeddable: false 
+            }, 
+            poseidonhd2: { 
+                name: 'Gnula', 
+                url: 'https://www.poseidonhd2.co/', 
+                searchUrl: 'https://www.poseidonhd2.co/search?q=', 
                 embeddable: false 
             }
         };
-
-        // Solo estas 3 se sortearán en el input general según tu instrucción
-        const embeddableKeys = ['pelisflix', 'gnula', 'cinecalidad_rs'];
 
         let currentSiteKey = null;
         let pendingAction = null; 
@@ -284,15 +316,21 @@ body {
             
             if (!query) return;
 
-            // Seleccionar aleatoriamente una web de las 3 permitidas
-            const randomKey = embeddableKeys[Math.floor(Math.random() * embeddableKeys.length)];
+            // Seleccionar aleatoriamente una web de TODAS las disponibles
+            const allKeys = Object.keys(sites);
+            const randomKey = allKeys[Math.floor(Math.random() * allKeys.length)];
+            const site = sites[randomKey];
             
-            if (randomKey === 'cinecalidad_rs') {
-                pendingAction = { type: 'search', key: randomKey, query };
-                showModal();
+            if (site.embeddable) {
+                if (randomKey === 'cinecalidad_rs') {
+                    pendingAction = { type: 'search', key: randomKey, query };
+                    showModal();
+                } else {
+                    loadInBrowser(randomKey, site.searchUrl + encodeURIComponent(query));
+                }
             } else {
-                const site = sites[randomKey];
-                loadInBrowser(randomKey, site.searchUrl + encodeURIComponent(query));
+                // Abrir en nueva pestaña si no es embeddable
+                window.open(site.searchUrl + encodeURIComponent(query), '_blank');
             }
             
             input.value = ''; // Limpiar tras buscar
@@ -368,3 +406,11 @@ body {
 </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
