@@ -110,12 +110,12 @@ body {
                     <span class="font-luckiest text-amber-400 text-xs sm:text-sm tracking-wide transition group-hover:text-amber-200">PELISFLIX</span>
                 </button>
                 
-          <!-- Gnula -->
-                <button type="button" onclick="openSite('gnula')" class="group flex flex-col items-center gap-2 w-[30%] sm:w-28 outline-none">
+          <!-- Pelis28 -->
+                <button type="button" onclick="openSite('pelis28')" class="group flex flex-col items-center gap-2 w-[30%] sm:w-28 outline-none">
                     <div class="w-full aspect-square rounded-[1.1rem] border-2 border-orange-500/40 bg-base overflow-hidden glow-icon transition-all duration-300">
-                        <img src="https://da.gd/YqXpx" alt="Gnula" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <img src="https://da.gd/uQc77" alt="Pelis28" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     </div>
-                    <span class="font-luckiest text-amber-400 text-xs sm:text-sm tracking-wide transition group-hover:text-amber-200">GNULA</span>
+                    <span class="font-luckiest text-amber-400 text-xs sm:text-sm tracking-wide transition group-hover:text-amber-200">PELIS28</span>
             </button>
 
       <!-- Cine Calidad RS -->
@@ -127,7 +127,7 @@ body {
                 </button>
             </div>
 
-<!-- Fila Inferior 1 (3 elementos) -->
+   <!-- Fila Inferior 2 -->
             <div class="flex justify-center gap-4 sm:gap-6 w-full mt-2">
             
    <!-- PelisPedia (Directo) -->
@@ -146,18 +146,26 @@ body {
                     <span class="font-luckiest text-amber-400 text-xs sm:text-sm tracking-wide transition group-hover:text-amber-200">SOLOLATINO</span>
             </button>   
             
-  <!-- Entrepeliculasyseries (Directo) -->
+      <!-- Gnula (Directo)-->
+                <button type="button" onclick="openSite('gnula')" class="group flex flex-col items-center gap-2 w-[30%] sm:w-28 outline-none">
+                    <div class="w-full aspect-square rounded-[1.1rem] border-2 border-orange-500/40 bg-base overflow-hidden glow-icon transition-all duration-300">
+                        <img src="https://da.gd/YqXpx" alt="Gnula" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <span class="font-luckiest text-amber-400 text-xs sm:text-sm tracking-wide transition group-hover:text-amber-200">GNULA</span>
+          </button>                          
+            </div>
+
+   <!-- Fila Inferior 3 -->
+            <div class="flex justify-center gap-4 sm:gap-6 w-full mt-2"> 
+            
+     <!-- Entrepeliculasyseries (Directo) -->
                 <button type="button" onclick="openSite('entrepelisyseries')" class="group flex flex-col items-center gap-2 w-[30%] sm:w-28 outline-none">
                     <div class="w-full aspect-square rounded-[1.1rem] border-2 border-orange-500/40 bg-base overflow-hidden glow-icon transition-all duration-300">
                         <img src="https://da.gd/QQMT69" alt="Entrepelisyseries" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     </div>
                     <span class="font-luckiest text-amber-400 text-xs sm:text-sm tracking-wide transition group-hover:text-amber-200">ENTREPELISYSERIES</span>
-              </button>                              
-            </div>
-
-<!-- Fila Inferior 2 (1 elemento) -->
-            <div class="flex justify-center gap-4 sm:gap-6 w-full mt-2"> 
-            
+              </button>    
+  
    <!-- Pelis Plus (Directo) -->
                 <button type="button" onclick="openSite('pelisplus')" class="group flex flex-col items-center gap-2 w-[30%] sm:w-28 outline-none">
                     <div class="w-full aspect-square rounded-[1.1rem] border-2 border-orange-500/40 bg-base overflow-hidden glow-icon transition-all duration-300">
@@ -173,14 +181,19 @@ body {
                     </div>
                     <span class="font-luckiest text-amber-400 text-xs sm:text-sm tracking-wide transition group-hover:text-amber-200">CINECALIDAD</span>
              </button>
-                       
-  <!-- Poseidonhd2 (Directo) -->
+               </div>
+               
+               
+     <!-- Fila Inferior 4 -->
+            <div class="flex justify-center gap-4 sm:gap-6 w-full mt-2">     
+       
+   <!-- Poseidonhd2 (Directo) -->
                 <button type="button" onclick="openSite('poseidonhd2')" class="group flex flex-col items-center gap-2 w-[30%] sm:w-28 outline-none">
                     <div class="w-full aspect-square rounded-[1.1rem] border-2 border-orange-500/40 bg-base overflow-hidden glow-icon transition-all duration-300">
                         <img src="https://da.gd/pmajp" alt="Poseidonhd2" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     </div>
                     <span class="font-luckiest text-amber-400 text-xs sm:text-sm tracking-wide transition group-hover:text-amber-200">POSEIDONHD2</span>
-            </button>                
+          </button>                 
             </div>
         </div>
 
@@ -263,10 +276,10 @@ body {
                 searchUrl: 'https://pelisflix1.link/search?s=', 
                 embeddable: true 
             },
-            gnula: { 
-                name: 'Gnula', 
-                url: 'https://ww3.gnulahd.nu/', 
-                searchUrl: 'https://ww3.gnulahd.nu/?s=', 
+            pelis28: { 
+                name: 'Pelis28', 
+                url: 'https://ver.pelis28.net/', 
+                searchUrl: 'https://ver.pelis28.net/?s=', 
                 embeddable: true 
             },
             cinecalidad_rs: { 
@@ -281,6 +294,24 @@ body {
                 searchUrl: 'https://pelispedia.mov/search?s=', 
                 embeddable: false 
             },
+            sololatino: { 
+                name: 'Sololatino', 
+                url: 'https://lamovie.github.io/SeeKee/PLATAFORMAS.html', 
+                searchUrl: 'https://sololatino.net/buscar?q=', 
+                embeddable: false 
+            }, 
+            gnula: { 
+                name: 'Gnula', 
+                url: 'https://ww3.gnulahd.nu/', 
+                searchUrl: 'https://ww3.gnulahd.nu/?s=', 
+                embeddable: false 
+            }, 
+            entrepelisyseries: { 
+                name: 'Entrepelisyseries', 
+                url: 'https://entrepeliculasyseries.nz/', 
+                searchUrl: 'https://entrepeliculasyseries.nz/search?s=', 
+                embeddable: false 
+            },  
             pelisplus: { 
                 name: 'Pelis Plus', 
                 url: 'https://www.pelisplushd.la/', 
@@ -292,19 +323,7 @@ body {
                 url: 'https://ww2.cinecalidad.pro/', 
                 searchUrl: 'https://ww2.cinecalidad.pro/?s=',
                 embeddable: false 
-            }, 
-            sololatino: { 
-                name: 'Sololatino', 
-                url: 'https://lamovie.github.io/SeeKee/PLATAFORMAS.html', 
-                searchUrl: 'https://sololatino.net/buscar?q=', 
-                embeddable: false 
-            }, 
-            entrepelisyseries: { 
-                name: 'Entrepelisyseries', 
-                url: 'https://entrepeliculasyseries.nz/', 
-                searchUrl: 'https://entrepeliculasyseries.nz/search?s=', 
-                embeddable: false 
-            }, 
+            },   
             poseidonhd2: { 
                 name: 'Poseidonhd2', 
                 url: 'https://www.poseidonhd2.co/', 
