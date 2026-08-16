@@ -152,6 +152,16 @@ var Enlace = item.URL || item.url;
 
           I.value = '';
     }
+    
+  var URLs = document.querySelector('Results a');
+    URLs.forEach(ur => {
+      ur.onclick = (e) => {
+        e.preventDefault();   
+            setTimeout(() => {
+ window.location.href = ur.href;
+            }, 1000)
+        }
+    });
 </script> 
 </body>
 </html>
