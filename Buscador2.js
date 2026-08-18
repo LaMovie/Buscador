@@ -419,7 +419,7 @@ var Lista2 = [
   { NAME: "🍿Memory", URL: "https://drive.google.com/file/d/1R8J_tzvdzbKs34LdQlPavCdnbuPuXc4E/view?usp=drive_link" },
   { NAME: "🍿Tren Bala", URL: "https://drive.google.com/file/d/1DaT8euWjr84q2nG3DtCQYaapRac-dFHS/view?usp=drive_link" },
   { NAME: "🍿Inception", URL: "https://drive.google.com/file/d/1hV6eC_ca5HaVi02E0xCS4c2J-Zcgj_Te/view?usp=drive_link" },
-  { NAME: "🍿Locke & Key 2", URL: "https://drive.google.com/folderview?id=1pDyCtIehdTkSn920uIxMhtdHWhkkUvPa" },
+  { NAME: "🍿Locke & Key 2", URL: "https://drive.google.com/drive/folders/1pDyCtIehdTkSn920uIxMhtdHWhkkUvPa" },
   { NAME: "🍿La Casa De Papel Corea", URL: "https://drive.google.com/drive/folders/10AGbUu5SLvghM9xkqn7GZY87yegFgqZg?usp=drive_link" },
   { NAME: "🍿La Periferia", URL: "https://drive.google.com/drive/folders/1NNNu6w15tggKaUmPuK7CDwKFAOmN6NIS?usp=drive_link" },
   { NAME: "🍿Willow", URL: "https://drive.google.com/drive/folders/1eN-xMI3WGWrsDtJvjtRe_NAfijbOsMcF?usp=drive_link" },
