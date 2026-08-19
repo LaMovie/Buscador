@@ -155,36 +155,36 @@ var Enlace = item.URL || item.url;
       ];
 
  
- Plataformas.forEach((plat) => {
+  Plataformas.forEach((plat) => {
      Results.innerHTML += `
- <a class="Caja" href="${plat.url}${I.value}" target="_blank">
-                 <div class="Caja-titulo"><img id="MG" src="${plat.img}"/>${I.value}</div>
-                 <div class="Caja-plataforma">${plat.name}</div>
-             </a>
-      `;
-  });
+            <a class="Caja" href="${plat.url}${I.value}" target="_blank">
+   <div class="Caja-titulo"><img id="MG" src="${plat.img}"/>${I.value}</div>
+  <div class="Caja-plataforma">${plat.name}</div>
+            </a>
+       `;
+    });
+
+        var URLs = document.querySelectorAll('#Results a');
+      URLs.forEach(ur => {
+         ur.onclick = (e) => {
+            e.preventDefault();   
+                setTimeout(() => {
+                    window.location.href = ur.href;
+                }, 1000);
+            }
+        });
 
           I.value = '';
-    }
+    };
     
-  var URLs = document.querySelector('Results a');
-    URLs.forEach(ur => {
-      ur.onclick = (e) => {
-        e.preventDefault();   
-            setTimeout(() => {
- window.location.href = ur.href;
-            }, 1000)
-        }
-    });
-    
- window.addEventListener('DOMContentLoaded', () => {
-     var params = new URLSearchParams(window.location.search);
- var textCapt = params.get('texto');
+       window.addEventListener('DOMContentLoaded', () => {
+        var params = new URLSearchParams(window.location.search);
+        var textCapt = params.get('texto');
 
-        if (textCapt) {
-     I.value = textCapt;
-          Check();
-   }
+       if (textCapt) {
+      I.value = textCapt;
+            Check();
+     }
 });
 </script> 
 </body>
