@@ -15,8 +15,8 @@ body {
 .Contenedor {
     width: 90%;
     max-width: 500px;
-    margin-top: 15vh;
-} 
+    margin-top: 8vh;
+}
 #I {
     width: 80%;
     color: gold;
@@ -40,6 +40,8 @@ body {
 }
 #Results {
     width: 100%;
+    height: 63vh;
+    overflow: auto;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -63,6 +65,8 @@ body {
 }
 .Caja-titulo {
     color: gold;
+    display: flex;
+    justify-content: space-between;
     font-family: 'Luckiest Guy', cursive;
     font-size: 22px;
     letter-spacing: 1px;
@@ -77,9 +81,19 @@ body {
     margin-top: 5px;
     font-weight: bold;
 }
+#MG {
+    width: 20%;
+    border-radius: 30px;
+}
+h1 {
+    color: gray;
+    opacity: .3;
+    font-family: 'Luckiest Guy', cursive;
+}
 </style>
 </head>
 <body>
+         <h1>LA MOVIE</h1>
      <div class="Contenedor">
   <form onsubmit="event.preventDefault(); Check()">
        <input id="I" placeholder="Buscar..." type="text"/>       
@@ -121,30 +135,30 @@ var Enlace = item.URL || item.url;
       
  var Plataformas = [
     
-    { name: "🧿 PelisFlix", url: "https://pelisflix1.link/search?s=" },
+    { name: "🧿 PelisFlix", url: "https://pelisflix1.link/search?s=", img: "https://da.gd/ESkNJJ" },
    
-    { name: "🧋 PelisPedia", url: "https://pelispedia.mov/search?s=" },
+    { name: "🧋 PelisPedia", url: "https://pelispedia.mov/search?s=", img: "https://da.gd/gG4SkU" },
   
-    { name: "🎉 Gnula HD", url: "https://ww3.gnulahd.nu/?s=" },
+    { name: "🎉 Gnula HD", url: "https://ww3.gnulahd.nu/?s=", img: "https://da.gd/YqXpx" },
    
-    { name: "🎭 Solo Latino", url: "https://sololatino.net/buscar?q=" },
+    { name: "🎭 Solo Latino", url: "https://sololatino.net/buscar?q=", img: "https://da.gd/qzDY8i" },
    
-    { name: "🍿 Entre Peliculas y Series", url: "https://entrepeliculasyseries.nz/search?s=" }, 
+    { name: "🍿 Entre Peliculas y Series", url: "https://entrepeliculasyseries.nz/search?s=", img: "https://da.gd/QQMT69" }, 
     
-    { name: "💮 CineCalidad RS", url: "https://www.cinecalidad.rs/?s=" },
+    { name: "💮 CineCalidad RS", url: "https://www.cinecalidad.rs/?s=", img: "https://da.gd/r8dSa" },
     
-    { name: "🌐 CineCalidad Pro", url: "https://ww2.cinecalidad.pro/?s=" },
+    { name: "🌐 CineCalidad Pro", url: "https://ww2.cinecalidad.pro/?s=", img: "https://da.gd/ZpiNyJ" },
    
-    { name: "📺 PelisPlus HD", url: "https://www.pelisplushd.la/search?s=" },
+    { name: "📺 PelisPlus HD", url: "https://www.pelisplushd.la/search?s=", img: "https://da.gd/GVnUM" },
    
-    { name: "🌀 Poseidon HD", url: "https://www.poseidonhd2.co/search?q=" }
+    { name: "🌀 Poseidon HD", url: "https://www.poseidonhd2.co/search?q=", img: "https://da.gd/pmajp" }
       ];
 
  
  Plataformas.forEach((plat) => {
      Results.innerHTML += `
  <a class="Caja" href="${plat.url}${I.value}" target="_blank">
-                 <div class="Caja-titulo">Buscar: "${I.value}"</div>
+                 <div class="Caja-titulo"><img id="MG" src="${plat.img}"/>${I.value}</div>
                  <div class="Caja-plataforma">${plat.name}</div>
              </a>
       `;
@@ -162,6 +176,16 @@ var Enlace = item.URL || item.url;
             }, 1000)
         }
     });
+    
+ window.addEventListener('DOMContentLoaded', () => {
+     var params = new URLSearchParams(window.location.search);
+ var textCapt = params.get('texto');
+
+        if (textCapt) {
+     I.value = textCapt;
+          Check();
+   }
+});
 </script> 
 </body>
 </html>
