@@ -534,7 +534,8 @@ var Lista2 = [
     { NAME: "🌐OBSESION", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐MINIONS & MONSTRUOS", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐TOY STORY 5", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
-    { NAME: "🌐PROYECTO FIN DEL MUNDO", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS.html"} 
+    { NAME: "🌐PROYECTO FIN DEL MUNDO", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS.html"}, 
+    { NAME: "🌐EL FINAL DE LA CALLE OAK", URL: "https://lamovie.github.io/PRE-ESTRENOS/"} 
 ];
 
 
