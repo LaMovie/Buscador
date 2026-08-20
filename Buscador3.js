@@ -186,7 +186,7 @@ var Lista3 = [
   { NAME: "🍿AVATAR ANIME", URL: "https://latino.solo-latino.com/es/detail/drama/kpQxyLrbiOvFhf46F6t1G-Avatar-The-Last-Airbender-Season-1/1" },
   { NAME: "🍿CITADEL DIANA", URL: "https://latino.solo-latino.com/es/detail/drama/PJSWILED66TnpfaegMxqF-Citadel-Diana/1" }, 
   { NAME: "🍿LA LEYENDA DE VOX MACHINA", URL: "https://latino.solo-latino.com/es/detail/drama/SP9KeylSBoscxDOuOp3UQ-The-Legend-of-Vox-Machina-Season-1[Audio-Latino]/1" },
-  { NAME: "🍿", URL: "" }, 
+  { NAME: "🍿LUCY", URL: "https://latino.solo-latino.com/es/detail/movie/GyyvFqSaIfox0Qk5YMAxN-Lucy" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
