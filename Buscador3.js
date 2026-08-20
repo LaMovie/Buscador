@@ -188,7 +188,7 @@ var Lista3 = [
   { NAME: "🍿LA LEYENDA DE VOX MACHINA", URL: "https://latino.solo-latino.com/es/detail/drama/SP9KeylSBoscxDOuOp3UQ-The-Legend-of-Vox-Machina-Season-1[Audio-Latino]/1" },
   { NAME: "🍿LUCY", URL: "https://latino.solo-latino.com/es/detail/movie/GyyvFqSaIfox0Qk5YMAxN-Lucy" }, 
   { NAME: "🍿LA VIUDA NEGRA", URL: "https://latino.solo-latino.com/es/detail/drama/Uo2WAj5zzvTCV1ErTOTyC-La-Viuda-Negra-Season-1/1" },
-  { NAME: "🍿", URL: "" }, 
+  { NAME: "🍿LAS MUÑECAS DE LA MAFIA ", URL: "https://latino.solo-latino.com/es/detail/drama/tOlEbmF7AiZvZVJi30tBB-The-Mafia-Dolls-Season-1" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
