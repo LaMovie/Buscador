@@ -159,7 +159,6 @@ var Lista3 = [
   { NAME: "🍿VICTOR FRANKENSTEIN", URL: "https://latino.solo-latino.com/es/detail/movie/112787-Victor-Frankenstein" },
   { NAME: "🍿QUE PASO AYER", URL: "https://latino.solo-latino.com/es/detail/movie/eITaDkzTvMYmGEa1C2srZ-The-Hangover" }, 
   { NAME: "🍿OJOS BIEN CERRADOS", URL: "https://latino.solo-latino.com/es/detail/movie/68450-Eyes-Wide-Shut" },
-  { NAME: "🍿AL FILO DEL MAÑANA", URL: "https://latino.solo-latino.com/es/detail/movie/VMDCzKIGKVXjulcgfHMQM-Edge-of-Tomorrow" }, 
   { NAME: "🍿EL DESTINO DE JÚPITER", URL: "https://latino.solo-latino.com/es/detail/movie/93703-Jupiter-Ascending" },
   { NAME: "🍿HOMBRES DE NEGRO", URL: "https://latino.solo-latino.com/es/detail/movie/Mrvv17GGFkfy2gchBtXfr-Men-in-Black" }, 
   { NAME: "🍿BACKROOMS", URL: "https://latino.solo-latino.com/es/detail/movie/jMCA2ZTBl5RdjojwQW1PM-Backrooms" }, 

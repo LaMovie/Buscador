@@ -415,7 +415,6 @@ var Lista2 = [
 { name: "🍿Ghosted", url: "https://u.pcloud.link/publink/show?code=XZCOCEVZbLDvfRrfq4VSubMhUbx4Op7Y0Ohk&gallery=open" },
 { name: "🍿Replicas", url: "https://u.pcloud.link/publink/show?code=XZv9raVZlOY28EQi9JzTWWbJEjF5PYeX49bX&gallery=open" },
 { name: "🍿M3gan", url: "https://u.pcloud.link/publink/show?code=kZcAjX0ZczeInSdPm2QK84nOmFHrL0KSmEsk#/filemanager?folder=18517633812&gallery=open" },
-{ name: "🍿Erase Una Vez Un Genio", url: "https://u.pcloud.link/publink/show?code=kZcAjX0ZczeInSdPm2QK84nOmFHrL0KSmEsk#/filemanager?folder=18517632659&gallery=open" },
 { name: "🍿Evil Dead 2", url: "https://u.pcloud.link/publink/show?code=XZqICEVZoIL5qU7iMWXRcNULUpBaK5Yu1Cj7&gallery=open" },
 { name: "🍿Tin y Tina", url: "https://u.pcloud.link/publink/show?code=XZIvCEVZNTR0Vnhp4cjRH2YmzSRY4buaGVdk&gallery=open" },
 { name: "🍿One Punch Man 2", url: "https://u.pcloud.link/publink/show?code=kZcAjX0ZczeInSdPm2QK84nOmFHrL0KSmEsk#folder=17574711090&tpl=publicfoldergrid" },
