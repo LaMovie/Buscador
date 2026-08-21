@@ -189,7 +189,7 @@ var Lista3 = [
   { NAME: "🍿LA VIUDA NEGRA", URL: "https://latino.solo-latino.com/es/detail/drama/Uo2WAj5zzvTCV1ErTOTyC-La-Viuda-Negra-Season-1/1" },
   { NAME: "🍿LAS MUÑECAS DE LA MAFIA ", URL: "https://latino.solo-latino.com/es/detail/drama/tOlEbmF7AiZvZVJi30tBB-The-Mafia-Dolls-Season-1" }, 
   { NAME: "🍿TWISTED METAL", URL: "https://latino.solo-latino.com/es/detail/drama/GlgS2LB0gZcAn2Ayurcfv-Twisted-Metal/1" },
-  { NAME: "🍿", URL: "" }, 
+  { NAME: "🍿AQUAMAN", URL: "https://latino.solo-latino.com/es/detail/movie/aQwxjtOMwnUaM8uENVTiH-Aquaman" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
