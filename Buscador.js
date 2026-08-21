@@ -1,6 +1,5 @@
 var Lista1 = [
   { NAME: "🍿AL FILO DEL MAÑANA", URL: "https://hgcloud.to/e/7u4i6et2tnfr" }, 
-  { NAME: "🍿ERASE UNA VEZ UN GENIO", URL: "https://www.dropbox.com/scl/fi/990aubozihaa9vxk6omee/ERASE-UNA-VEZ-UN-GENIO-2023.mp4?rlkey=xlnmoappdnfs81e7xudm1rn9l&st=nhx2n9xq&dl=0" },
   {name: "🍿Heretic", url: "https://drive.google.com/file/d/1EhJMQdYh_gIpk_miJOW6QHBH-e3XSDCr/view?usp=drivesdk"},
   {name: "🍿Red One", url: "https://drive.google.com/file/d/1vB26ttiNlde0NKHoA6937WfswdKZVDQ3/view?usp=drivesdk"},
   {name: "🍿57 Segundos", url: "https://drive.google.com/file/d/1a674Ccso4wS99zKICv6e83qWdtR8qVS3/view?usp=drivesdk"},
@@ -124,6 +123,7 @@ var Lista1 = [
   { name: "🍿Anna", url: "https://www.dropbox.com/scl/fi/kxc92j37ilplol4l8bt4b/ANNA-2019.mp4?rlkey=8r43kp4qgctk3o0gptwp9s2ij&st=widnt3l1&dl=0" },
   { name: "🍿La Leyenda De Los Diez Anillos", url: "https://www.dropbox.com/scl/fi/f4asdzfbx9shitmgcg5e0/LA-LEYENDA-DE-LOS-10-ANILLOS-2021.mp4?rlkey=wk14xsx453cr1xtdj28wooebe&st=mqq8in75&dl=0" },
   { name: "🍿Ant Man 3", url: "https://www.dropbox.com/scl/fi/d8bz6yzbhfg72t8z2h297/ANT-MAN-3-2023.mp4?rlkey=5x2bwm28or47kktan5v3p4tdh&st=9vtlo11v&dl=0" },
+  { name: "🍿Erase Una Vez Un Genio", url: "https://www.dropbox.com/scl/fi/990aubozihaa9vxk6omee/ERASE-UNA-VEZ-UN-GENIO-2023.mp4?rlkey=xlnmoappdnfs81e7xudm1rn9l&st=nhx2n9xq&dl=0" },
   {name: "🍿", url: ""}, 
   {name: "🍿", url: ""}, 
   {name: "🍿", url: ""}, 
