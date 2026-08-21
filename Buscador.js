@@ -1,6 +1,6 @@
 var Lista1 = [
   { NAME: "🍿AL FILO DEL MAÑANA", URL: "https://hgcloud.to/e/7u4i6et2tnfr" }, 
-  { NAME: "🍿ERASE UNA VEZ UN GENIO", URL: "https://hgcloud.to/e/yo9edlw5wrou" },
+  { NAME: "🍿ERASE UNA VEZ UN GENIO", URL: "https://hgcloud.to/e/9oxqli1tekkk" },
   {name: "🍿Heretic", url: "https://drive.google.com/file/d/1EhJMQdYh_gIpk_miJOW6QHBH-e3XSDCr/view?usp=drivesdk"},
   {name: "🍿Red One", url: "https://drive.google.com/file/d/1vB26ttiNlde0NKHoA6937WfswdKZVDQ3/view?usp=drivesdk"},
   {name: "🍿57 Segundos", url: "https://drive.google.com/file/d/1a674Ccso4wS99zKICv6e83qWdtR8qVS3/view?usp=drivesdk"},
