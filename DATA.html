@@ -476,6 +476,13 @@ window.addEventListener('DOMContentLoaded', () => {
    H.textContent = '⏳Espere...';
           } else if (MOVIE.some(mov => Enlace.includes(mov))) {
             window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}&url=${encodeURIComponent(Enlace)}`;
+          } else if (Titulo.includes('🌐')) {
+    // Usamos let en lugar de var
+    let NN = Titulo.replace('🌐', '').trim();
+    let URL = 'https://lamovie.github.io/PRE-ESTRENOS/?texto=' + encodeURIComponent(NN);
+    
+   window.location.href = URL;
+    H.textContent = '⏳Espere...';
           } else {
     window.location.href = Enlace;
    H.textContent = '⏳Espere...';
@@ -508,3 +515,4 @@ setTimeout(() => {
 </script>
 </body>
 </html>
+    
