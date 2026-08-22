@@ -479,7 +479,7 @@ window.addEventListener('DOMContentLoaded', () => {
           } else if (Titulo.includes('🌐')) {
     // Usamos let en lugar de var
     let NN = Titulo.replace('🌐', '').trim();
-    let URL = 'https://lamovie.github.io/PRE-ESTRENOS/?texto=' + encodeURIComponent(NN);
+    let URL = Enlace + '?texto=' + encodeURIComponent(NN);
     
    window.location.href = URL;
     H.textContent = '⏳Espere...';
