@@ -6,10 +6,7 @@ body { display: none !important; }
 </style>
 
 <script>
-     var llave = new URLSearchParams(window.location.search).get('can');
-    
-if (llave === "PermisoMaestro777") {
-    
+  if (window.self === window.top) {
       var ESCUDO = document.getElementById("Escudo-Seguridad");
         if (ESCUDO) ESCUDO.parentNode.removeChild(ESCUDO);
         } else {
@@ -497,7 +494,7 @@ window.addEventListener('DOMContentLoaded', () => {
     window.location.href = Enlace;
    H.textContent = '⏳Espere...';
           } else if (MOVIE.some(mov => Enlace.includes(mov))) {
-            window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?can=PermisoMaestro777&titulo=${encodeURIComponent(LIMPIO)}&url=${encodeURIComponent(Enlace)}`;
+            window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}&url=${encodeURIComponent(Enlace)}`;
           } else if (Titulo.includes('🌐')) {
     // Usamos let en lugar de var
     let NN = Titulo.replace('🌐', '').trim();
@@ -516,7 +513,7 @@ window.addEventListener('DOMContentLoaded', () => {
     });    
     
        H.onclick = () => {
-    window.location.search = esModoSerie ? '?can=PermisoMaestro777&peli' : '?can=PermisoMaestro777&serie';
+    window.location.search = esModoSerie ? '?peli' : '?serie';
   }
 }); 
 </script>
