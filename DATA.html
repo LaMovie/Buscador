@@ -529,7 +529,8 @@ window.addEventListener('DOMContentLoaded', () => {
    H.textContent = '⏳Espere...';
           }
   if (Enlace.includes('latino.solo')) {
-      window.location.href = 'https://sololatino.net/buscar?q=' + LIMPIO;
+      var Enlace = Enlace.replace('latino.solo-latino', 'h5.swplayer');
+   window.location.href = Enlace;
   H.textContent = '⏳Espere...';
     }
         }
