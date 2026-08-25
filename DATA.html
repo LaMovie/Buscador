@@ -371,7 +371,7 @@ a {
        function FiltrarLista() {
       var query = I.value.toLowerCase().trim();
       var items = document.querySelectorAll('#Lista li');
-      
+       
       if (query !== "") {
           var destino = document.querySelector('#H');
           if (destino) {
@@ -489,7 +489,11 @@ window.addEventListener('DOMContentLoaded', () => {
 
         H.textContent = Titulo;
 
+   var isMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  
         setTimeout(() => {
+         
+    if (isMobile) {   
           if (esModoSerie || SERE.some(s => Enlace.includes(s))) {
     window.location.href = Enlace;
    H.textContent = '⏳Espere...';
@@ -506,7 +510,30 @@ window.addEventListener('DOMContentLoaded', () => {
     window.location.href = Enlace;
    H.textContent = '⏳Espere...';
           }
-        }, 1000);
+      } else { // PC
+            if (esModoSerie || SERE.some(s => Enlace.includes(s))) {
+    window.location.href = Enlace;
+   H.textContent = '⏳Espere...';
+    
+          } else if (MOVIE.some(mov => Enlace.includes(mov))) {
+         window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}&url=${encodeURIComponent(Enlace)}`;
+          } else if (Titulo.includes('🌐')) {
+    // Usamos let en lugar de var
+    let NN = Titulo.replace('🌐', '').trim();
+    let URL = Enlace + '?texto=' + encodeURIComponent(NN);
+    
+   window.location.href = URL;
+    H.textContent = '⏳Espere...';
+          } else {
+    window.location.href = Enlace;
+   H.textContent = '⏳Espere...';
+          }
+  if (Enlace.includes('latino.solo')) {
+      window.location.href = 'https://sololatino.net/buscar?q=' + LIMPIO;
+  H.textContent = '⏳Espere...';
+    }
+        }
+      }, 1000);
         
         I.value = '';
       };
