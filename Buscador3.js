@@ -1,4 +1,5 @@
 var Lista3 = [
+  { NAME: "🍿FURIOSO ", URL: "https://pelisflix1.pics/pelicula/the-furious/" },
   { NAME: "🍿TED", URL: "https://latino.solo-latino.com/es/detail/movie/jYpm5n2JnsFlahGuksW4x-Ted" },
   { NAME: "🍿DESTINO FINAL", URL: "https://latino.solo-latino.com/es/detail/movie/kL3SvPkWfniVKPIPhXcdc-Final-Destination" },
   { NAME: "🍿BORDERLANDS", URL: "https://latino.solo-latino.com/es/detail/movie/tT06q3HHM52YQFyLdL3ID-Borderlands" }, 
