@@ -1,5 +1,14 @@
 var Lista3 = [
-  { NAME: "🍿FURIOSO ", URL: "https://pelisflix1.pics/pelicula/the-furious/" },
+  { NAME: "🍿FURIOSO", URL: "https://pelisflix1.pics/pelicula/the-furious/" }, 
+  { NAME: "🧋LA CALLE DEL TERROR", 
+    URL: "https://www.dropbox.com/scl/fi/vd0zr759iutadurzc4eai/LA-CALLE-DEL-TERROR-_1994_-parte-1.mp4?rlkey=dbd1qt6pfbouu26pl0a2c8hn1&st=9e6zm139&dl=0",
+    CAPS: [
+      { cap: "Cap 1", link: "https://www.dropbox.com/scl/fi/vd0zr759iutadurzc4eai/LA-CALLE-DEL-TERROR-_1994_-parte-1.mp4?rlkey=dbd1qt6pfbouu26pl0a2c8hn1&st=9e6zm139&dl=0" },
+      { cap: "Cap 2", link: "https://www.dropbox.com/scl/fi/iokomblhnigjhpcoxt2p3/LA-CALLE-DEL-TERROR-1978-Parte-2.mp4?rlkey=lxde8vihztxd0b88kuy9hl9jz&st=0my35zof&dl=0" },
+      { cap: "Cap 3", link: "https://www.dropbox.com/scl/fi/734s51b59te3x8ovigiyv/LA-CALLE-DEL-TERROR-1666-PARTE-3-2021.mp4?rlkey=50ch90h7vh0840xm4kl6yaj5f&st=3dthmzav&dl=0" }, 
+      { cap: "Cap 4", link: "https://www.dropbox.com/scl/fi/xzm3kwhekyimgwtkqw2nc/La-Calle-Del-Terror_-La-Reina-Del-Baile-2025.mp4?rlkey=dgbaijb3i0lfrgrjkns9vlsvv&st=w2q19vrc&dl=0" }
+    ]
+  }, 
   { NAME: "🍿TED", URL: "https://latino.solo-latino.com/es/detail/movie/jYpm5n2JnsFlahGuksW4x-Ted" },
   { NAME: "🍿DESTINO FINAL", URL: "https://latino.solo-latino.com/es/detail/movie/kL3SvPkWfniVKPIPhXcdc-Final-Destination" },
   { NAME: "🍿BORDERLANDS", URL: "https://latino.solo-latino.com/es/detail/movie/tT06q3HHM52YQFyLdL3ID-Borderlands" }, 
