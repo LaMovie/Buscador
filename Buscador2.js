@@ -108,7 +108,6 @@ var Lista2 = [
 { name: "🍿Bang Bang Baby", url: "https://drive.google.com/drive/folders/16tux_yPRkcohCg5-EoLzUXlmjAyTgfp_?usp=drive_link" },
 { name: "🎵MUSIC-CLOUD🎵", url: "https://lamovie.github.io/MUSIC-CLOUD" },
 { name: "🍿Fiesta En Casa", url: "https://drive.google.com/file/d/1_g86g8vkIK-wbgYvDYcffmxUWpCosnQO/view?usp=drive_link" },
-{ name: "🍿1899", url: "https://drive.google.com/drive/folders/1pr9214boJD9fI0id23VkEEOPKHBlheS5?usp=drive_link" },
 { name: "🍿Moon Knight", url: "https://drive.google.com/drive/folders/18ONH2Re0ziD5LSbcPmr_Tci6Ucs9S5Uj?usp=drive_link" },
 { name: "🍿The Baby", url: "https://drive.google.com/drive/folders/14Y5QS-Np-2TUGkYWnHHn-kA_rH24yfdT?usp=drive_link" },
 { name: "🍿Elfen Lied", url: "https://drive.google.com/drive/folders/13GvyAU6xNwiphdwAvlebmE8nJQMunrht?usp=drive_link" },
