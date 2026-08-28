@@ -504,7 +504,8 @@ window.addEventListener('DOMContentLoaded', () => {
     let NN = Titulo.replace('🌐', '').trim();
     let URL = Enlace + '?texto=' + encodeURIComponent(NN);
     
-        abrirFuera(URL);
+  window.location.href = URL;
+  
     H.textContent = '⏳Espere...';
           } else {
     window.location.href = Enlace;
