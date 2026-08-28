@@ -320,247 +320,204 @@ a {
 				 <h3 id="H">🍿 PELÍCULAS 🍿</h3>
       <ul id="Lista"></ul>
 				    				  </center>
+
 <script src="Buscador.js"></script>
 <script src="Buscador2.js"></script>
 <script src="Buscador3.js"></script>
 
 <script>
-   var SEARCH = document.querySelectorAll('#Search, #Logo');
-   
-     SEARCH.forEach(S => {
-        S.onclick = () => {
-    if (I.value === '') {
- if (I.style.display === 'block') {
-       I.style.display = 'none';
-     Logo.style.display = 'block';
-              } else {
-       I.style.display = 'block';
-     Logo.style.display = 'none';
-        }   
-       } else {
-          Check();
-      } 
-            I.focus();
-     }
-  });           
-</script>
-     <!-- FUNCION INTENT Y FILTRADO VISUAL -->
-<script>
-// Función maestra que fuerza el menú de aplicaciones de Android
+// 1. MANEJO DEL BUSCADOR Y LOGO
+var SEARCH = document.querySelectorAll('#Search, #Logo');
+SEARCH.forEach(S => {
+    S.onclick = () => {
+        var I = document.getElementById("I");
+        var Logo = document.getElementById("Logo");
+        if (I.value === '') {
+            if (I.style.display === 'block') {
+                I.style.display = 'none';
+                Logo.style.display = 'block';
+            } else {
+                I.style.display = 'block';
+                Logo.style.display = 'none';
+            }   
+        } else {
+            Check();
+        } 
+        I.focus();
+    }
+});
 
-  function abrirFuera(urlDestino) {
-      // Le quitamos el https:// a la URL para armar el Intent
-      
-      var urlSinProtocolo = urlDestino.replace("https://", "");
-      
+// 2. FUNCIONES DE BÚSQUEDA EXTERNA Y FILTRADO
+function abrirFuera(urlDestino) {
+    var urlSinProtocolo = urlDestino.replace("https://", "");
     var intentURL = "intent://" + urlSinProtocolo + "#Intent;scheme=https;action=android.intent.action.VIEW;end;";
-      
-  window.location.href = intentURL;
-    }
+    window.location.href = intentURL;
+}
 
-       function Check() {
-      isMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-  
-  var domain = isMobile ? 'lamovie.github.io/SeeKee/PLATAFORMAS.html' : 'https://www.google.com/search?q=site:sololatino.net+' + I.value;
-    
-      abrirFuera(domain);
-          I.value = "";
-    }
+function Check() {
+    var I = document.getElementById("I");
+    var isMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    var domain = isMobile ? 'lamovie.github.io/SeeKee/PLATAFORMAS.html' : 'https://www.google.com/search?q=site:sololatino.net+' + I.value;
+    abrirFuera(domain);
+    I.value = "";
+}
 
-// FILTRA VISUALMENTE Y HACE SCROLL HACIA #H SOLO CUANDO EL INPUT NO ESTÁ VACÍO
-       function FiltrarLista() {
-      var query = I.value.toLowerCase().trim();
-      var items = document.querySelectorAll('#Lista li');
+function FiltrarLista() {
+    var I = document.getElementById("I");
+    var query = I.value.toLowerCase().trim();
+    var items = document.querySelectorAll('#Lista li');
        
-      if (query !== "") {
-          var destino = document.querySelector('#H');
-          if (destino) {
-              var posicionY = destino.getBoundingClientRect().top + window.scrollY;
-   window.scroll({top: posicionY - 20, behavior: 'smooth'});
-          }
-      }
+    if (query !== "") {
+        var destino = document.querySelector('#H');
+        if (destino) {
+            var posicionY = destino.getBoundingClientRect().top + window.scrollY;
+            window.scroll({top: posicionY - 20, behavior: 'smooth'});
+        }
+    }
       
-      items.forEach(li => {
-         var texto = li.textContent.toLowerCase();
-  if (texto.includes(query)) {
-       li.style.display = 'flex';
-         } else {
-    li.style.display = 'none';
-         }
-      });
+    items.forEach(li => {
+        var texto = li.textContent.toLowerCase();
+        if (texto.includes(query)) {
+            li.style.display = 'flex';
+        } else {
+            li.style.display = 'none';
+        }
+    });
+}
+
+function AccionEnter() {
+    var I = document.getElementById("I");
+    var query = I.value.toLowerCase().trim();
+    var items = document.querySelectorAll('#Lista li');
+    var coincidencia = null;
+
+    if (query !== "") {
+        items.forEach(li => {
+            var texto = li.textContent.toLowerCase();
+            if (!coincidencia && li.style.display !== 'none' && texto.includes(query)) {
+                coincidencia = li;
+            }
+        });
     }
 
-// ACCIÓN DEL ENTER: SIMULA EL CLIC O EJECUTA CHECK() SI NO HAY COINCIDENCIAS
-       function AccionEnter() {
-      var query = I.value.toLowerCase().trim();
-      var items = document.querySelectorAll('#Lista li');
-      var coincidencia = null;
-
-      if (query !== "") {
-          items.forEach(li => {
-              var texto = li.textContent.toLowerCase();
-              if (!coincidencia && li.style.display !== 'none' && texto.includes(query)) {
-                  coincidencia = li;
-              }
-          });
-      }
-
-      if (coincidencia) {
-          coincidencia.click();
-          I.value = '';
-      } else {
-          Check();
-          I.value = '';
-      }
+    if (coincidencia) {
+        coincidencia.click();
+        I.value = '';
+    } else {
+        Check();
+        I.value = '';
     }
-</script>
-<!-- SCRIPT DE FILTRADO, REDIRECCIÓN Y PARÁMETROS DE URL -->
-<script>
+}
+
+// 3. CARGA DE LISTAS, CLASIFICACIÓN Y REDIRECCIÓN INTELIGENTE
 window.addEventListener('DOMContentLoaded', () => {
     const params = new URLSearchParams(window.location.search);
-    const paramPeli  = params.get('peli');
-    const paramSerie = params.get('serie');
+    var esModoSerie = params.has('serie');
 
-    var FILM  = ['file', 'movie', 'vidyard.com', 'dropbox', '.m3u8', 'gallery=open'];
-    var SERE  = ['folders', 'drama', 'publicfoldergrid'];
-    var MOVIE = ['dropbox', 'play.vidyard', 'google.com/file', '.m3u8'];
+    var SERE_KEYWORDS = ['folders', 'drama', 'publicfoldergrid'];
+    var FILM_KEYWORDS = ['file', 'movie', 'vidyard.com', 'dropbox', '.m3u8', 'gallery=open'];
+    var PLAY2_DOMAINS  = ['dropbox', 'play.vidyard', 'google.com/file', '.m3u8'];
 
     var PELIS = [...Lista1, ...Lista2, ...Lista3].reverse();
-    
     var Lista = document.getElementById("Lista");
     var H = document.getElementById("H");
 
-    var esModoSerie = params.has('serie');
-    
     var colorPorDefecto = esModoSerie ? '#ff4bb9' : '#4f7';
     var colorActivo     = esModoSerie ? '#4f9' : '#7F05FF';
 
     if (esModoSerie) {
-      Lista.classList.add('modo-serie');
-      H.textContent = "🧋 SERIES 🧋";
+        Lista.classList.add('modo-serie');
+        H.textContent = "🧋 SERIES 🧋";
     } else {
-      H.textContent = "🍿 PELÍCULAS 🍿";
+        H.textContent = "🍿 PELÍCULAS 🍿";
     }
 
     PELIS.forEach(item => {
-      let NN = item.NAME || item.name;
-      let URL = item.URL || item.url;
-  
-      if (!URL) return;
+        let NN = item.NAME || item.name || '';
+        let URL = item.URL || item.url || '';
+        if (!URL) return;
 
-      let debeMostrar = false;
+        // Si tiene CAPS o la palabra drama/folders/🧋, es Serie. Si no, es Película.
+        let esSerie = !!(item.CAPS || item.caps || NN.includes('🧋') || SERE_KEYWORDS.some(s => URL.includes(s)));
+        let debeMostrar = esModoSerie ? esSerie : (!esSerie && FILM_KEYWORDS.some(f => URL.includes(f)));
 
-      if (esModoSerie) {
-        debeMostrar = SERE.some(s => URL.includes(s));
-      } else {
-        debeMostrar = FILM.some(f => URL.includes(f));
-      }
-
-      if (debeMostrar) {
-        let li = document.createElement('li');
-        li.innerHTML = `<a class="Data" href="${URL}" style="color: ${colorPorDefecto};">${NN}</a>`;
-        Lista.appendChild(li);
-      }
+        if (debeMostrar) {
+            let li = document.createElement('li');
+            li.innerHTML = `<a class="Data" href="${URL}" data-serie="${esSerie}" data-nombre="${NN}" style="color: ${colorPorDefecto};">${NN}</a>`;
+            Lista.appendChild(li);
+        }
     });
 
-    // CLIC
+    // CLICK EN CADA ELEMENTO DE LA LISTA
     var LIST = document.querySelectorAll('#Lista li');
-
     LIST.forEach(lis => {
-      lis.onclick = (e) => {
-        e.preventDefault();
-        
-        LIST.forEach(other => {
-          other.style.border = '';
-          other.style.background = '#001';
-          let otherA = other.querySelector('a');
-          if (otherA) otherA.style.color = colorPorDefecto; 
-        });
+        lis.onclick = (e) => {
+            e.preventDefault();
+            
+            LIST.forEach(other => {
+                other.style.border = '';
+                other.style.background = '#001';
+                let otherA = other.querySelector('a');
+                if (otherA) otherA.style.color = colorPorDefecto; 
+            });
 
-        lis.style.background = '#000';
-        lis.style.borderTop = '1px solid blue';
-        lis.style.borderBottom = '.1px solid #4f3';        
-        let activeA = lis.querySelector('a');
-        if (activeA) activeA.style.color = colorActivo;
+            lis.style.background = '#000';
+            lis.style.borderTop = '1px solid blue';
+            lis.style.borderBottom = '.1px solid #4f3';        
+            
+            let activeA = lis.querySelector('a');
+            if (activeA) activeA.style.color = colorActivo;
 
-        var Enlace = activeA ? activeA.href : e.target.href;
-        var Titulo = lis.textContent;
-        var LIMPIO = Titulo.replace(/🍿|🌐|📺|⚙️|🧋/g, '').trim();
+            var Enlace = activeA ? activeA.href : e.target.href;
+            var NombreOriginal = activeA ? activeA.getAttribute('data-nombre') : lis.textContent;
+            var esSerieLink = activeA ? (activeA.getAttribute('data-serie') === 'true') : false;
 
-        H.textContent = Titulo;
+            var LIMPIO = NombreOriginal.replace(/🍿|🌐|📺|⚙️|🧋/g, '').trim();
+            H.textContent = NombreOriginal;
 
-   var isMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-  
-        setTimeout(() => {
-         
-    if (isMobile) {   
-          if (esModoSerie || SERE.some(s => Enlace.includes(s))) {
-    window.location.href = Enlace;
-   H.textContent = '⏳Espere...';
-          } else if (MOVIE.some(mov => Enlace.includes(mov))) {
-            window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}&url=${encodeURIComponent(Enlace)}`;
-          } else if (Titulo.includes('🌐')) {
-    // Usamos let en lugar de var
-    let NN = Titulo.replace('🌐', '').trim();
-    let URL = Enlace + '?texto=' + encodeURIComponent(NN);
-    
-  window.location.href = URL;
-  
-    H.textContent = '⏳Espere...';
-          } else {
-    window.location.href = Enlace;
-   H.textContent = '⏳Espere...';
-          }
-      } else { // PC
-            if (esModoSerie || SERE.some(s => Enlace.includes(s))) {
-    window.location.href = Enlace;
-   H.textContent = '⏳Espere...';
-    
-          } else if (MOVIE.some(mov => Enlace.includes(mov))) {
-         window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}&url=${encodeURIComponent(Enlace)}`;
-          } else if (Titulo.includes('🌐')) {
-    // Usamos let en lugar de var
-    let NN = Titulo.replace('🌐', '').trim();
-    let URL = Enlace + '?texto=' + encodeURIComponent(NN);
-    
-   window.location.href = URL;
-    H.textContent = '⏳Espere...';
-          } else {
-    window.location.href = Enlace;
-   H.textContent = '⏳Espere...';
-          }
-  if (Enlace.includes('latino.solo')) {
-      Enlace = Enlace.replace('latino.solo-latino', 'h5.swplayer');
-   window.location.href = Enlace;
-  H.textContent = '⏳Espere...';
-    }
-        }
-      }, 1000);
-        
-        I.value = '';
-      };
+            setTimeout(() => {
+                H.textContent = '⏳Espere...';
+
+                if (esSerieLink && Enlace.includes('dropbox')) {
+                    // SERIE DE DROPBOX -> Pasa &exacto= para mantener capitulos y emojis
+                    window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}&url=${encodeURIComponent(Enlace)}&exacto=${encodeURIComponent(NombreOriginal)}`;
+                } else if (esSerieLink || SERE_KEYWORDS.some(s => Enlace.includes(s))) {
+                    // OTRAS SERIES
+                    window.location.href = Enlace;
+                } else if (PLAY2_DOMAINS.some(mov => Enlace.includes(mov))) {
+                    // PELÍCULAS
+                    window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}&url=${encodeURIComponent(Enlace)}`;
+                } else if (NombreOriginal.includes('🌐')) {
+                    let NN_clean = NombreOriginal.replace('🌐', '').trim();
+                    window.location.href = Enlace + '?texto=' + encodeURIComponent(NN_clean);
+                } else if (Enlace.includes('latino.solo')) {
+                    window.location.href = Enlace.replace('latino.solo-latino', 'h5.swplayer');
+                } else {
+                    window.location.href = Enlace;
+                }
+            }, 800);
+
+            var I = document.getElementById("I");
+            if (I) I.value = '';
+        };
     });    
     
-       H.onclick = () => {
-    window.location.search = esModoSerie ? '?peli' : '?serie';
-  }
+    H.onclick = () => {
+        window.location.search = esModoSerie ? '?peli' : '?serie';
+    }
 }); 
-</script>
-<script>
-// SCROLL
+
+// 4. SCROLL
 setTimeout(() => {
     var destino = document.querySelector('#H');
     if (destino) {
         var posicionY = destino.getBoundingClientRect().top + window.scrollY;
- 
-  // 1. Baja suavemente hacia .dato
-        window.scroll({
-            top: posicionY - 20, 
-            behavior: 'smooth'
-      });        
+        window.scroll({ top: posicionY - 20, behavior: 'smooth' });        
     }
 }, 800);
 </script>
 </body>
 </html>
-    
+
+
+
