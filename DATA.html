@@ -333,12 +333,12 @@ SEARCH.forEach(S => {
         var I = document.getElementById("I");
         var Logo = document.getElementById("Logo");
         if (I.value === '') {
-            if (I.style.display === 'block') {
-                I.style.display = 'none';
-                Logo.style.display = 'block';
+ if (I.style.display === 'block') {
+      I.style.display = 'none';
+    Logo.style.display = 'block';
             } else {
-                I.style.display = 'block';
-                Logo.style.display = 'none';
+   I.style.display = 'block';
+    Logo.style.display = 'none';
             }   
         } else {
             Check();
@@ -354,16 +354,16 @@ function abrirFuera(urlDestino) {
     window.location.href = intentURL;
 }
 
-function Check() {
-    var I = document.getElementById("I");
+     function Check() {
+        var I = document.getElementById("I");
     var isMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     var domain = isMobile ? 'lamovie.github.io/SeeKee/PLATAFORMAS.html' : 'https://www.google.com/search?q=site:sololatino.net+' + I.value;
     abrirFuera(domain);
     I.value = "";
 }
 
-function FiltrarLista() {
-    var I = document.getElementById("I");
+    function FiltrarLista() {
+         var I = document.getElementById("I");
     var query = I.value.toLowerCase().trim();
     var items = document.querySelectorAll('#Lista li');
        
@@ -377,16 +377,16 @@ function FiltrarLista() {
       
     items.forEach(li => {
         var texto = li.textContent.toLowerCase();
-        if (texto.includes(query)) {
-            li.style.display = 'flex';
+   if (texto.includes(query)) {
+   li.style.display = 'flex';
         } else {
-            li.style.display = 'none';
+   li.style.display = 'none';
         }
     });
 }
 
-function AccionEnter() {
-    var I = document.getElementById("I");
+    function AccionEnter() {
+       var I = document.getElementById("I");
     var query = I.value.toLowerCase().trim();
     var items = document.querySelectorAll('#Lista li');
     var coincidencia = null;
@@ -395,7 +395,7 @@ function AccionEnter() {
         items.forEach(li => {
             var texto = li.textContent.toLowerCase();
             if (!coincidencia && li.style.display !== 'none' && texto.includes(query)) {
-                coincidencia = li;
+            coincidencia = li;
             }
         });
     }
@@ -409,7 +409,7 @@ function AccionEnter() {
     }
 }
 
-// 3. CARGA DE LISTAS, CLASIFICACIÓN Y REDIRECCIÓN INTELIGENTE
+// 3.🔑 CARGA DE LISTAS, CLASIFICACIÓN Y REDIRECCIÓN INTELIGENTE
 window.addEventListener('DOMContentLoaded', () => {
     const params = new URLSearchParams(window.location.search);
     var esModoSerie = params.has('serie');
@@ -419,6 +419,7 @@ window.addEventListener('DOMContentLoaded', () => {
     var PLAY2_DOMAINS  = ['dropbox', 'play.vidyard', 'google.com/file', '.m3u8'];
 
     var PELIS = [...Lista1, ...Lista2, ...Lista3].reverse();
+    
     var Lista = document.getElementById("Lista");
     var H = document.getElementById("H");
 
@@ -427,9 +428,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
     if (esModoSerie) {
         Lista.classList.add('modo-serie');
-        H.textContent = "🧋 SERIES 🧋";
-    } else {
-        H.textContent = "🍿 PELÍCULAS 🍿";
+ H.textContent = "🧋 SERIES 🧋";
+        } else {
+ H.textContent = "🍿 PELÍCULAS 🍿";
     }
 
     PELIS.forEach(item => {
@@ -437,7 +438,7 @@ window.addEventListener('DOMContentLoaded', () => {
         let URL = item.URL || item.url || '';
         if (!URL) return;
 
-        // Si tiene CAPS o la palabra drama/folders/🧋, es Serie. Si no, es Película.
+        // 🔑 Si tiene CAPS o la palabra drama/folders/🧋, es Serie. Si no, es Película.
         let esSerie = !!(item.CAPS || item.caps || NN.includes('🧋') || SERE_KEYWORDS.some(s => URL.includes(s)));
         let debeMostrar = esModoSerie ? esSerie : (!esSerie && FILM_KEYWORDS.some(f => URL.includes(f)));
 
@@ -454,16 +455,16 @@ window.addEventListener('DOMContentLoaded', () => {
         lis.onclick = (e) => {
             e.preventDefault();
             
-            LIST.forEach(other => {
-                other.style.border = '';
+       LIST.forEach(other => {
+          other.style.border = '';
                 other.style.background = '#001';
                 let otherA = other.querySelector('a');
                 if (otherA) otherA.style.color = colorPorDefecto; 
-            });
+     });
 
-            lis.style.background = '#000';
-            lis.style.borderTop = '1px solid blue';
-            lis.style.borderBottom = '.1px solid #4f3';        
+     lis.style.background = '#000';
+     lis.style.borderTop = '1px solid blue';
+     lis.style.borderBottom = '.1px solid #4f3';        
             
             let activeA = lis.querySelector('a');
             if (activeA) activeA.style.color = colorActivo;
