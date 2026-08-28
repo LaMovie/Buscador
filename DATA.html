@@ -476,8 +476,10 @@ window.addEventListener('DOMContentLoaded', () => {
             var LIMPIO = NombreOriginal.replace(/🍿|🌐|📺|⚙️|🧋/g, '').trim();
             H.textContent = NombreOriginal;
 
-            setTimeout(() => {
-                H.textContent = '⏳Espere...';
+     var isMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+     
+         setTimeout(() => {
+  H.textContent = '⏳Espere...';
 
                 if (esSerieLink && Enlace.includes('dropbox')) {
                     // SERIE DE DROPBOX -> Pasa &exacto= para mantener capitulos y emojis
@@ -486,12 +488,12 @@ window.addEventListener('DOMContentLoaded', () => {
                     // OTRAS SERIES
                     window.location.href = Enlace;
                 } else if (PLAY2_DOMAINS.some(mov => Enlace.includes(mov))) {
-                    // PELÍCULAS
+          // PELÍCULAS
                     window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}&url=${encodeURIComponent(Enlace)}`;
                 } else if (NombreOriginal.includes('🌐')) {
                     let NN_clean = NombreOriginal.replace('🌐', '').trim();
                     window.location.href = Enlace + '?texto=' + encodeURIComponent(NN_clean);
-                } else if (Enlace.includes('latino.solo')) {
+                } else if (!isMobile && Enlace.includes('latino.solo')) {
                     window.location.href = Enlace.replace('latino.solo-latino', 'h5.swplayer');
                 } else {
                     window.location.href = Enlace;
