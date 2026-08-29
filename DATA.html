@@ -487,6 +487,11 @@ window.addEventListener('DOMContentLoaded', () => {
                 } else if (esSerieLink || SERE_KEYWORDS.some(s => Enlace.includes(s))) {
                     // OTRAS SERIES
                     window.location.href = Enlace;
+      
+      if (!isMobile && Enlace.includes('latino.solo')) {
+   window.location.href = Enlace.replace('latino.solo-latino', 'h5.swplayer');
+      }              
+                    
                 } else if (PLAY2_DOMAINS.some(mov => Enlace.includes(mov))) {
           // PELÍCULAS
                     window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}&url=${encodeURIComponent(Enlace)}`;
