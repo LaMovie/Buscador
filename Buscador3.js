@@ -213,7 +213,7 @@ var Lista3 = [
   { NAME: "🍿LAS MUÑECAS DE LA MAFIA ", URL: "https://latino.solo-latino.com/es/detail/drama/tOlEbmF7AiZvZVJi30tBB-The-Mafia-Dolls-Season-1" }, 
   { NAME: "🍿TWISTED METAL", URL: "https://latino.solo-latino.com/es/detail/drama/GlgS2LB0gZcAn2Ayurcfv-Twisted-Metal/1" },
   { NAME: "🍿AQUAMAN", URL: "https://latino.solo-latino.com/es/detail/movie/aQwxjtOMwnUaM8uENVTiH-Aquaman" }, 
-  { NAME: "🍿", URL: "" }, 
+  { NAME: "🍿GODZILLA", URL: "https://latino.solo-latino.com/es/detail/movie/FsUGmXqSZGuBZwMXAlLaT-Godzilla" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
