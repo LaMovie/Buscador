@@ -491,7 +491,9 @@ window.addEventListener('DOMContentLoaded', () => {
       if (!isMobile && Enlace.includes('latino.solo')) {
    window.location.href = Enlace.replace('latino.solo-latino', 'h5.swplayer');
       }              
-                    
+         if (Enlace.includes('pelisflix')) {
+ window.location.href = `https://lamovie.github.io/La-Movie-Delux/AUX.html?titulo=🍿${LIMPIO}&url=${Enlace}`;
+      }   
                 } else if (PLAY2_DOMAINS.some(mov => Enlace.includes(mov))) {
           // PELÍCULAS
                     window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}&url=${encodeURIComponent(Enlace)}`;
