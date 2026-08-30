@@ -35,7 +35,7 @@ var Lista3 = [
     ]
   }, 
   { NAME: "🧋1899", 
-  URL: "https://dl.dropboxusercontent.com/scl/fi/z45vdjqygxqv0fqe9tf1h/1899-01.mp4?rlkey=shwkvrmjplsthnxaz6ng7wjm3&st=w09o48hs&dl=0", 
+  URL: "https://www.dropbox.com/scl/fi/z45vdjqygxqv0fqe9tf1h/1899-01.mp4?rlkey=shwkvrmjplsthnxaz6ng7wjm3&st=w09o48hs&dl=0", 
   CAPS: [
       { cap: "1899-1", link: "https://www.dropbox.com/scl/fi/z45vdjqygxqv0fqe9tf1h/1899-01.mp4?rlkey=shwkvrmjplsthnxaz6ng7wjm3&st=w09o48hs&dl=0" }, 
       { cap: "1899-2", link: "https://www.dropbox.com/scl/fi/f90q453pcipzlx0tlx06l/1899-02.mp4?rlkey=jwf8h2uc492ri8moz6cqknjuf&st=ub753hx6&dl=0" }, 
@@ -48,7 +48,7 @@ var Lista3 = [
     ]
   }, 
   { NAME: "🧋LA CALLE DEL TERROR", 
-    URL: "https://dl.dropboxusercontent.com/scl/fi/vd0zr759iutadurzc4eai/LA-CALLE-DEL-TERROR-_1994_-parte-1.mp4?rlkey=dbd1qt6pfbouu26pl0a2c8hn1&st=9e6zm139&dl=0",
+    URL: "https://www.dropbox.com/scl/fi/vd0zr759iutadurzc4eai/LA-CALLE-DEL-TERROR-_1994_-parte-1.mp4?rlkey=dbd1qt6pfbouu26pl0a2c8hn1&st=9e6zm139&dl=0",
     CAPS: [
       { cap: "1994", link: "https://www.dropbox.com/scl/fi/vd0zr759iutadurzc4eai/LA-CALLE-DEL-TERROR-_1994_-parte-1.mp4?rlkey=dbd1qt6pfbouu26pl0a2c8hn1&st=9e6zm139&dl=0" },
       { cap: "1978", link: "https://www.dropbox.com/scl/fi/iokomblhnigjhpcoxt2p3/LA-CALLE-DEL-TERROR-1978-Parte-2.mp4?rlkey=lxde8vihztxd0b88kuy9hl9jz&st=0my35zof&dl=0" },
