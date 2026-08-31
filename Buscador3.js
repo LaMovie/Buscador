@@ -34,6 +34,31 @@ var Lista3 = [
       { cap: "3x09", link: "https://pelisflix1.cfd/episodio/silo-kiml-3x9/" }
     ]
   }, 
+  { NAME: "🍿MONARCH", 
+  URL: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-1x1/", 
+  CAPS: [
+      { cap: "1x01", link: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-1x1/" }, 
+      { cap: "1x02", link: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-1x2/" }, 
+      { cap: "1x03", link: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-1x3/" }, 
+      { cap: "1x04", link: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-1x4/" }, 
+      { cap: "1x05", link: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-1x5/" }, 
+      { cap: "1x06", link: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-1x6/" }, 
+      { cap: "1x07", link: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-1x7/" }, 
+      { cap: "1x08", link: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-1x8/" }, 
+      { cap: "1x09", link: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-1x9/" }, 
+      { cap: "1x10", link: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-1x10/" }, 
+      { cap: "2x01", link: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-2x1/" }, 
+      { cap: "2x02", link: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-2x2/" }, 
+      { cap: "2x03", link: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-2x3/" }, 
+      { cap: "2x04", link: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-2x4/" }, 
+      { cap: "2x05", link: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-2x5/" }, 
+      { cap: "2x06", link: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-2x6/" }, 
+      { cap: "2x07", link: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-2x7/" }, 
+      { cap: "2x08", link: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-2x8/" }, 
+      { cap: "2x09", link: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-2x9/" }, 
+      { cap: "2x10", link: "https://pelisflix1.cfd/episodio/monarch-legado-de-monstruos-kyol-2x10/" }
+    ]
+  }, 
   { NAME: "🧋1899", 
   URL: "https://www.dropbox.com/scl/fi/z45vdjqygxqv0fqe9tf1h/1899-01.mp4?rlkey=shwkvrmjplsthnxaz6ng7wjm3&st=w09o48hs&dl=0", 
   CAPS: [
