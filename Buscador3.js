@@ -1,5 +1,6 @@
 var Lista3 = [
   { NAME: "🍿FURIOSO", URL: "https://pelisflix1.pics/pelicula/the-furious/" }, 
+  { NAME: "🍿COYOTE vs ACME", URL: "https://pelisflix1.cfd/pelicula/coyote-vs-acme/" }, 
   { NAME: "🍿SILO", 
   URL: "https://pelisflix1.cfd/episodio/silo-kiml-1x1/", 
   CAPS: [
