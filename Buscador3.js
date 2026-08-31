@@ -248,7 +248,7 @@ var Lista3 = [
   { NAME: "🍿TWISTED METAL", URL: "https://latino.solo-latino.com/es/detail/drama/GlgS2LB0gZcAn2Ayurcfv-Twisted-Metal/1" },
   { NAME: "🍿AQUAMAN", URL: "https://latino.solo-latino.com/es/detail/movie/aQwxjtOMwnUaM8uENVTiH-Aquaman" }, 
   { NAME: "🍿GODZILLA", URL: "https://latino.solo-latino.com/es/detail/movie/FsUGmXqSZGuBZwMXAlLaT-Godzilla" }, 
-  { NAME: "🍿", URL: "" },
+  { NAME: "🍿LINTERNAS", URL: "https://latino.solo-latino.com/es/detail/drama/68W2b8GVy6EmV6lqGSiYx-Lanterns/1" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
