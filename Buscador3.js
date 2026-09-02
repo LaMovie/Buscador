@@ -1,6 +1,5 @@
 var Lista3 = [
   { NAME: "🍿FURIOSO", URL: "https://pelisflix1.pics/pelicula/the-furious/" }, 
-  { NAME: "🍿COYOTE vs ACME", URL: "https://pelisflix1.cfd/pelicula/coyote-vs-acme/" }, 
   { NAME: "🍿SILO", 
   URL: "https://pelisflix1.cfd/episodio/silo-kiml-1x1/", 
   CAPS: [
@@ -276,6 +275,7 @@ var Lista3 = [
   { NAME: "🍿GODZILLA", URL: "https://latino.solo-latino.com/es/detail/movie/FsUGmXqSZGuBZwMXAlLaT-Godzilla" }, 
   { NAME: "🍿LINTERNAS", URL: "https://latino.solo-latino.com/es/detail/drama/68W2b8GVy6EmV6lqGSiYx-Lanterns/1" }, 
   { NAME: "🍿THE BIG BANG THEORY", URL: "https://latino.solo-latino.com/es/detail/drama/UOBhKV0hLeD2pM3zl5uKa-Stuart-Fails-To-Save-The-Universe/1"}, 
+  {NAME: "🍿COYOTE vs ACME", URL: "https://latino.solo-latino.com/es/detail/movie/bl8biK80WV1HctHblK1uA-Coyote-vs-ACME"}, 
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
