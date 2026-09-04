@@ -501,7 +501,7 @@ window.addEventListener('DOMContentLoaded', () => {
    window.location.href = Enlace;
         
     } else if (!isMobile && Enlace.includes('mp4')) {
-  window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}&url=${encodeURIComponent(Enlace)}`;        
+  window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${LIMPIO}&url=${Enlace}`;        
     } else if (NombreOriginal.includes('🌐')) {
                     let NN_clean = NombreOriginal.replace('🌐', '').trim();
                     window.location.href = Enlace + '?texto=' + encodeURIComponent(NN_clean);
