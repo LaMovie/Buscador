@@ -483,7 +483,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
                 if (esSerieLink && Enlace.includes('dropbox')) {
                     // SERIE DE DROPBOX -> Pasa &exacto= para mantener capitulos y emojis
-                    window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}&url=${encodeURIComponent(Enlace)}&exacto=${encodeURIComponent(NombreOriginal)}`;
+                    window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}&exacto=${encodeURIComponent(NombreOriginal)}`;
                 } else if (esSerieLink || SERE_KEYWORDS.some(s => Enlace.includes(s))) {
                     // OTRAS SERIES
                     window.location.href = Enlace;
@@ -492,16 +492,13 @@ window.addEventListener('DOMContentLoaded', () => {
    window.location.href = Enlace.replace('latino.solo-latino', 'h5.swplayer');
       }              
          if (Enlace.includes('pelisflix')) {
- window.location.href = `https://lamovie.github.io/La-Movie-Delux/AUX.html?titulo=🍿${LIMPIO}&url=${Enlace}`;
+ window.location.href = `AUX.html?titulo=🍿${LIMPIO}&url=${Enlace}`;
       }   
                 } else if (PLAY2_DOMAINS.some(mov => Enlace.includes(mov))) {
           // PELÍCULAS
-                    window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}&url=${encodeURIComponent(Enlace)}`;
-                } else if (isMobile && Enlace.includes('mp4')) {
-   window.location.href = Enlace;
-        
-    } else if (!isMobile && Enlace.includes('mp4')) {
-  window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${LIMPIO}&url=${Enlace}`;        
+                    window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}`;
+                } else if (Enlace.includes('mp4')) {
+  window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${LIMPIO}`;        
     } else if (NombreOriginal.includes('🌐')) {
                     let NN_clean = NombreOriginal.replace('🌐', '').trim();
                     window.location.href = Enlace + '?texto=' + encodeURIComponent(NN_clean);
