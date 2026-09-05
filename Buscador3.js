@@ -81,6 +81,18 @@ var Lista3 = [
       { cap: "Dance Queen", link: "https://www.dropbox.com/scl/fi/xzm3kwhekyimgwtkqw2nc/La-Calle-Del-Terror_-La-Reina-Del-Baile-2025.mp4?rlkey=dgbaijb3i0lfrgrjkns9vlsvv&st=w2q19vrc&dl=0" }
     ]
   }, 
+  { NAME: "🧋MUSHOKU TENSEI 5", 
+    URL: "https://archive.org/details/mushoku-5x-04/Mushoku+5x01.mp4",
+    CAPS: [
+      { cap: "5x01", link: "https://archive.org/details/mushoku-5x-04/Mushoku+5x01.mp4" },
+      { cap: "5x02", link: "https://archive.org/details/mushoku-5x-04/Mushoku+5x02.mp4" },
+      { cap: "5x03", link: "https://archive.org/details/mushoku-5x-04/Mushoku+5x03.mp4" }, 
+      { cap: "5x04", link: "https://archive.org/details/mushoku-5x-04/Mushoku+5x04.mp4" }, 
+      { cap: "5x05", link: "https://archive.org/details/mushoku-5x-04/Mushoku+5x05.mp4" },
+      { cap: "5x06", link: "https://archive.org/details/mushoku-5x-04/Mushoku+5x06.mp4" }, 
+      { cap: "5x07", link: "https://archive.org/details/mushoku-5x-04/Mushoku+5x07.mp4" }
+    ]
+  }, 
   { NAME: "🍿TED", URL: "https://latino.solo-latino.com/es/detail/movie/jYpm5n2JnsFlahGuksW4x-Ted" },
   { NAME: "🍿DESTINO FINAL", URL: "https://latino.solo-latino.com/es/detail/movie/kL3SvPkWfniVKPIPhXcdc-Final-Destination" },
   { NAME: "🍿BORDERLANDS", URL: "https://latino.solo-latino.com/es/detail/movie/tT06q3HHM52YQFyLdL3ID-Borderlands" }, 
