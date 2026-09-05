@@ -39,12 +39,12 @@ body {
     overflow-x: auto;
     padding-left: 15px;
     text-align: center;
-    flex-wrap: nowrap;
     animation: Vista;
     animation-timeline: view();
     grid-template-columns: repeat(3, 1fr);
  */ scroll-snap-type: x mandatory;\*
     margin-bottom: 10px;
+    place-items: center;
 }
 .Container img {
     gap: 5px;
@@ -71,7 +71,6 @@ body {
     width: 110px;
     text-decoration: none;
 }
-
 .Container h4 {
     font-size: 12px;
     color: #ccc;
@@ -88,14 +87,6 @@ body {
 .Container::-webkit-scrollbar {
     width: 0px;
     background: transparent;
-}
-.H3 {
-    text-align: left;
-    margin-left: 15px;
-    margin-top: 15px;
-    font-size: 12px;
-    font-weight: 600;
-    color: white;
 }
 #Logo {
     text-align: center;
@@ -196,14 +187,14 @@ a {
     font-family: 'Luckiest Guy', cursive;
     -webkit-text-stroke: .1px #003;
     text-shadow: 0px .1px 0 #001;
+    place-items: center;
 }
 #Lista li {
     position: relative;
     width: 100%;
     height: 140px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    place-items: center;
     padding: 10px;
     box-sizing: border-box;
     border-radius: 16px;
@@ -242,6 +233,8 @@ a {
 /* Texto del título ajustado y centrado */
 #Lista li a {
     color: #4f7;
+    width: 100%;
+    display: block;
     font-size: 13px;
     line-height: 1.3;
     text-align: center;
@@ -268,6 +261,16 @@ a {
 /* HOVER MODO SERIE */
 #Lista.modo-serie li:hover a {
     color: #4f9;
+}
+
+@media (min-width: 768px) {
+    #Lista {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    #Lista li {
+        width: 100%;
+        height: 140px; 
+    }
 }
 </style>
 </head>
@@ -318,7 +321,7 @@ a {
 				<br/>
 				    </div>
 				    
-				 <h3 id="H">🍿 PELÍCULAS 🍿</h3>
+	 <h3 id="H">🍿 PELÍCULAS 🍿</h3>
       <ul id="Lista"></ul>
 				    				  </center>
 
@@ -329,8 +332,8 @@ a {
 <script>
 // 1. MANEJO DEL BUSCADOR Y LOGO
 var SEARCH = document.querySelectorAll('#Search, #Logo');
-SEARCH.forEach(S => {
-    S.onclick = () => {
+  SEARCH.forEach(S => {
+     S.onclick = () => {
         var I = document.getElementById("I");
         var Logo = document.getElementById("Logo");
         if (I.value === '') {
