@@ -90,7 +90,8 @@ var Lista3 = [
       { cap: "5x04", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x04.mp4" }, 
       { cap: "5x05", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x05.mp4" },
       { cap: "5x06", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x06.mp4" }, 
-      { cap: "5x07", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x07.mp4" }
+      { cap: "5x07", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x07.mp4" }, 
+      { cap: "5x08", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x08.mp4" }
     ]
   }, 
   { NAME: "🍿TED", URL: "https://latino.solo-latino.com/es/detail/movie/jYpm5n2JnsFlahGuksW4x-Ted" },
@@ -306,7 +307,7 @@ var Lista3 = [
 ]
    
 
- // https://latino.solo-latino.com/es/detail/movie/Ytie5e3eJ95h5gZtMmbWq-Spider-Man-Brand-New-Day
+ // https://latino.solo-latino.com/es/detail/drama/rGmQV9LfKl8drtny18uF8-Midnight-Texas-Season-1
 
 
 
