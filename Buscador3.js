@@ -81,17 +81,17 @@ var Lista3 = [
       { cap: "Dance Queen", link: "https://www.dropbox.com/scl/fi/xzm3kwhekyimgwtkqw2nc/La-Calle-Del-Terror_-La-Reina-Del-Baile-2025.mp4?rlkey=dgbaijb3i0lfrgrjkns9vlsvv&st=w2q19vrc&dl=0" }
     ]
   }, 
-  { NAME: "🧋MUSHOKU TENSEI 5", 
+  { NAME: "🧋MUSHOKU TENSEI 3", 
     URL: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x01.mp4",
     CAPS: [
-      { cap: "5x01", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x01.mp4" },
-      { cap: "5x02", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x02.mp4" },
-      { cap: "5x03", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x03.mp4" }, 
-      { cap: "5x04", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x04.mp4" }, 
-      { cap: "5x05", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x05.mp4" },
-      { cap: "5x06", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x06.mp4" }, 
-      { cap: "5x07", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x07.mp4" }, 
-      { cap: "5x08", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x08.mp4" }
+      { cap: "3x01", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x01.mp4" },
+      { cap: "3x02", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x02.mp4" },
+      { cap: "3x03", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x03.mp4" }, 
+      { cap: "3x04", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x04.mp4" }, 
+      { cap: "3x05", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x05.mp4" },
+      { cap: "3x06", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x06.mp4" }, 
+      { cap: "3x07", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x07.mp4" }, 
+      { cap: "3x08", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x08.mp4" }
     ]
   }, 
   { NAME: "🍿TED", URL: "https://latino.solo-latino.com/es/detail/movie/jYpm5n2JnsFlahGuksW4x-Ted" },
