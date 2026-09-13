@@ -263,6 +263,7 @@ a {
     color: #4f9;
 }
 
+
 @media (min-width: 768px) {
     #Lista {
         grid-template-columns: repeat(5, 1fr);
@@ -271,6 +272,17 @@ a {
         width: 100%;
         height: 140px; 
     }
+    #Lista::-webkit-scrollbar {
+    width: 6px;
+  }
+  #Lista::-webkit-scrollbar-thumb {
+    background: #f19; 
+    border-radius: 10px;
+  }
+  #Lista::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
 }
 </style>
 </head>
