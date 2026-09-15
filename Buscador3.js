@@ -91,7 +91,8 @@ var Lista3 = [
       { cap: "3x05", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x05.mp4" },
       { cap: "3x06", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x06.mp4" }, 
       { cap: "3x07", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x07.mp4" }, 
-      { cap: "3x08", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x08.mp4" }
+      { cap: "3x08", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x08.mp4" }, 
+      { cap: "3x09", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%203x09.mp4" }
     ]
   }, 
   { NAME: "🍿TED", URL: "https://latino.solo-latino.com/es/detail/movie/jYpm5n2JnsFlahGuksW4x-Ted" },
