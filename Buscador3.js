@@ -291,7 +291,7 @@ var Lista3 = [
   { NAME: "🍿THE BIG BANG THEORY", URL: "https://latino.solo-latino.com/es/detail/drama/UOBhKV0hLeD2pM3zl5uKa-Stuart-Fails-To-Save-The-Universe/1"}, 
   {NAME: "🍿COYOTE vs ACME", URL: "https://latino.solo-latino.com/es/detail/movie/bl8biK80WV1HctHblK1uA-Coyote-vs-ACME"}, 
   { NAME: "🍿LOS AERONAUTAS", URL: "https://latino.solo-latino.com/es/detail/movie/ctNAXgnvxHZaYiXtD96Je-The-Aeronauts" }, 
-  { NAME: "🍿", URL: "" },
+  { NAME: "🍿SPY X FAMILY", URL: "https://latino.solo-latino.com/es/detail/drama/r3Q2d6uUEuxfcEbV84drm-Spy-x-Family" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
