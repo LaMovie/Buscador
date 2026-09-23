@@ -293,7 +293,7 @@ var Lista3 = [
   {NAME: "🍿COYOTE vs ACME", URL: "https://latino.solo-latino.com/es/detail/movie/bl8biK80WV1HctHblK1uA-Coyote-vs-ACME"}, 
   { NAME: "🍿LOS AERONAUTAS", URL: "https://latino.solo-latino.com/es/detail/movie/ctNAXgnvxHZaYiXtD96Je-The-Aeronauts" }, 
   { NAME: "🍿SPY X FAMILY", URL: "https://latino.solo-latino.com/es/detail/drama/r3Q2d6uUEuxfcEbV84drm-Spy-x-Family" },
-  { NAME: "🍿", URL: "" }, 
+  { NAME: "🍿MERLIN", URL: "https://latino.solo-latino.com/es/detail/drama/AjnBSlYsW1mVz3ryDmDX2-Merlin-Season-1" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
