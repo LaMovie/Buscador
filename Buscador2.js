@@ -139,7 +139,6 @@ var Lista2 = [
 { name: "🍿Escape Room (La Peli)", url: "https://drive.google.com/file/d/1DWyoXH_FRGsEaaNA8815mJ_9lJqYKDel/view?usp=drive_link" },
 { name: "🍿Prey", url: "https://drive.google.com/file/d/17UHXQdh_5N94Dq9pZOjGX6zGT-xGKUdR/view?usp=drive_link" },
 { name: "🍿Padre No Hay Mas Que Uno", url: "https://drive.google.com/file/d/1un7rrCA0z7h-bEfYz_YsYqBl8gZjy1uZ/view?usp=drive_link" },
-{ name: "🍿Minions El Origen De Gru", url: "https://drive.google.com/file/d/1D5oefPY4C5-Yoc_6KIwMns0G6wGtqAW4/view?usp=drive_link" },
 { name: "🍿La Llamada Del Diablo", url: "https://drive.google.com/file/d/1QKKZSJITzyg8okkyjY5Np-r97_rAqpQa/view?usp=drive_link" },
 { name: "🍿Beavis & Butt", url: "https://drive.google.com/file/d/1Fyqy9RxN325jFxNMyW-6wmSsMXsoK813/view?usp=drive_link" },
 { name: "🍿Knives Out", url: "https://drive.google.com/file/d/1QCQY4kvI0UejtLDgUGmpWg10zNbkLdm7/view?usp=drive_link" },
@@ -519,10 +518,8 @@ var Lista2 = [
   {NAME: "🍿El Beso Del Dragon", URL: "https://play.vidyard.com/GE5B3yxEbKNekK821QHNpp"}, 
   {NAME: "🍿El Hip Hop Esta Que Arde", URL: "https://play.vidyard.com/dkuriVNAQJ8KzrmNJpqzKp"}, 
     { NAME: "🌐LA ODISEA", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
-    { NAME: "🌐SPIDER MAN NEW DAY", URL: "https://lamovie.github.io/PRE-ESTRENOS/"},  
     { NAME: "🌐OBSESION", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐MINIONS Y MONSTRUOS", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
-    { NAME: "🌐TOY STORY 5", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐PROYECTO FIN DEL MUNDO", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS.html"}, 
     { NAME: "🌐EL FINAL DE LA CALLE OAK", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐INSIDIOUS: FUERA DEL MAS ALLÁ", URL: "https://lamovie.github.io/PRE-ESTRENOS/"} 
