@@ -518,8 +518,6 @@ var Lista2 = [
   {NAME: "🍿El Beso Del Dragon", URL: "https://play.vidyard.com/GE5B3yxEbKNekK821QHNpp"}, 
   {NAME: "🍿El Hip Hop Esta Que Arde", URL: "https://play.vidyard.com/dkuriVNAQJ8KzrmNJpqzKp"}, 
     { NAME: "🌐LA ODISEA", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
-    { NAME: "🌐OBSESION", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
-    { NAME: "🌐MINIONS Y MONSTRUOS", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐PROYECTO FIN DEL MUNDO", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS.html"}, 
     { NAME: "🌐EL FINAL DE LA CALLE OAK", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐INSIDIOUS: FUERA DEL MAS ALLÁ", URL: "https://lamovie.github.io/PRE-ESTRENOS/"} 
