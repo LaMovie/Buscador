@@ -75,7 +75,6 @@ var Lista1 = [
   {name: "🍿Havoc", url: "https://drive.google.com/file/d/1ZrUMXjOXeUqWezWNCTEcI5LSOKYhTxCO/view?usp=drivesdk"}, 
   {name: "🍿Invencible 4", url: "https://drive.google.com/drive/folders/1uqFCsIzySbQPpie5YoUiLrzfmHIHb0Ot"}, 
   {name: "🍿The Boys 5", url: "https://drive.google.com/drive/folders/16vlUiz3pcufnHT6URc9xeIKFfLQNyWih"}, 
-  {name: "🍿Whistle", url: "https://drive.google.com/file/d/1sRwwZ8dAc2eesMqahYbWBxnd2XQt2ed-/view?usp=drivesdk"}, 
   {name: "🍿From 4", url: "https://drive.google.com/drive/folders/1MZSokk-ewcU0zkCG8MdZLKQdSidKkpE3"}, 
   {name: "🍿They Will Kill You", url: "https://drive.google.com/file/d/1pWvuis59ElwxQU5ZXpkljQsnF9KwhtAk/view?usp=drivesdk"}, 
   {name: "🍿Castle Rock 1", url: "https://drive.google.com/drive/folders/1P96INzsSs2dui4WE9t8FRjmrbZ0LoKxF"}, 

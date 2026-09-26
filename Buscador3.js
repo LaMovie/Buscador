@@ -299,7 +299,7 @@ var Lista3 = [
   { NAME: "🍿MI VILLANO FAVORITO", URL: "https://latino.solo-latino.com/es/detail/movie/VBqq16P94zW0Myn2ZFIrQ-Despicable-Me-2" },
   { NAME: "🍿SPIDER MAN NEW DAY", URL: "https://latino.solo-latino.com/es/detail/movie/Ytie5e3eJ95h5gZtMmbWq-Spider-Man-Brand-New-Day"},  
   { NAME: "🍿OBSESION", URL: "https://latino.solo-latino.com/es/detail/movie/81NqnKUKqaVF41lZfLlZ7-Obsession" },
-  { NAME: "🍿", URL: "" }, 
+  { NAME: "🍿WHISTLE", URL: "https://latino.solo-latino.com/es/detail/movie/whgyiD6nbgu8efKK8cBmM-Whistle" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
