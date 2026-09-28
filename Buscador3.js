@@ -1,4 +1,20 @@
 var Lista3 = [
+  { NAME: "🧋MUSHOKU TENSEI 3", 
+    URL: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x01.mp4",
+    CAPS: [
+      { cap: "3x01", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x01.mp4" },
+      { cap: "3x02", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x02.mp4" },
+      { cap: "3x03", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x03.mp4" }, 
+      { cap: "3x04", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x04.mp4" }, 
+      { cap: "3x05", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x05.mp4" },
+      { cap: "3x06", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x06.mp4" }, 
+      { cap: "3x07", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x07.mp4" }, 
+      { cap: "3x08", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x08.mp4" }, 
+      { cap: "3x09", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%203x09.mp4" }, 
+      { cap: "3x10", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%203x10.mp4" }, 
+      { cap: "3x11", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%203x11.mp4" }
+    ] 
+  }, 
   { NAME: "🍿FURIOSO", URL: "https://pelisflix1.pics/pelicula/the-furious/" }, 
   { NAME: "🍿SILO", 
   URL: "https://pelisflix1.cfd/episodio/silo-kiml-1x1/", 
@@ -80,21 +96,6 @@ var Lista3 = [
       { cap: "1666", link: "https://www.dropbox.com/scl/fi/734s51b59te3x8ovigiyv/LA-CALLE-DEL-TERROR-1666-PARTE-3-2021.mp4?rlkey=50ch90h7vh0840xm4kl6yaj5f&st=3dthmzav&dl=0" }, 
       { cap: "Dance Queen", link: "https://www.dropbox.com/scl/fi/xzm3kwhekyimgwtkqw2nc/La-Calle-Del-Terror_-La-Reina-Del-Baile-2025.mp4?rlkey=dgbaijb3i0lfrgrjkns9vlsvv&st=w2q19vrc&dl=0" }
     ]
-  }, 
-  { NAME: "🧋MUSHOKU TENSEI 3", 
-    URL: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x01.mp4",
-    CAPS: [
-      { cap: "3x01", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x01.mp4" },
-      { cap: "3x02", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x02.mp4" },
-      { cap: "3x03", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x03.mp4" }, 
-      { cap: "3x04", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x04.mp4" }, 
-      { cap: "3x05", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x05.mp4" },
-      { cap: "3x06", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x06.mp4" }, 
-      { cap: "3x07", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x07.mp4" }, 
-      { cap: "3x08", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x08.mp4" }, 
-      { cap: "3x09", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%203x09.mp4" }, 
-      { cap: "3x10", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%203x10.mp4" }
-    ] 
   }, 
   { NAME: "🍿TED", URL: "https://latino.solo-latino.com/es/detail/movie/jYpm5n2JnsFlahGuksW4x-Ted" },
   { NAME: "🍿DESTINO FINAL", URL: "https://latino.solo-latino.com/es/detail/movie/kL3SvPkWfniVKPIPhXcdc-Final-Destination" },
