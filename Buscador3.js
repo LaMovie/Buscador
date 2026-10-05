@@ -12,7 +12,8 @@ var Lista3 = [
       { cap: "3x08", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%205x08.mp4" }, 
       { cap: "3x09", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%203x09.mp4" }, 
       { cap: "3x10", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%203x10.mp4" }, 
-      { cap: "3x11", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%203x11.mp4" }
+      { cap: "3x11", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%203x11.mp4" }, 
+      { cap: "3x12", link: "https://ia601605.us.archive.org/8/items/mushoku-5x-04/Mushoku%203x12.mp4" }
     ] 
   }, 
   { NAME: "🍿FURIOSO", URL: "https://pelisflix1.pics/pelicula/the-furious/" }, 
