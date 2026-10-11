@@ -517,8 +517,8 @@ var Lista2 = [
   {NAME: "🍿Desde El Infierno", URL: "https://play.vidyard.com/w7h4uSQ1gxDieYbXFS7aVE"}, 
   {NAME: "🍿El Beso Del Dragon", URL: "https://play.vidyard.com/GE5B3yxEbKNekK821QHNpp"}, 
   {NAME: "🍿El Hip Hop Esta Que Arde", URL: "https://play.vidyard.com/dkuriVNAQJ8KzrmNJpqzKp"}, 
-    { NAME: "🌐EL EXORCISTA", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS.html"}, 
-    { NAME: "🌐DOOMSDAY", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS.html"} 
+    { NAME: "🌐EL EXORCISTA", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
+    { NAME: "🌐DOOMSDAY", URL: "https://lamovie.github.io/PRE-ESTRENOS/"} 
 ];
 
 
