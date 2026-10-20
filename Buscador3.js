@@ -317,7 +317,7 @@ var Lista3 = [
   { NAME: "🍿SI NO DESPIERTO", URL: "https://latino.solo-latino.com/es/detail/movie/5WMBLbBvzPaadNWtzU6SO-Before-I-Fall" },
   { NAME: "🍿HITMAN", URL: "https://latino.solo-latino.com/es/detail/movie/j9ePumY9kUqDL6IjI932e-Hitman" },
   { NAME: "🍿VISIONQUEST", URL: "https://latino.solo-latino.com/es/detail/drama/pxj9uS7n5faOTxTYMsebq-VisionQuest/1" },
-  { NAME: "🍿", URL: "" }, 
+  { NAME: "🍿AMERICAN HORROR STORY", URL: "https://peliculaplay.com/es/detail/drama/0Y83Hpow6HrMYEYzXLpZO-American-Horror-Story-Season-13" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
