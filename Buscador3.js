@@ -318,7 +318,7 @@ var Lista3 = [
   { NAME: "🍿HITMAN", URL: "https://latino.solo-latino.com/es/detail/movie/j9ePumY9kUqDL6IjI932e-Hitman" },
   { NAME: "🍿VISIONQUEST", URL: "https://latino.solo-latino.com/es/detail/drama/pxj9uS7n5faOTxTYMsebq-VisionQuest/1" },
   { NAME: "🍿AMERICAN HORROR STORY", URL: "https://latino.solo-latino.com/es/detail/drama/AxKH9u7UU4gWG6TxloNRE-American-Horror-Story-Murder-House" }, 
-  { NAME: "🍿YAGA", URL: "https://latino.solo-latino.com/es/detail/drama/gEY4bL5kakvmJ94hska4m-YAGA/1" },
+  { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
@@ -337,10 +337,10 @@ var Lista3 = [
 ]
    
 
- // https://latino.solo-latino.com/es/detail/drama/rGmQV9LfKl8drtny18uF8-Midnight-Texas-Season-1
+ /* https://latino.solo-latino.com/es/detail/drama/rGmQV9LfKl8drtny18uF8-Midnight-Texas-Season-1
 
-
-
+https://latino.solo-latino.com/es/detail/drama/gEY4bL5kakvmJ94hska4m-YAGA/1
+*/
   
   
   
