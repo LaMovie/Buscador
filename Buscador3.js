@@ -322,7 +322,7 @@ var Lista3 = [
   { NAME: "🍿CORALINE", URL: "https://latino.solo-latino.com/es/detail/movie/4hMTF5IL37ZeGcoe5Kk7l-Coraline" },
   { NAME: "🍿DRAGON BALL", URL: "https://latino.solo-latino.com/es/detail/drama/GacIvOTj4v5klKiUPWXUW-Dragon-Ball" }, 
   { NAME: "🍿CRYSTAL LAKE", URL: "https://latino.solo-latino.com/es/detail/drama/Nexmt2Uq6z7JZrGWxmiDc-Crystal-Lake/1" },
-  { NAME: "🍿", URL: "" }, 
+  { NAME: "🍿LA ISLA DEL TESORO", URL: "https://latino.solo-latino.com/es/detail/drama/3S9BOuYvOKEvn4JLR1fr1-Treasure-Island/1" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
