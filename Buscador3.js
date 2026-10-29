@@ -324,7 +324,7 @@ var Lista3 = [
   { NAME: "🍿CRYSTAL LAKE", URL: "https://latino.solo-latino.com/es/detail/drama/Nexmt2Uq6z7JZrGWxmiDc-Crystal-Lake/1" },
   { NAME: "🍿LA ISLA DEL TESORO", URL: "https://latino.solo-latino.com/es/detail/drama/3S9BOuYvOKEvn4JLR1fr1-Treasure-Island/1" }, 
   { NAME: "🍿RESIDENT EVIL NOCHE CERO", URL: "https://latino.solo-latino.com/es/detail/movie/gUgAOLaq4gw9vddGRKwXW-Resident-Evil" },
-  { NAME: "🍿", URL: "" }, 
+  { NAME: "🍿LA HERENCIA DE HOPE HILL", URL: "https://latino.solo-latino.com/es/detail/drama/keRsCHOPm5q82oyPXqOEL-Possession/1" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
