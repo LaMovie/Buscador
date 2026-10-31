@@ -401,7 +401,7 @@ var Lista2 = [
     { NAME: "🍿Agentes Del Desorden", URL: "https://drive.google.com/file/d/10j-eMI6Z1bBW3gdU8rk9gerV9e4pe6S4/view?usp=drivesdk"}, 
     { name: "🍿One Punch Man 1", url: "https://u.pcloud.link/publink/show?code=kZ60xEVZyfwv7tnr0nYCKW1Y2PDY17abGhl7&tpl=publicfoldergrid" },
 { name: "🍿Extraction 2", url: "https://u.pcloud.link/publink/show?code=XZvHeUVZpUPsOBHOtN7UfyH4zxQNvjt0fokX&gallery=open" },
-{ name: "🍿Asterix Y Obelix", url: "https://u.pcloud.link/publink/show?code=kZcAjX0ZczeInSdPm2QK84nOmFHrL0KSmEsk#/filemanager?folder=17575507142&gallery=open" },
+{ name: "🍿Asterix Y Obelix", url: "https://u.pcloud.link/publink/show?code=kZcAjX0ZczeInSdPm2QK84nOmFHrL0KSmEsk#/login?folder=17575507142&gallery=open" },
 { name: "🍿Ghosted", url: "https://u.pcloud.link/publink/show?code=XZCOCEVZbLDvfRrfq4VSubMhUbx4Op7Y0Ohk&gallery=open" },
 { name: "🍿Replicas", url: "https://u.pcloud.link/publink/show?code=XZv9raVZlOY28EQi9JzTWWbJEjF5PYeX49bX&gallery=open" },
 { name: "🍿M3gan", url: "https://u.pcloud.link/publink/show?code=kZcAjX0ZczeInSdPm2QK84nOmFHrL0KSmEsk#/filemanager?folder=18517633812&gallery=open" },
