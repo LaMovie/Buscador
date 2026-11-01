@@ -326,7 +326,7 @@ var Lista3 = [
   { NAME: "🍿RESIDENT EVIL NOCHE CERO", URL: "https://latino.solo-latino.com/es/detail/movie/gUgAOLaq4gw9vddGRKwXW-Resident-Evil" },
   { NAME: "🍿LA HERENCIA DE HOPE HILL", URL: "https://latino.solo-latino.com/es/detail/drama/keRsCHOPm5q82oyPXqOEL-Possession/1" }, 
   { NAME: "🍿LA MALDICIÓN DE HILL HOUSE", URL: "https://latino.solo-latino.com/es/detail/drama/4P5nKxyFgcISAJuPMWDmq-The-Haunting-of-Hill-House/1" },
-  { NAME: "🍿", URL: "" }, 
+  { NAME: "🍿MOB PSYCHO 100", URL: "https://latino.solo-latino.com/es/detail/drama/TlcVQ6kE2Dody7UIglvfZ-Mob-Psycho-100" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
