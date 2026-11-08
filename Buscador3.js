@@ -327,7 +327,7 @@ var Lista3 = [
   { NAME: "🍿LA HERENCIA DE HOPE HILL", URL: "https://latino.solo-latino.com/es/detail/drama/keRsCHOPm5q82oyPXqOEL-Possession/1" }, 
   { NAME: "🍿LA MALDICIÓN DE HILL HOUSE", URL: "https://latino.solo-latino.com/es/detail/drama/4P5nKxyFgcISAJuPMWDmq-The-Haunting-of-Hill-House/1" },
   { NAME: "🍿MOB PSYCHO 100", URL: "https://latino.solo-latino.com/es/detail/drama/TlcVQ6kE2Dody7UIglvfZ-Mob-Psycho-100" }, 
-  { NAME: "🍿", URL: "" },
+  { NAME: "🍿SPARE ME GREAT LORD", URL: "https://latino.solo-latino.com/es/detail/drama/UQAH01GF51TdZoBMVJDad-Spare-Me-Great-Lord-Season1" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
