@@ -329,7 +329,7 @@ var Lista3 = [
   { NAME: "🍿MOB PSYCHO 100", URL: "https://latino.solo-latino.com/es/detail/drama/TlcVQ6kE2Dody7UIglvfZ-Mob-Psycho-100" }, 
   { NAME: "🍿SPARE ME GREAT LORD", URL: "https://latino.solo-latino.com/es/detail/drama/UQAH01GF51TdZoBMVJDad-Spare-Me-Great-Lord-Season1" },
   { NAME: "🍿UN TRABAJO MALDITO", URL: "https://latino.solo-latino.com/es/detail/drama/UfAUwTenBanQN9Bxpz4j7-Dead-End-Job/1" }, 
-  { NAME: "🍿", URL: "" },
+  { NAME: "🍿Y DONDE ESTAN LAS RUBIAS", URL: "https://latino.solo-latino.com/es/detail/movie/6AWoQRYo5hNh5YsCGoCym-White-Chicks" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
