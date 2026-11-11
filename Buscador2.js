@@ -516,10 +516,11 @@ var Lista2 = [
   {NAME: "🍿El Hip Hop Esta Que Arde", URL: "https://play.vidyard.com/dkuriVNAQJ8KzrmNJpqzKp"}, 
     { NAME: "🌐EBENEZER🔴", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐EL EXORCISTA🔴", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
-    { NAME: "🌐DOOMSDAY🔴", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
-    { NAME: "🌐LA CAIDA DE LA BALLENA🔴", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
+    { NAME: "🌐DOOMSDAY🔴", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS"}, 
     { NAME: "🌐OTHER MOMMY", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
-    { NAME: "🌐CLAYFACE", URL: "https://lamovie.github.io/PRE-ESTRENOS/"} 
+    { NAME: "🌐CLAYFACE", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
+    { NAME: "🌐DIGGER", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
+    { NAME: "🌐STREET FIGHTER", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}     
 ];
 
 
