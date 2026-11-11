@@ -331,7 +331,7 @@ var Lista3 = [
   { NAME: "🍿UN TRABAJO MALDITO", URL: "https://latino.solo-latino.com/es/detail/drama/UfAUwTenBanQN9Bxpz4j7-Dead-End-Job/1" }, 
   { NAME: "🍿Y DONDE ESTAN LAS RUBIAS", URL: "https://latino.solo-latino.com/es/detail/movie/6AWoQRYo5hNh5YsCGoCym-White-Chicks" },
   { NAME: "🍿DESNUDO", URL: "https://latino.solo-latino.com/es/detail/movie/E9iUOeHO8OMLc52eOKpjW-Naked" }, 
-  { NAME: "🍿BLENDED", URL: "https://latino.solo-latino.com/es/detail/movie/JMVrcy39n5GAFHCxrwUuW-Blended"}, 
+  { NAME: "🍿JUNTOS Y REVUELTOS", URL: "https://latino.solo-latino.com/es/detail/movie/JMVrcy39n5GAFHCxrwUuW-Blended"}, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
