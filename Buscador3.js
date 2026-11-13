@@ -332,7 +332,7 @@ var Lista3 = [
   { NAME: "🍿Y DONDE ESTAN LAS RUBIAS", URL: "https://latino.solo-latino.com/es/detail/movie/6AWoQRYo5hNh5YsCGoCym-White-Chicks" },
   { NAME: "🍿DESNUDO", URL: "https://latino.solo-latino.com/es/detail/movie/E9iUOeHO8OMLc52eOKpjW-Naked" }, 
   { NAME: "🍿JUNTOS Y REVUELTOS", URL: "https://latino.solo-latino.com/es/detail/movie/JMVrcy39n5GAFHCxrwUuW-Blended"}, 
-  { NAME: "🍿", URL: "" },
+  { NAME: "🍿ANILLOS DE PODER 3", URL: "https://latino.solo-latino.com/es/detail/drama/2VBnz0UzzpaCRcXukivQu-The-Lord-of-the-Rings-The-Rings-of-Power-Season-3/1" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" },
