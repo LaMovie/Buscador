@@ -572,6 +572,21 @@ setTimeout(() => {
         window.scroll({ top: posicionY - 20, behavior: 'smooth' });        
     }
 }, 800);
+
+      // CARDS INICIALES
+  Oculto.onclick = (e) => {
+     e.preventDefault();
+ var Link = e.target.closest('a');        
+   
+    var isMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);  
+      
+     if (Link && isMobile) {
+             var URL = Link.href.replace('h5.swplayer', 'latino.solo-latino');
+        }
+         setTimeout(() => {
+    window.location.href = URL;
+     }, 500);
+  } 
 </script>
 </body>
 </html>
