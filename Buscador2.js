@@ -517,9 +517,8 @@ var Lista2 = [
     { NAME: "🌐EBENEZER🔴", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐EL EXORCISTA🔴", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐DOOMSDAY🔴", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS"}, 
-    { NAME: "🌐OTHER MOMMY", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐CLAYFACE", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
-    { NAME: "🌐DIGGER", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
+    { NAME: "🌐GODZILLA MINUS CERO", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐STREET FIGHTER", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}     
 ];
 
