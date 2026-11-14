@@ -129,7 +129,7 @@ var Lista1 = [
   {name: "🍿Palm Springs", url: "https://ia601609.us.archive.org/26/items/moonfall-2022_202609/Palm%20Springs%20%282020%29.mp4"}, 
   {name: "🍿Dulce Sabor A Muerte", url: "https://ia601609.us.archive.org/26/items/moonfall-2022_202609/DULCE%20SABOR%20A%20MUERTE%20%282026%29.mp4"}, 
   {name: "🍿Other Mommy", url: "https://ia601609.us.archive.org/26/items/moonfall-2022_202609/OTHER%20MOMMY%20%282026%29.mp4"},  
-  {name: "🍿Scary Movie 6", url: ""}, 
+  {name: "🍿Scary Movie 6", url: "https://ia601609.us.archive.org/26/items/moonfall-2022_202609/SCARY%20MOVIE%206%20%282026%29.mp4"}, 
   {name: "🍿", url: ""}, 
   {name: "🍿", url: ""}, 
   {name: "🍿", url: ""}, 
