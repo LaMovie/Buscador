@@ -582,11 +582,14 @@ setTimeout(() => {
       
      if (Link && isMobile) {
              var URL = Link.href.replace('h5.swplayer', 'latino.solo-latino');
-        }
-         setTimeout(() => {
+                  
+   } else if (Link && !isMobile) {
+        URL = Link.href;
+   }
+       setTimeout(() => {
     window.location.href = URL;
-     }, 500);
-  } 
+     }, 500);          
+ } 
 </script>
 </body>
 </html>
