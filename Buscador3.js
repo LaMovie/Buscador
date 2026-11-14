@@ -129,7 +129,7 @@ var Lista3 = [
   { NAME: "🍿DIRK GENTLY", URL: "https://latino.solo-latino.com/es/detail/drama/9BmxQONumy1KNNbbmGpt0-Dirk-Gentlys-Holistic-Detective-Agency-Season-1/1" }, 
   { name: "🍿GHOSTS", url: "https://latino.solo-latino.com/es/detail/drama/wmYN3J8hhwugbQZjnwBNL-Ghosts-Season-1/1" },
   { NAME: "🍿CAPITANA MARVEL 2", URL: "https://latino.solo-latino.com/es/detail/movie/9o02bhoGgNzoUaxGJdlWu-The-Marvels" }, 
-  { NAME: "🍿SCARY MOVIE", URL: "https://latino.solo-latino.com/es/detail/movie/JonKAKpeSbz6qdgfwBmws-Scary-Movie-6" },
+  { NAME: "🍿SCARY MOVIE", URL: "https://latino.solo-latino.com/es/detail/movie/UXkaj1Os3vuC3CO52Tk9H-Scary-Movie" },
   { NAME: "🍿NO ESTARAS SOLA", URL: "https://latino.solo-latino.com/es/detail/movie/q8t2hkYB5lZlU4sa93Ikh-You-Wont-Be-Alone" }, 
   { NAME: "🍿PULP FICTION", URL: "https://latino.solo-latino.com/es/detail/movie/66294-Pulp-Fiction" }, 
   { NAME: "🍿TITANIC", URL: "https://latino.solo-latino.com/es/detail/movie/IKRQjuA2DE1twZBe1cCWc-Titanic" },
