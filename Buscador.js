@@ -9,7 +9,6 @@ var Lista1 = [
   {name: "🍿Compañera Perfecta", url: "https://drive.google.com/file/d/1DecN2-1vYkdwLbqG83F95kGM9mWggN14/view?usp=drivesdk"},
   {name: "🍿Desencanto 5", url: "https://drive.google.com/drive/folders/1ahKbN0K3IdhEIWs9p1xbvfxalSECTQrh"},
   {name: "🍿Los Horrores De Caddo Lake", url: "https://drive.google.com/file/d/1eSDfIDWjKOqDaRX4U0eG53obfR3zSw-1/view?usp=drivesdk"},
-  {name: "📺Strario tv", url: "https://archive.org/download/strario-tv-y-deportes-v-1.0.2-estable/Strario%20-%20TV%20y%20Deportes%20-%20v1.0.2%20Estable.apk"},
   {name: "🍿La Rueda Del Tiempo 3", url: "https://drive.google.com/drive/folders/1KC_t3WcbLaF3INgIfZcW5I7uXZ7nAxmU"},
   {name: "🍿Novocaine", url: "https://drive.google.com/file/d/1nrGqoPR0FhL5kRN7GXjsdCImWN5kx0bT/view?usp=drivesdk"},
   {name: "🍿Rescate Implacable", url: "https://drive.google.com/file/d/1HLFGCKgev_X63xZHSBVIdaEGlg54k_6m/view?usp=drivesdk"},
