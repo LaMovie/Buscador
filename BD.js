@@ -1,7 +1,7 @@
 var baseDePeliculas = [
-    { titulo: "THEY WILL KILL YOU", img: "IMG-BD/imagen_27.jpg", url: "https://drive.google.com/file/d/1pWvuis59ElwxQU5ZXpkljQsnF9KwhtAk/view?usp=drivesdk", esDrive: true },
-    { titulo: "BODA SANGRIENTA 2", img: "IMG-BD/imagen_19.jpg", url: "https://latino.solo-latino.com/es/detail/movie/Scen4HIQ82DEwa1aXDYgf-Ready-or-Not-2-Here-I-Come", esDrive: false },
-    { titulo: "VISIONQUEST", img: "IMG-BD/imagen_10.jpg", url: "https://latino.solo-latino.com/es/detail/drama/pxj9uS7n5faOTxTYMsebq-VisionQuest/1", esDrive: false },
+    { titulo: "THEY WILL KILL YOU", img: "IMG_BD/imagen_27.jpg", url: "https://drive.google.com/file/d/1pWvuis59ElwxQU5ZXpkljQsnF9KwhtAk/view?usp=drivesdk", esDrive: true },
+    { titulo: "BODA SANGRIENTA 2", img: "IMG_BD/imagen_19.jpg", url: "https://latino.solo-latino.com/es/detail/movie/Scen4HIQ82DEwa1aXDYgf-Ready-or-Not-2-Here-I-Come", esDrive: false },
+    { titulo: "VISIONQUEST", img: "IMG_BD/imagen_10.jpg", url: "https://latino.solo-latino.com/es/detail/drama/pxj9uS7n5faOTxTYMsebq-VisionQuest/1", esDrive: false },
     { titulo: "POSSESSION", img: "IMG-BD/imagen_7.jpg", url: "https://latino.solo-latino.com/es/detail/drama/keRsCHOPm5q82oyPXqOEL-Possession/1", esDrive: false },
     { titulo: "PALM SPRINGS", img: "IMG-BD/imagen_88.jpg", url: "https://latino.solo-latino.com/es/detail/movie/89782-Palm-Springs", esDrive: false },
     { titulo: "CARRIE", img: "IMG-BD/imagen_9.jpg", url: "https://latino.solo-latino.com/es/detail/drama/2cTdE1mz208uHDe9dzjRK-Carrie/1", esDrive: false },
