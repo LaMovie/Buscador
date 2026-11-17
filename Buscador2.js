@@ -514,9 +514,8 @@ var Lista2 = [
   {NAME: "🍿Desde El Infierno", URL: "https://play.vidyard.com/w7h4uSQ1gxDieYbXFS7aVE"}, 
   {NAME: "🍿El Beso Del Dragon", URL: "https://play.vidyard.com/GE5B3yxEbKNekK821QHNpp"}, 
   {NAME: "🍿El Hip Hop Esta Que Arde", URL: "https://play.vidyard.com/dkuriVNAQJ8KzrmNJpqzKp"}, 
-    { NAME: "🌐EBENEZER🔴", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
-    { NAME: "🌐EL EXORCISTA🔴", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
-    { NAME: "🌐DOOMSDAY🔴", URL: "https://lamovie.github.io/PRE-ESTRENOS/MAS"}, 
+    { NAME: "🌐DOOMSDAY🔴", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
+    { NAME: "🌐EBENEZER", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐CLAYFACE", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐GODZILLA MINUS CERO", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
     { NAME: "🌐STREET FIGHTER", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}     
