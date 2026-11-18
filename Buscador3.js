@@ -334,10 +334,10 @@ var Lista3 = [
   { NAME: "🍿JUNTOS Y REVUELTOS", URL: "https://latino.solo-latino.com/es/detail/movie/JMVrcy39n5GAFHCxrwUuW-Blended"}, 
   { NAME: "🍿ANILLOS DE PODER 3", URL: "https://latino.solo-latino.com/es/detail/drama/2VBnz0UzzpaCRcXukivQu-The-Lord-of-the-Rings-The-Rings-of-Power-Season-3/1" },
   { NAME: "🍿LA MANGOSTA", URL: "https://latino.solo-latino.com/es/detail/movie/7sXMA0RXsWBuaYDJDvCum-The-Mongoose" }, 
-  { NAME: "🍿", URL: "" },
-  { NAME: "🍿", URL: "" },
-  { NAME: "🍿", URL: "" }, 
-  { NAME: "🍿", URL: "" },
+  { NAME: "🍿MIDNIGHT TEXAS", URL: "https://latino.solo-latino.com/es/detail/drama/rGmQV9LfKl8drtny18uF8-Midnight-Texas-Season-1" }, 
+  { NAME: "🍿BLACK CLOVER", URL: "https://latino.solo-latino.com/es/detail/drama/xnf7hFDVa2eGSnvENWky4-Black-Clover-Season-1" },
+  { NAME: "🍿", URL: "https://latino.solo-latino.com/es/detail/movie/kHVMXSdkBAJOHIYUj6MHQ-Street-Fighter" },
+  { NAME: "🍿", URL: "https://latino.solo-latino.com/es/detail/movie/vES6QxwxPUbUThL6hjqam-Clayface" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" },
@@ -354,14 +354,7 @@ var Lista3 = [
 ]
    
 
- /* https://latino.solo-latino.com/es/detail/drama/rGmQV9LfKl8drtny18uF8-Midnight-Texas-Season-1
 
-https://latino.solo-latino.com/es/detail/drama/gEY4bL5kakvmJ94hska4m-YAGA/1
-
-https://latino.solo-latino.com/es/detail/movie/h9bQ0Ad10IfdVpfmSlGDZ-Other-Mommy
-
-https://latino.solo-latino.com/es/detail/movie/vES6QxwxPUbUThL6hjqam-Clayface
-*/
   
   
   
