@@ -336,8 +336,8 @@ var Lista3 = [
   { NAME: "🍿LA MANGOSTA", URL: "https://latino.solo-latino.com/es/detail/movie/7sXMA0RXsWBuaYDJDvCum-The-Mongoose" }, 
   { NAME: "🍿MIDNIGHT TEXAS", URL: "https://latino.solo-latino.com/es/detail/drama/rGmQV9LfKl8drtny18uF8-Midnight-Texas-Season-1" }, 
   { NAME: "🍿BLACK CLOVER", URL: "https://latino.solo-latino.com/es/detail/drama/xnf7hFDVa2eGSnvENWky4-Black-Clover-Season-1" },
-  { NAME: "🍿", URL: "https://latino.solo-latino.com/es/detail/movie/kHVMXSdkBAJOHIYUj6MHQ-Street-Fighter" },
-  { NAME: "🍿", URL: "https://latino.solo-latino.com/es/detail/movie/vES6QxwxPUbUThL6hjqam-Clayface" },
+  { NAME: "🍿", URL: "" },
+  { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" },
@@ -354,7 +354,10 @@ var Lista3 = [
 ]
    
 
-
+ /* https://latino.solo-latino.com/es/detail/movie/vES6QxwxPUbUThL6hjqam-Clayface
+ 
+https://latino.solo-latino.com/es/detail/movie/kHVMXSdkBAJOHIYUj6MHQ-Street-Fighter
+  */
   
   
   
