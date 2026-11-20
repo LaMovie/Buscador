@@ -128,7 +128,6 @@ var ACCION = [
   { NAME: "🍿LA GRAN MURALLA", URL: "https://latino.solo-latino.com/es/detail/movie/zn3DSr4KPsnjPP1uPW8Zr-The-Great-Wall" },
   { NAME: "🍿KUNG FUSION", URL: "https://latino.solo-latino.com/es/detail/movie/964ysd1ifmsHwYRZ7x56H-Kung-Fu-Hustle" },
   { NAME: "🍿EL PRINCIPE DE PERSIA", URL: "https://latino.solo-latino.com/es/detail/movie/APY183SKZDO5PRIlgyXNZ-Prince-of-Persia-The-Sands-of-Time" },
-  { NAME: "🍿ACUAMAN", URL: "https://latino.solo-latino.com/es/detail/movie/26265-Aquaman" },
   { NAME: "🍿EL ULTIMO SAMURAI", URL: "https://latino.solo-latino.com/es/detail/movie/x7rSlYnw67bz2ljGyAstW-The-Last-Samurai" },
   { NAME: "🍿KILL BILL", URL: "https://latino.solo-latino.com/es/detail/movie/MP8fn07TJ7FzW65t9cO09-Kill-Bill-Vol-1" },
   { NAME: "🍿RESIDENT EVIL", URL: "https://latino.solo-latino.com/es/detail/movie/5Ui7PzJpak8w5FabFDfIU-Resident-Evil" },

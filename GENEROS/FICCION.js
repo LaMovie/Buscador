@@ -170,7 +170,6 @@ var FICCION = [
   { NAME: "🍿LA GRAN MURALLA", URL: "https://latino.solo-latino.com/es/detail/movie/zn3DSr4KPsnjPP1uPW8Zr-The-Great-Wall" },
   { NAME: "🍿EL PRINCIPE DE PERSIA", URL: "https://latino.solo-latino.com/es/detail/movie/APY183SKZDO5PRIlgyXNZ-Prince-of-Persia-The-Sands-of-Time" },
   { NAME: "🍿LOS PITUFOS", URL: "https://latino.solo-latino.com/es/detail/movie/tQe2wAXyHCU2Tavrg6TYx-The-Smurfs" },
-  { NAME: "🍿ACUAMAN", URL: "https://latino.solo-latino.com/es/detail/movie/26265-Aquaman" },
   { NAME: "🍿RESIDENT EVIL", URL: "https://latino.solo-latino.com/es/detail/movie/5Ui7PzJpak8w5FabFDfIU-Resident-Evil" },
   { NAME: "🍿LAS CRÓNICAS DE RIDDICK", URL: "https://latino.solo-latino.com/es/detail/movie/tw20OtTxMl2NEXcWH994Q-Pitch-Black" },
   { NAME: "🍿DIVERGENTE", URL: "https://latino.solo-latino.com/es/detail/movie/85243-Divergent" },
