@@ -407,7 +407,7 @@ const COLORES_GENERO = {
     COMEDY:  { normal: '#ffd600', hover: '#ffff72', glow: 'rgba(255, 214, 0, 0.45)', color: '#ffd600' },
     FICCION: { normal: '#b388ff', hover: '#ea80fc', glow: 'rgba(179, 136, 255, 0.45)', color: '#b388ff' },
     SERIES:  { normal: '#ff4bb9', hover: '#4f9',    glow: 'rgba(255, 75, 185, 0.45)', color: '#ff4bb9' },
-    TERROR:  { normal: '#ff1744', hover: '#ff8a80', glow: 'rgba(255, 23, 68, 0.5)', color: '#4f3' }
+    TERROR:  { normal: '#ff1744', hover: '#ff8a80', glow: 'rgba(255, 23, 68, 0.5)', color: '#ff1700' }
 };
 
 const urlParams = new URLSearchParams(window.location.search);
@@ -445,13 +445,13 @@ function renderizarCatalogo(datosCrudos, generoActual) {
     Lista.innerHTML = '';
 
     const temaGenero = generoActual ? COLORES_GENERO[generoActual] : null;
-    var colorPorDefecto = temaGenero ? temaGenero.normal : (esModoSerie ? '#ff4bb9' : '#4f7');
+    var colorPorDefecto = temaGenero ? temaGenero.color : (esModoSerie ? '#ff4bb9' : '#4f7');
     var colorActivo     = temaGenero ? temaGenero.hover  : (esModoSerie ? '#4f9' : '#7F05FF');
 
     if (generoActual) {
         if (esModoSerie) Lista.classList.add('modo-serie');
         H.textContent = `🔥 ${generoActual} 🔥`;
-        H.style.color = temaGenero.color;
+        H.style.color = temaGenero.normal;
         H.style.textShadow = `0px 0px 10px ${temaGenero.normal}, 0px 0px 22px #000`;
         L.textContent = "-> PELÍCULAS <-";
         L.style.color = "#00f0ff";
