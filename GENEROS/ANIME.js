@@ -1,4 +1,5 @@
 var ANIME = [
+  { name: "⚙️ANIME", url: "https://lamovie.github.io/Buscador/GENEROS.html?anime" }, 
   { name: "🍿El Rey Y Yo", url: "https://drive.google.com/file/d/1KZIgkJSebtQFy6fxFEq-6eHrJpkQJ6EE/view?usp=drivesdk" },
   { name: "🍿Desencanto 5", url: "https://drive.google.com/drive/folders/1ahKbN0K3IdhEIWs9p1xbvfxalSECTQrh" },
   { name: "🍿Invencible 3", url: "https://drive.google.com/drive/folders/1AM2MxJzkCanL7iYXJQLrQWHmdT7A-pPn" },

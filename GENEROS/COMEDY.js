@@ -1,4 +1,5 @@
 var COMEDY = [
+  { name: "⚙️COMEDY", url: "https://lamovie.github.io/Buscador/GENEROS.html?comedy" }, 
   { name: "🍿Free Guy", url: "https://drive.google.com/file/d/1R9Q9SS8buCVd5oB15-uuKORSEYKet9In/view?usp=drivesdk" },
   { name: "🍿Fuerza Trueno", url: "https://drive.google.com/file/d/1nxcaUTm0Fci7yY9yhtJyUG4wJrE1b4a8/view?usp=drive_link" },
   { name: "🍿Johnny English", url: "https://drive.google.com/file/d/1mX1EBJ6wfmwb45W29l-AAOrurfLEwaL9/view?usp=drive_link" },
