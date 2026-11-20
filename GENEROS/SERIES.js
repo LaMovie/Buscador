@@ -1,5 +1,6 @@
 var SERIES = [
   { name: "⚙️SERIES", url: "https://lamovie.github.io/Buscador/GENEROS.html?series" }, 
+  { name: "⚙️SOFIA", url: "https://lamovie.github.io/TEOSOFY/" }, 
   { name: "🍿La Rueda Del Tiempo 3", url: "https://drive.google.com/drive/folders/1KC_t3WcbLaF3INgIfZcW5I7uXZ7nAxmU" },
   { name: "🍿911", url: "https://drive.google.com/file/d/1lqTiLDezenKB_6ZKfYO1MX22hLkBA-sH/view?usp=drivesdk" },
   { name: "🍿El Juego Del Calamar 2", url: "https://drive.google.com/drive/folders/1QHu4Br2gxdwj66KrlGPO-oE5vuuJugEp" },
