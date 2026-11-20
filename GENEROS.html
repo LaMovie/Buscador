@@ -402,12 +402,12 @@ function AccionEnter() {
 const GENEROS_DISPONIBLES = ['ACCION', 'ANIME', 'COMEDY', 'FICCION', 'SERIES', 'TERROR'];
 
 const COLORES_GENERO = {
-    ACCION:  { normal: '#ff5722', hover: '#ff9100', glow: 'rgba(255, 87, 34, 0.45)' },
-    ANIME:   { normal: '#00f0ff', hover: '#4fffb0', glow: 'rgba(0, 240, 255, 0.45)' },
-    COMEDY:  { normal: '#ffd600', hover: '#ffff72', glow: 'rgba(255, 214, 0, 0.45)' },
-    FICCION: { normal: '#b388ff', hover: '#ea80fc', glow: 'rgba(179, 136, 255, 0.45)' },
-    SERIES:  { normal: '#ff4bb9', hover: '#4f9',    glow: 'rgba(255, 75, 185, 0.45)' },
-    TERROR:  { normal: '#ff1744', hover: '#ff8a80', glow: 'rgba(255, 23, 68, 0.5)' }
+    ACCION:  { normal: '#ff5722', hover: '#ff9100', glow: 'rgba(255, 87, 34, 0.45)', color: '#ff5722' },
+    ANIME:   { normal: '#00f0ff', hover: '#4fffb0', glow: 'rgba(0, 240, 255, 0.45)', color: '#00f0ff' },
+    COMEDY:  { normal: '#ffd600', hover: '#ffff72', glow: 'rgba(255, 214, 0, 0.45)', color: '#ffd600' },
+    FICCION: { normal: '#b388ff', hover: '#ea80fc', glow: 'rgba(179, 136, 255, 0.45)', color: '#b388ff' },
+    SERIES:  { normal: '#ff4bb9', hover: '#4f9',    glow: 'rgba(255, 75, 185, 0.45)', color: '#ff4bb9' },
+    TERROR:  { normal: '#ff1744', hover: '#ff8a80', glow: 'rgba(255, 23, 68, 0.5)', color: '#4f3' }
 };
 
 const urlParams = new URLSearchParams(window.location.search);
@@ -451,7 +451,7 @@ function renderizarCatalogo(datosCrudos, generoActual) {
     if (generoActual) {
         if (esModoSerie) Lista.classList.add('modo-serie');
         H.textContent = `🔥 ${generoActual} 🔥`;
-        H.style.color = temaGenero.normal;
+        H.style.color = temaGenero.color;
         H.style.textShadow = `0px 0px 10px ${temaGenero.normal}, 0px 0px 22px #000`;
         L.textContent = "-> PELÍCULAS <-";
         L.style.color = "#00f0ff";
