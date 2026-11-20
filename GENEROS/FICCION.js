@@ -160,7 +160,6 @@ var FICCION = [
   { NAME: "🍿VOLVER AL FUTURO", URL: "https://latino.solo-latino.com/es/detail/movie/34in5WQk8jIIkurcJdQKo-Back-to-the-Future-Part-I" },
   { NAME: "🍿EL JUEGO DE ENDER", URL: "https://latino.solo-latino.com/es/detail/movie/95984-Enders-Game" },
   { NAME: "🍿X MEN", URL: "https://latino.solo-latino.com/es/detail/movie/7XGunDf1914bjOhMP0jgj-X-Men" },
-  { NAME: "🍿ALADDIN", URL: "https://latino.solo-latino.com/es/detail/movie/uymCdIIYP8qt0xLQIZ2YZ-Aladdin" },
   { NAME: "🍿EL PLANETA DE LOS SIMIOS", URL: "https://latino.solo-latino.com/es/detail/movie/i2hzoODLhN7n7m5zv78CB-Rise-of-the-Planet-of-the-Apes" },
   { NAME: "🍿GODZILLA vs KONG", URL: "https://latino.solo-latino.com/es/detail/movie/26066-Godzilla-vs-Kong" },
   { NAME: "🍿PROMETHEUS", URL: "https://latino.solo-latino.com/es/detail/movie/91311-Prometheus" },

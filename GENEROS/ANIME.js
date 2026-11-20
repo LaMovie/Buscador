@@ -124,7 +124,8 @@ var ANIME = [
   { NAME: "🍿DEATH NOTE", URL: "https://latino.solo-latino.com/es/detail/drama/ItnNIozXMyiDWWM33Fs22-Death-Note/1" },
   { NAME: "🍿FULLMETAL ALCHEMIST", URL: "https://latino.solo-latino.com/es/detail/drama/6Y2kbRSoXxHTEqAXhcQMd-Fullmetal-Alchemist/1" },
   { NAME: "🍿STEINSGATE", URL: "https://latino.solo-latino.com/es/detail/drama/1JoXyYAVHNTm05O6NcTtO-SteinsGate/1" },
-  { NAME: "🍿BLEACH", URL: "https://latino.solo-latino.com/es/detail/drama/bKGYaTRpV2zcXU5tIVAhw-Bleach/1" }
+  { NAME: "🍿BLEACH", URL: "https://latino.solo-latino.com/es/detail/drama/bKGYaTRpV2zcXU5tIVAhw-Bleach/1" }, 
+  { NAME: "🍿ALADDIN", URL: "https://latino.solo-latino.com/es/detail/movie/uymCdIIYP8qt0xLQIZ2YZ-Aladdin" }
 ];
 
 
