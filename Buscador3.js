@@ -227,7 +227,6 @@ var Lista3 = [
   { NAME: "🍿EL PRINCIPE DE PERSIA", URL: "https://latino.solo-latino.com/es/detail/movie/APY183SKZDO5PRIlgyXNZ-Prince-of-Persia-The-Sands-of-Time" },
   { NAME: "🍿LOS PITUFOS", URL: "https://latino.solo-latino.com/es/detail/movie/tQe2wAXyHCU2Tavrg6TYx-The-Smurfs" }, 
   { NAME: "🍿LOS PICAPIEDRAS", URL: "https://latino.solo-latino.com/es/detail/movie/106853-The-Flintstones" },
-  { NAME: "🍿ACUAMAN", URL: "https://latino.solo-latino.com/es/detail/movie/26265-Aquaman" }, 
   { NAME: "🍿MAZINGER Z", URL: "https://latino.solo-latino.com/es/detail/drama/UXmuw6nicdaHYkdTHNgHN-Mazinger-Z" },
   { NAME: "🍿EL ULTIMO SAMURAI", URL: "https://latino.solo-latino.com/es/detail/movie/x7rSlYnw67bz2ljGyAstW-The-Last-Samurai" }, 
   { NAME: "🍿KILL BILL", URL: "https://latino.solo-latino.com/es/detail/movie/MP8fn07TJ7FzW65t9cO09-Kill-Bill-Vol-1" },
