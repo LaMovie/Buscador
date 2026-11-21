@@ -195,8 +195,16 @@ var FICCION = [
   { NAME: "🍿LA ODISEA", URL: "https://latino.solo-latino.com/es/detail/movie/2r0AgvNy6yM0aJxvEUyq2-The-Odyssey" },
   { NAME: "🍿PROYECTO FIN DEL MUNDO", URL: "https://latino.solo-latino.com/es/detail/movie/X2QcyFfVm5iYzTS6rTnEi-Project-Hail-Mary" },
   { NAME: "🍿SI NO DESPIERTO", URL: "https://latino.solo-latino.com/es/detail/movie/5WMBLbBvzPaadNWtzU6SO-Before-I-Fall" },
-  { NAME: "🍿RESIDENT EVIL NOCHE CERO", URL: "https://latino.solo-latino.com/es/detail/movie/gUgAOLaq4gw9vddGRKwXW-Resident-Evil" }
+  { NAME: "🍿RESIDENT EVIL NOCHE CERO", URL: "https://latino.solo-latino.com/es/detail/movie/gUgAOLaq4gw9vddGRKwXW-Resident-Evil" }, 
+  { NAME: "🍿CAOS", URL: "https://latino.solo-latino.com/es/detail/movie/qVjlrm7G3IhZuHx741gja-Chaos-Walking" }, 
+  { NAME: "🍿", URL: "" }, 
+  { NAME: "🍿", URL: "" }, 
+  { NAME: "🍿", URL: "" }
 ];
+
+
+
+
 
 
 
