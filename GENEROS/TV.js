@@ -11,9 +11,9 @@
   { name: "📺Pop World Tv", url: "https://janus.xpbroadcasting.com:8443/hls/popworld.m3u8"}, 
   { name: "📺Universal Tv", url: "https://imagenuniversaltv.net:3771/live/iutvlive.m3u8" },
   { name: "📺IPTV", url: "https://lamovie.github.io/IPTV/" }, 
-  { name: "📺Bass Nation tv", url: "https://lamovie.github.io/BASS-NATION-TV/" },
-  { name: "📺X tv", url: "https://lamovie.github.io/CONTENIDO/X-TV.html" }, 
-  { name: "📺Sport tv", url: "https://lamovie.github.io/CONTENIDO/SPORT-TV.html" }
+  { name: "📺Bass Nation tv", url: "https://lamovie.github.io/MENU/BASS-NATION.html" },
+  { name: "📺X tv", url: "https://lamovie.github.io/MENU/X-TV.html" }, 
+  { name: "📺Sport tv", url: "https://lamovie.github.io/MENU/SPORT-TV.html" }
  ];
  
  
