@@ -1,5 +1,5 @@
 var FICCION = [
-  { name: "⚙️FICCION", url: "https://lamovie.github.io/Buscador/GENEROS.html?ficcion" }, 
+  { name: "⚙️FICCION", url: "https://lamovie.github.io/Buscador/DATA.html?ficcion" }, 
   { name: "🍿Avengers Infinity War", url: "https://drive.google.com/file/d/1-gXd9TdFVBByPuy_i-0NSbjBTd18xVQC/view?usp=drive_link" },
   { name: "🍿Infinite", url: "https://drive.google.com/file/d/1-XRFN8AjnrkBCAeUInUGV0k-C-uy0HDy/view?usp=drive_link" },
   { name: "🍿Thor Ragnarok", url: "https://drive.google.com/file/d/11lf6dy_MSUu29tLvMHtbNebRx0k2uVZU/view?usp=drive_link" },

@@ -1,5 +1,5 @@
 var TERROR = [
-  { name: "⚙️TERROR", url: "https://lamovie.github.io/Buscador/GENEROS.html?terror" }, 
+  { name: "⚙️TERROR", url: "https://lamovie.github.io/Buscador/DATA.html?terror" }, 
   { name: "🍿Delirium (Nany)", url: "https://drive.google.com/file/d/1pHjKsVpVFYM92jHdFXP9lBKhF3IaKcPH/view?usp=drive_link" },
   { name: "🍿El Rito", url: "https://drive.google.com/file/d/1n1ixctqPRoP6oHgfCResFexzRCEnc0TX/view?usp=drive_link" },
   { name: "🍿Nadie Duerme En El Bosque Esta Noche", url: "https://drive.google.com/file/d/13j4N_GIiiQ1jMXK6Qt8M3CtW4dNEYs0q/view?usp=drive_link" },
