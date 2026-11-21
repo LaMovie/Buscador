@@ -171,7 +171,6 @@ var TERROR = [
   { NAME: "🍿SCREAM", URL: "https://latino.solo-latino.com/es/detail/movie/SvCEIDfSxWVyyEwR2xFuZ-Scream" },
   { NAME: "🍿OJOS BIEN CERRADOS", URL: "https://latino.solo-latino.com/es/detail/movie/68450-Eyes-Wide-Shut" },
   { NAME: "🍿RESIDENT EVIL", URL: "https://latino.solo-latino.com/es/detail/movie/5Ui7PzJpak8w5FabFDfIU-Resident-Evil" },
-  { NAME: "🍿LAS CRÓNICAS DE RIDDICK", URL: "https://latino.solo-latino.com/es/detail/movie/tw20OtTxMl2NEXcWH994Q-Pitch-Black" },
   { NAME: "🍿VICTOR FRANKENSTEIN", URL: "https://latino.solo-latino.com/es/detail/movie/112787-Victor-Frankenstein" },
   { NAME: "🍿BACKROOMS", URL: "https://latino.solo-latino.com/es/detail/movie/jMCA2ZTBl5RdjojwQW1PM-Backrooms" },
   { NAME: "🍿ODD THOMAS", URL: "https://latino.solo-latino.com/es/detail/movie/5yHChzqQtIPgPiCDLntaz-Odd-Thomas" },
