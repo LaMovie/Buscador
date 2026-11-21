@@ -8,24 +8,22 @@ body { display: none !important; }
 <script>
   if (window.self === window.top) {
       var ESCUDO = document.getElementById("Escudo-Seguridad");
-        if (ESCUDO) ESCUDO.parentNode.removeChild(ESCUDO);
-        } else {
-       document.documentElement.innerHTML = "<head></head><body style='background:#000; margin:0;'><h1 style='color:#f19; text-align:center; padding-top:40vh; font-family: sans-serif;'>⛔ Acceso Denegado: No Se Admiten SAPOS Aquí!.</h1></body>";        
-        /* 2. Frenamos en seco la carga del resto de tu código */
-        
-     if (window.stop) {
-            window.stop();
-        } else {
-            document.execCommand("Stop"); /* Respaldo para navegadores antiguos */
-        }
-    }
+      if (ESCUDO) ESCUDO.parentNode.removeChild(ESCUDO);
+  } else {
+      document.documentElement.innerHTML = "<head></head><body style='background:#000; margin:0;'><h1 style='color:#f19; text-align:center; padding-top:40vh; font-family: sans-serif;'>⛔ Acceso Denegado: No Se Admiten SAPOS Aquí!.</h1></body>";        
+      if (window.stop) {
+          window.stop();
+      } else {
+          document.execCommand("Stop");
+      }
+  }
 </script>
     <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" contect="IE=edge"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet"/>
-   <title>🧿 LA MOVIE 🧿</title> 
+    <title>🧿 LA MOVIE 🧿</title> 
 <style>
 body {
     margin-top: 3vh;
@@ -42,7 +40,6 @@ body {
     animation: Vista;
     animation-timeline: view();
     grid-template-columns: repeat(3, 1fr);
- */ scroll-snap-type: x mandatory;\*
     margin-bottom: 10px;
     place-items: center;
 }
@@ -55,12 +52,12 @@ body {
     object-fit: cover;
     scroll-snap-align: start;
     background: rgb(255, 130, 0);
-  &:hover {
-     transform: perspective(200px)rotateY(45deg);
-     padding-left: 5%;
-     filter: saturate(150%);
-     scale: 120%;
- }
+}
+.Container img:hover {
+    transform: perspective(200px)rotateY(45deg);
+    padding-left: 5%;
+    filter: saturate(150%);
+    scale: 120%;
 }
 .Container a {
     cursor: none;
@@ -79,10 +76,10 @@ body {
     font-family: monospace;
 }
 .Container img:hover + h4 {
-     color: #4f9;
+    color: #4f9;
 }
-.Container:hover img:not(:hover){
-     filter: saturate(80%); 
+.Container:hover img:not(:hover) {
+    filter: saturate(80%); 
 }
 .Container::-webkit-scrollbar {
     width: 0px;
@@ -113,9 +110,9 @@ h4 {
 .A {
     color: blue;
     text-decoration: none;
-  &:hover {
-      color: red;
-  }
+}
+.A:hover {
+    color: red;
 }
 .Todo {
     gap: 13vh;
@@ -156,14 +153,13 @@ h4 {
 .material-icons {
     color: #fff;
     transform: translateX(-1vh);
-  &:hover {
-      color: #00f0ff;
-      text-shadow: 0 0 15px #00f0ff;
-  }
+}
+.material-icons:hover {
+    color: #00f0ff;
+    text-shadow: 0 0 15px #00f0ff;
 }
 a {
     color: inherit; 
- /* Hereda El Color Del Padre */
     cursor: none;
     text-decoration: none;
 }
@@ -175,10 +171,9 @@ a {
     -webkit-text-stroke: .5px #000;
     text-shadow: 0px 0px 10px orange, 0px 0px 20px red;
     transition: all 0.3s ease;
-    
-  &:hover {
-      color: #4f3;
-  }
+}
+#H:hover {
+    color: #4f3;
 }
 #Lista {
     gap: 15px;
@@ -202,16 +197,12 @@ a {
     padding: 10px;
     box-sizing: border-box;
     border-radius: 16px;
-    
-    /* Fondo con degradado elegante de plataforma streaming */
     background: linear-gradient(145deg, #0a0f1d, #02050b);
     border: 1px solid rgba(0, 240, 255, 0.25);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
     overflow: hidden;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
-
-/* Línea superior neón tipo "Póster VIP" */
 #Lista li::before {
     content: '';
     position: absolute;
@@ -221,8 +212,6 @@ a {
     height: 3px;
     background: linear-gradient(90deg, #00f0ff, #7f05ff, #ff007f);
 }
-
-/* Marca de agua flotante de Play (▶) en el fondo de la tarjeta */
 #Lista li::after {
     content: '▶';
     position: absolute;
@@ -233,8 +222,6 @@ a {
     pointer-events: none;
     transition: color 0.3s ease;
 }
-
-/* Texto del título ajustado y centrado */
 #Lista li a {
     color: #4f7;
     width: 100%;
@@ -252,17 +239,12 @@ a {
     background: linear-gradient(145deg, #121c33, #080e1a);
     box-shadow: 0 10px 25px rgba(0, 240, 255, 0.35);
 }
-
 #Lista li:hover::after {
     color: rgba(0, 240, 255, 0.15);
 }
-
-/* HOVER MODO PELIS (DEFAULT) */
 #Lista li:hover a {
     color: #7F05FF;
 }
-
-/* HOVER MODO SERIE */
 #Lista.modo-serie li:hover a {
     color: #4f9;
 }
@@ -279,8 +261,6 @@ a {
     from { opacity: 1;}
     to { opacity: 0;}
 }
-
-
 @media (min-width: 768px) {
     #Lista {
         grid-template-columns: repeat(5, 1fr);
@@ -290,95 +270,74 @@ a {
         height: 140px; 
     }
     #Lista::-webkit-scrollbar {
-    width: 6px;
-  }
-  #Lista::-webkit-scrollbar-thumb {
-    background: #f19; 
-    border-radius: 10px;
-  }
-  #Lista::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-  }
+        width: 6px;
+    }
+    #Lista::-webkit-scrollbar-thumb {
+        background: #f19; 
+        border-radius: 10px;
+    }
+    #Lista::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+    }
 }
 </style>
 </head>
 <body>
-            <center> 
-       <div class="Todo"> 
-<form onsubmit="event.preventDefault(); AccionEnter()"> 
-  <input id="I" placeholder="Buscar..." type="text" oninput="FiltrarLista()"/>
-</form>
-                                           
-<h3 id="Logo">🧿 LA MOVIE 🧿</h3> 
-            <br/><br/>
-     
-    <i id="Search" class="material-icons">search</i>
-             </div>
-			
-			      	<div id="Oculto" class="Container">
-				
-<a href="https://h5.swplayer.com/es/detail/drama/w4T1wpuJxUu5b0bHfQnU5-Money-Heist-Season-1"><img src="IMG/imagen_1.jpg"/><h4>LA CASA DE PAPEL</h4></a>			
-
-<a href="https://h5.swplayer.com/es/detail/drama/QTUVOLeIYWjsO8Fv2PcxM-Family-Guy-Season-1"><img src="IMG/imagen_2.jpg"/><h4>FAMILY GUY</h4></a>
-
-<a href="https://h5.swplayer.com/es/detail/drama/tHa42lElZ3P8PDRyZbtEo-Futurama-Season-1"><img src="IMG/imagen_3.jpg"/><h4>FUTURAMA</h4></a>
-
-<a href="https://h5.swplayer.com/es/detail/drama/GGCScosEDKZxW5ejPWH9n-Naruto%5BAudio-Latino%5D"><img src="IMG/imagen_4.jpg"/><h4>NARUTO</h4></a>
-
-<a href="https://h5.swplayer.com/es/detail/drama/SC5e4d5u7ZQBPnkhz675G-Outlander-Season-1/1"><img src="IMG/imagen_5.jpg"/><h4>OUTLANDER</h4></a>
-
-<a href="https://h5.swplayer.com/es/detail/drama/Gr410ksu2cfhFfQP75H9j-The-Walking-Dead-Season-1"><img src="IMG/imagen_6.jpg"/><h4>THE WALKING DEAD</h4></a>
-
-<a href="https://h5.swplayer.com/es/detail/drama/MNxoJpARCrPHvVPu1ljH1-The-Simpsons-Season-1"><img src="IMG/imagen_7.jpg"/><h4>LOS SIMPSONS</h4></a>
-
-<a href="https://h5.swplayer.com/es/detail/drama/vdXAbbyiZgaslQlAZ9Z6H-One-Piece"><img src="IMG/imagen_8.jpg"/><h4>ONE PIECE</h4></a>
-
-<a href="https://h5.swplayer.com/es/detail/drama/uf5jenYNRHVO6dKZpo3JY-Game-of-Thrones-Season-1/1"><img src="IMG/imagen_9.jpg"/><h4>JUEGO DE TRONOS</h4></a>
-
-<a href="https://h5.swplayer.com/es/detail/drama/OFDa9VoaIcTId4fEz1pqr-Invincibleanime-Season-1[Audio-Latino]"><img src="IMG/imagen_10.jpg"/><h4>INVENCIBLE</h4></a>
-
-<a href="https://h5.swplayer.com/es/detail/movie/kL3SvPkWfniVKPIPhXcdc-Final-Destination"><img src="IMG/imagen_11.jpg"/><h4>DESTINO FINAL</h4></a>
-
-<a href="https://h5.swplayer.com/es/detail/drama/br2opIQsBK8hepOpdQEDI-Vis-a-vis-Season-1"><img src="IMG/imagen_12.jpg"/><h4>VIS A VIS</h4></a>
-
-<a href="https://h5.swplayer.com/detail/drama/C1lUW7UsRxfbGSHuD2Vax-My-Hero-Academia%5BAudio-Latino%5D/1"><img src="IMG/imagen_13.jpg"/><h4>MY HERO ACADEMIA</h4></a>
-
-<a href="https://h5.swplayer.com/es/detail/drama/3TVD1tXGJbNUvPc0u3mP8-Vikings-Season-1/1"><img src="IMG/imagen_14.jpg"/><h4>VIKINGOS</h4></a>
-
-<a href="https://h5.swplayer.com/es/detail/drama/ddsgdunU4e2xi7R5NT3K4-Evil-Season-1"><img src="IMG/imagen_15.jpg"/><h4>EVIL</h4></a>
-				<br/>
-				    </div>
-				    
-	 <h3 id="H">🍿 PELÍCULAS 🍿</h3>
-	 <h4 id="L"> -> SERIES <-</h4>
-      <ul id="Lista"></ul>
-				    				  </center>
-
-<script>
-['QnVzY2Fkb3IuanM=','QnVzY2Fkb3IyLmpz','QnVzY2Fkb3IzLmpz'].forEach(s=>document.write(atob('PHNjcmlwdCBzcmM9Ig==')+atob(s)+atob('Ij48L3NjcmlwdD4=')));
-</script>
+<center> 
+    <div class="Todo"> 
+        <form onsubmit="event.preventDefault(); AccionEnter()"> 
+            <input id="I" placeholder="Buscar..." type="text" oninput="FiltrarLista()"/>
+        </form>
+        <h3 id="Logo">🧿 LA MOVIE 🧿</h3> 
+        <br/><br/>
+        <i id="Search" class="material-icons">search</i>
+    </div>
+    
+    <div id="Oculto" class="Container">
+        <a href="https://h5.swplayer.com/es/detail/drama/w4T1wpuJxUu5b0bHfQnU5-Money-Heist-Season-1"><img src="IMG/imagen_1.jpg"/><h4>LA CASA DE PAPEL</h4></a>			
+        <a href="https://h5.swplayer.com/es/detail/drama/QTUVOLeIYWjsO8Fv2PcxM-Family-Guy-Season-1"><img src="IMG/imagen_2.jpg"/><h4>FAMILY GUY</h4></a>
+        <a href="https://h5.swplayer.com/es/detail/drama/tHa42lElZ3P8PDRyZbtEo-Futurama-Season-1"><img src="IMG/imagen_3.jpg"/><h4>FUTURAMA</h4></a>
+        <a href="https://h5.swplayer.com/es/detail/drama/GGCScosEDKZxW5ejPWH9n-Naruto%5BAudio-Latino%5D"><img src="IMG/imagen_4.jpg"/><h4>NARUTO</h4></a>
+        <a href="https://h5.swplayer.com/es/detail/drama/SC5e4d5u7ZQBPnkhz675G-Outlander-Season-1/1"><img src="IMG/imagen_5.jpg"/><h4>OUTLANDER</h4></a>
+        <a href="https://h5.swplayer.com/es/detail/drama/Gr410ksu2cfhFfQP75H9j-The-Walking-Dead-Season-1"><img src="IMG/imagen_6.jpg"/><h4>THE WALKING DEAD</h4></a>
+        <a href="https://h5.swplayer.com/es/detail/drama/MNxoJpARCrPHvVPu1ljH1-The-Simpsons-Season-1"><img src="IMG/imagen_7.jpg"/><h4>LOS SIMPSONS</h4></a>
+        <a href="https://h5.swplayer.com/es/detail/drama/vdXAbbyiZgaslQlAZ9Z6H-One-Piece"><img src="IMG/imagen_8.jpg"/><h4>ONE PIECE</h4></a>
+        <a href="https://h5.swplayer.com/es/detail/drama/uf5jenYNRHVO6dKZpo3JY-Game-of-Thrones-Season-1/1"><img src="IMG/imagen_9.jpg"/><h4>JUEGO DE TRONOS</h4></a>
+        <a href="https://h5.swplayer.com/es/detail/drama/OFDa9VoaIcTId4fEz1pqr-Invincibleanime-Season-1[Audio-Latino]"><img src="IMG/imagen_10.jpg"/><h4>INVENCIBLE</h4></a>
+        <a href="https://h5.swplayer.com/es/detail/movie/kL3SvPkWfniVKPIPhXcdc-Final-Destination"><img src="IMG/imagen_11.jpg"/><h4>DESTINO FINAL</h4></a>
+        <a href="https://h5.swplayer.com/es/detail/drama/br2opIQsBK8hepOpdQEDI-Vis-a-vis-Season-1"><img src="IMG/imagen_12.jpg"/><h4>VIS A VIS</h4></a>
+        <a href="https://h5.swplayer.com/detail/drama/C1lUW7UsRxfbGSHuD2Vax-My-Hero-Academia%5BAudio-Latino%5D/1"><img src="IMG/imagen_13.jpg"/><h4>MY HERO ACADEMIA</h4></a>
+        <a href="https://h5.swplayer.com/es/detail/drama/3TVD1tXGJbNUvPc0u3mP8-Vikings-Season-1/1"><img src="IMG/imagen_14.jpg"/><h4>VIKINGOS</h4></a>
+        <a href="https://h5.swplayer.com/es/detail/drama/ddsgdunU4e2xi7R5NT3K4-Evil-Season-1"><img src="IMG/imagen_15.jpg"/><h4>EVIL</h4></a>
+        <br/>
+    </div>
+    
+    <h3 id="H">🍿 PELÍCULAS 🍿</h3>
+    <h4 id="L"> -> SERIES <-</h4>
+    <ul id="Lista"></ul>
+</center>
 
 <script>
 // 1. MANEJO DEL BUSCADOR Y LOGO
 var SEARCH = document.querySelectorAll('#Search, #Logo');
-  SEARCH.forEach(S => {
-     S.onclick = () => {
+SEARCH.forEach(S => {
+    S.onclick = () => {
         var I = document.getElementById("I");
         var Logo = document.getElementById("Logo");
         if (I.value === '') {
- if (I.style.display === 'block') {
-      I.style.display = 'none';
-    Logo.style.display = 'block';
+            if (I.style.display === 'block') {
+                I.style.display = 'none';
+                Logo.style.display = 'block';
             } else {
-   I.style.display = 'block';
-    Logo.style.display = 'none';
+                I.style.display = 'block';
+                Logo.style.display = 'none';
             }   
         } else {
             Check();
         } 
         I.focus();
-    }
+    };
 });
 
 // 2. FUNCIONES DE BÚSQUEDA EXTERNA Y FILTRADO
@@ -388,16 +347,16 @@ function abrirFuera(urlDestino) {
     window.location.href = intentURL;
 }
 
-     function Check() {
-        var I = document.getElementById("I");
+function Check() {
+    var I = document.getElementById("I");
     var isMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     var domain = isMobile ? 'lamovie.github.io/SeeKee/PLATAFORMAS.html' : 'https://www.google.com/search?q=site:sololatino.net+' + I.value;
     abrirFuera(domain);
     I.value = "";
 }
 
-    function FiltrarLista() {
-         var I = document.getElementById("I");
+function FiltrarLista() {
+    var I = document.getElementById("I");
     var query = I.value.toLowerCase().trim();
     var items = document.querySelectorAll('#Lista li');
        
@@ -411,16 +370,12 @@ function abrirFuera(urlDestino) {
       
     items.forEach(li => {
         var texto = li.textContent.toLowerCase();
-   if (texto.includes(query)) {
-   li.style.display = 'flex';
-        } else {
-   li.style.display = 'none';
-        }
+        li.style.display = texto.includes(query) ? 'flex' : 'none';
     });
 }
 
-    function AccionEnter() {
-       var I = document.getElementById("I");
+function AccionEnter() {
+    var I = document.getElementById("I");
     var query = I.value.toLowerCase().trim();
     var items = document.querySelectorAll('#Lista li');
     var coincidencia = null;
@@ -429,7 +384,7 @@ function abrirFuera(urlDestino) {
         items.forEach(li => {
             var texto = li.textContent.toLowerCase();
             if (!coincidencia && li.style.display !== 'none' && texto.includes(query)) {
-            coincidencia = li;
+                coincidencia = li;
             }
         });
     }
@@ -443,34 +398,72 @@ function abrirFuera(urlDestino) {
     }
 }
 
-// 3.🔑 CARGA DE LISTAS, CLASIFICACIÓN Y REDIRECCIÓN INTELIGENTE
-window.addEventListener('DOMContentLoaded', () => {
-    const params = new URLSearchParams(window.location.search);
-    var esModoSerie = params.has('serie');
+// 3. CONFIGURACIÓN DE GÉNEROS Y COLORES
+const GENEROS_DISPONIBLES = ['ACCION', 'ANIME', 'COMEDY', 'FICCION', 'SERIES', 'TERROR'];
+
+const COLORES_GENERO = {
+    ACCION:  { normal: '#ff5722', hover: '#ff9100', glow: 'rgba(255, 87, 34, 0.45)', color: '#ff5722' },
+    ANIME:   { normal: '#00f0ff', hover: '#4fffb0', glow: 'rgba(0, 240, 255, 0.45)', color: '#00f0ff' },
+    COMEDY:  { normal: '#ffd600', hover: '#ffff72', glow: 'rgba(255, 214, 0, 0.45)', color: '#ffd600' },
+    FICCION: { normal: '#b388ff', hover: '#ea80fc', glow: 'rgba(179, 136, 255, 0.45)', color: '#b388ff' },
+    SERIES:  { normal: '#ff4bb9', hover: '#4f9',    glow: 'rgba(255, 75, 185, 0.45)', color: '#ff4bb9' },
+    TERROR:  { normal: '#ff1744', hover: '#ff8a80', glow: 'rgba(255, 23, 68, 0.5)', color: '#ff1700' }
+};
+
+const urlParams = new URLSearchParams(window.location.search);
+let generoActivo = null;
+
+for (const [key, val] of urlParams.entries()) {
+    const k = key.trim().toUpperCase();
+    const v = val.trim().toUpperCase();
+    if (GENEROS_DISPONIBLES.includes(k)) { generoActivo = k; break; }
+    if (GENEROS_DISPONIBLES.includes(v)) { generoActivo = v; break; }
+}
+
+function cargarScript(src, callback) {
+    const s = document.createElement('script');
+    s.src = src;
+    s.onload = callback;
+    s.onerror = () => console.warn('No se pudo cargar:', src);
+    document.head.appendChild(s);
+}
+
+// 4. CARGA DE LISTAS, CLASIFICACIÓN Y REDIRECCIÓN INTELIGENTE
+function renderizarCatalogo(datosCrudos, generoActual) {
+    var esModoSerie = urlParams.has('serie') || generoActual === 'SERIES';
 
     var SERE_KEYWORDS = ['folders', 'drama', 'publicfoldergrid'];
-    
     var FILM_KEYWORDS = ['file', 'movie', 'vidyard.com', 'dropbox', '.m3u8', 'gallery=open', '.mp4'];
-    
-    var PLAY2_DOMAINS  = ['dropbox', 'play.vidyard', 'google.com/file', '.m3u8', '.mp4'];
+    var PLAY2_DOMAINS = ['dropbox', 'play.vidyard', 'google.com/file', '.m3u8', '.mp4'];
 
-    var PELIS = [...Lista1, ...Lista2, ...Lista3].reverse();
+    var PELIS = [...datosCrudos].reverse();
     
     var Lista = document.getElementById("Lista");
     var H = document.getElementById("H");
+    var L = document.getElementById("L");
 
-    var colorPorDefecto = esModoSerie ? '#ff4bb9' : '#4f7';
-    var colorActivo     = esModoSerie ? '#4f9' : '#7F05FF';
+    Lista.innerHTML = '';
 
-    if (esModoSerie) {
+    const temaGenero = generoActual ? COLORES_GENERO[generoActual] : null;
+    var colorPorDefecto = temaGenero ? temaGenero.color : (esModoSerie ? '#ff4bb9' : '#4f7');
+    var colorActivo     = temaGenero ? temaGenero.hover  : (esModoSerie ? '#4f9' : '#7F05FF');
+
+    if (generoActual) {
+        if (esModoSerie) Lista.classList.add('modo-serie');
+        H.textContent = `🔥 ${generoActual} 🔥`;
+        H.style.color = temaGenero.normal;
+        H.style.textShadow = `0px 0px 10px ${temaGenero.normal}, 0px 0px 22px #000`;
+        L.textContent = "-> PELÍCULAS <-";
+        L.style.color = "#00f0ff";
+    } else if (esModoSerie) {
         Lista.classList.add('modo-serie');
- H.textContent = "🧋 SERIES 🧋";
- L.textContent = "-> PELICULAS <-";
- L.style.color = "#4f9";
-        } else {
- H.textContent = "🍿 PELÍCULAS 🍿";
- L.textContent = "-> SERIES <-";
- L.style.color = "#f09";
+        H.textContent = "🧋 SERIES 🧋";
+        L.textContent = "-> PELICULAS <-";
+        L.style.color = "#4f9";
+    } else {
+        H.textContent = "🍿 PELÍCULAS 🍿";
+        L.textContent = "-> SERIES <-";
+        L.style.color = "#f09";
     }
 
     PELIS.forEach(item => {
@@ -478,13 +471,27 @@ window.addEventListener('DOMContentLoaded', () => {
         let URL = item.URL || item.url || '';
         if (!URL) return;
 
-        // 🔑 Si tiene CAPS o la palabra drama/folders/🧋, es Serie. Si no, es Película.
         let esSerie = !!(item.CAPS || item.caps || NN.includes('🧋') || SERE_KEYWORDS.some(s => URL.includes(s)));
-        let debeMostrar = esModoSerie ? esSerie : (!esSerie && FILM_KEYWORDS.some(f => URL.includes(f)));
+        let debeMostrar = generoActual
+            ? true
+            : (esModoSerie ? esSerie : (!esSerie && FILM_KEYWORDS.some(f => URL.includes(f))));
 
         if (debeMostrar) {
             let li = document.createElement('li');
             li.innerHTML = `<a class="Data" href="${URL}" data-serie="${esSerie}" data-nombre="${NN}" style="color: ${colorPorDefecto};">${NN}</a>`;
+            if (temaGenero) {
+                li.style.borderColor = temaGenero.normal;
+                li.onmouseenter = () => {
+                    li.style.boxShadow = `0 10px 25px ${temaGenero.glow}`;
+                    const link = li.querySelector('a');
+                    if (link) link.style.color = temaGenero.hover;
+                };
+                li.onmouseleave = () => {
+                    li.style.boxShadow = '0 6px 15px rgba(0, 0, 0, 0.7)';
+                    const link = li.querySelector('a');
+                    if (link) link.style.color = colorPorDefecto;
+                };
+            }
             Lista.appendChild(li);
         }
     });
@@ -495,16 +502,17 @@ window.addEventListener('DOMContentLoaded', () => {
         lis.onclick = (e) => {
             e.preventDefault();
             
-       LIST.forEach(other => {
-          other.style.border = '';
+            LIST.forEach(other => {
+                other.style.border = '';
                 other.style.background = '#001';
+                if (temaGenero) other.style.borderColor = temaGenero.normal;
                 let otherA = other.querySelector('a');
                 if (otherA) otherA.style.color = colorPorDefecto; 
-     });
+            });
 
-     lis.style.background = '#000';
-     lis.style.borderTop = '1px solid blue';
-     lis.style.borderBottom = '.1px solid #4f3';        
+            lis.style.background = '#000';
+            lis.style.borderTop = '1px solid blue';
+            lis.style.borderBottom = '.1px solid #4f3';        
             
             let activeA = lis.querySelector('a');
             if (activeA) activeA.style.color = colorActivo;
@@ -516,30 +524,26 @@ window.addEventListener('DOMContentLoaded', () => {
             var LIMPIO = NombreOriginal.replace(/🍿|🌐|📺|⚙️|🧋/g, '').trim();
             H.textContent = NombreOriginal;
 
-     var isMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+            var isMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
      
-         setTimeout(() => {
-  H.textContent = '⏳Espere...';
+            setTimeout(() => {
+                H.textContent = '⏳Espere...';
 
-                if (esSerieLink && Enlace.includes('dropbox') || esSerieLink && Enlace.includes('.mp4')) {
-                    // SERIE DE DROPBOX -> Pasa &exacto= para mantener capitulos y emojis
+                if ((esSerieLink && Enlace.includes('dropbox')) || (esSerieLink && Enlace.includes('.mp4'))) {
                     window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}&exacto=${encodeURIComponent(NombreOriginal)}`;
                 } else if (esSerieLink || SERE_KEYWORDS.some(s => Enlace.includes(s))) {
-                    // OTRAS SERIES
-                    window.location.href = Enlace;
-      
-      if (!isMobile && Enlace.includes('latino.solo')) {
-   window.location.href = Enlace.replace('latino.solo-latino', 'h5.swplayer');
-      }              
-         if (Enlace.includes('pelisflix')) {
- window.location.href = `https://lamovie.github.io/La-Movie-Delux/AUX.html?titulo=🍿${LIMPIO}`;
-      }   
+                    if (!isMobile && Enlace.includes('latino.solo')) {
+                        window.location.href = Enlace.replace('latino.solo-latino', 'h5.swplayer');
+                    } else if (Enlace.includes('pelisflix')) {
+                        window.location.href = `https://lamovie.github.io/La-Movie-Delux/AUX.html?titulo=🍿${LIMPIO}`;
+                    } else {
+                        window.location.href = Enlace;
+                    }
                 } else if (PLAY2_DOMAINS.some(mov => Enlace.includes(mov))) {
-          // PELÍCULAS
                     window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${encodeURIComponent(LIMPIO)}`;
                 } else if (Enlace.includes('mp4')) {
-  window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${LIMPIO}`;        
-    } else if (NombreOriginal.includes('🌐')) {
+                    window.location.href = `https://lamovie.github.io/La-Movie-Delux/PLAY2.html?titulo=${LIMPIO}`;        
+                } else if (NombreOriginal.includes('🌐')) {
                     let NN_clean = NombreOriginal.replace('🌐', '').trim();
                     window.location.href = Enlace + '?texto=' + encodeURIComponent(NN_clean);
                 } else if (!isMobile && Enlace.includes('latino.solo')) {
@@ -555,16 +559,46 @@ window.addEventListener('DOMContentLoaded', () => {
     });    
     
     var MODO = document.querySelectorAll('#H, #L');
-       
-  MODO.forEach(m => {
-      m.onclick = () => {
-        window.location.search = esModoSerie ? '?peli' : '?serie';
-        }
+    MODO.forEach(m => {
+        m.onclick = () => {
+            if (generoActual) {
+                window.location.search = '?peli';
+            } else {
+                window.location.search = esModoSerie ? '?peli' : '?serie';
+            }
+        };
     });
-        
-}); 
+}
 
-// 4. SCROLL
+window.addEventListener('DOMContentLoaded', () => {
+    if (generoActivo) {
+        cargarScript(`GENEROS/${generoActivo}.js`, () => {
+            renderizarCatalogo(window[generoActivo] || [], generoActivo);
+        });
+    } else {
+        let cargados = 0;
+        const archivos = [
+            atob('QnVzY2Fkb3IuanM='),
+            atob('QnVzY2Fkb3IyLmpz'),
+            atob('QnVzY2Fkb3IzLmpz')
+        ];
+        archivos.forEach(arch => {
+            cargarScript(arch, () => {
+                cargados++;
+                if (cargados === archivos.length) {
+                    const combinados = [
+                        ...(window.Lista1 || []),
+                        ...(window.Lista2 || []),
+                        ...(window.Lista3 || [])
+                    ];
+                    renderizarCatalogo(combinados, null);
+                }
+            });
+        });
+    }
+});
+
+// 5. SCROLL
 setTimeout(() => {
     var destino = document.querySelector('#H');
     if (destino) {
@@ -573,26 +607,25 @@ setTimeout(() => {
     }
 }, 800);
 
-      // CARDS INICIALES
-  Oculto.onclick = (e) => {
-     e.preventDefault();
- var Link = e.target.closest('a');        
-   
+// 6. CARDS INICIALES
+Oculto.onclick = (e) => {
+    e.preventDefault();
+    var Link = e.target.closest('a');        
     var isMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);  
-      
-     if (Link && isMobile) {
-             var URL = Link.href.replace('h5.swplayer', 'latino.solo-latino');
-                  
-   } else if (Link && !isMobile) {
+    var URL = '';
+
+    if (Link && isMobile) {
+        URL = Link.href.replace('h5.swplayer', 'latino.solo-latino');
+    } else if (Link && !isMobile) {
         URL = Link.href;
-   }
-       setTimeout(() => {
-    window.location.href = URL;
-     }, 500);          
- } 
+    }
+
+    if (URL) {
+        setTimeout(() => {
+            window.location.href = URL;
+        }, 500);
+    }
+};
 </script>
 </body>
 </html>
-
-
-
