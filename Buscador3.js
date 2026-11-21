@@ -341,6 +341,7 @@ var Lista3 = [
   { NAME: "🍿FULLMETAL ALCHEMIST", URL: "https://latino.solo-latino.com/es/detail/drama/6Y2kbRSoXxHTEqAXhcQMd-Fullmetal-Alchemist/1" },
   { NAME: "🍿STEINSGATE", URL: "https://latino.solo-latino.com/es/detail/drama/1JoXyYAVHNTm05O6NcTtO-SteinsGate/1" }, 
   { NAME: "🍿BLEACH", URL: "https://latino.solo-latino.com/es/detail/drama/bKGYaTRpV2zcXU5tIVAhw-Bleach/1" },
+  { NAME: "🍿CAOS", URL: "https://latino.solo-latino.com/es/detail/movie/qVjlrm7G3IhZuHx741gja-Chaos-Walking" }, 
   { NAME: "🍿", URL: "" },
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" },
