@@ -121,7 +121,7 @@ h1 {
     <div id="Results"></div>
 </div>
 
-<script src="https://lamovie.github.io/Buscador/Buscador3.js"></script>
+<script src="https://lamovie.github.io/Buscador/GENEROS/SERIES.js"></script>
 
 <script>
     function Check() {
@@ -130,7 +130,7 @@ h1 {
       if (query === "") return;
   Results.innerHTML = ""; 
       
-      var EnLista = Lista3.filter((item) => {
+      var EnLista = SERIES.filter((item) => {
    var nombreItem = (item.NAME || item.name || "").toLowerCase();
           return nombreItem.includes(query);
       });
