@@ -472,9 +472,10 @@ function renderizarCatalogo(datosCrudos, generoActual) {
         if (!URL) return;
 
         let esSerie = !!(item.CAPS || item.caps || NN.includes('🧋') || SERE_KEYWORDS.some(s => URL.includes(s)));
-        let debeMostrar = generoActual
-            ? true
-            : (esModoSerie ? esSerie : (!esSerie && FILM_KEYWORDS.some(f => URL.includes(f))));
+        var debeMostrar = generoActual
+    ? true
+    : (esModoSerie ? esSerie : true);
+
 
         if (debeMostrar) {
             let li = document.createElement('li');
@@ -570,33 +571,29 @@ function renderizarCatalogo(datosCrudos, generoActual) {
     });
 }
 
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('DOMContentLoaded', function() {
     if (generoActivo) {
-        cargarScript(`GENEROS/${generoActivo}.js`, () => {
+        cargarScript('GENEROS/' + generoActivo + '.js', function() {
             renderizarCatalogo(window[generoActivo] || [], generoActivo);
         });
     } else {
-        let cargados = 0;
-        const archivos = [
-            atob('QnVzY2Fkb3IuanM='),
-            atob('QnVzY2Fkb3IyLmpz'),
-            atob('QnVzY2Fkb3IzLmpz')
-        ];
-        archivos.forEach(arch => {
-            cargarScript(arch, () => {
+        var cargados = 0;
+        var combinados = [];
+
+        GENEROS_DISPONIBLES.forEach(function(gen) {
+            cargarScript('GENEROS/' + gen + '.js', function() {
+                if (Array.isArray(window[gen])) {
+                    combinados = combinados.concat(window[gen]);
+                }
                 cargados++;
-                if (cargados === archivos.length) {
-                    const combinados = [
-                        ...(window.Lista1 || []),
-                        ...(window.Lista2 || []),
-                        ...(window.Lista3 || [])
-                    ];
+                if (cargados === GENEROS_DISPONIBLES.length) {
                     renderizarCatalogo(combinados, null);
                 }
             });
         });
     }
 });
+
 
 // 5. SCROLL
 setTimeout(() => {
