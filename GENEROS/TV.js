@@ -13,8 +13,16 @@
   { name: "📺IPTV", url: "https://lamovie.github.io/IPTV/" }, 
   { name: "📺Bass Nation tv", url: "https://lamovie.github.io/MENU/BASS-NATION.html" },
   { name: "📺X tv", url: "https://lamovie.github.io/MENU/X-TV.html" }, 
-  { name: "📺Sport tv", url: "https://lamovie.github.io/MENU/SPORT-TV.html" }
+  { name: "📺Sport tv", url: "https://lamovie.github.io/MENU/SPORT-TV.html" }, 
+  { NAME: "🌐DOOMSDAY🔴", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
+    { NAME: "🌐EBENEZER", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
+    { NAME: "🌐CLAYFACE", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
+    { NAME: "🌐GODZILLA MINUS CERO", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}, 
+    { NAME: "🌐STREET FIGHTER", URL: "https://lamovie.github.io/PRE-ESTRENOS/"}
  ];
+ 
+ 
+ 
  
  
  
