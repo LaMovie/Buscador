@@ -197,7 +197,7 @@ var FICCION = [
   { NAME: "🍿SI NO DESPIERTO", URL: "https://latino.solo-latino.com/es/detail/movie/5WMBLbBvzPaadNWtzU6SO-Before-I-Fall" },
   { NAME: "🍿RESIDENT EVIL NOCHE CERO", URL: "https://latino.solo-latino.com/es/detail/movie/gUgAOLaq4gw9vddGRKwXW-Resident-Evil" }, 
   { NAME: "🍿CAOS", URL: "https://latino.solo-latino.com/es/detail/movie/qVjlrm7G3IhZuHx741gja-Chaos-Walking" }, 
-  { NAME: "🍿", URL: "" }, 
+  { NAME: "🍿ANT MAN", URL: "https://latino.solo-latino.com/es/detail/movie/Z16ZR4tEKIhPBBldMKDLW-Ant-Man" }, 
   { NAME: "🍿", URL: "" }, 
   { NAME: "🍿", URL: "" }
 ];
