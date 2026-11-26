@@ -1,5 +1,5 @@
  var TV = [
-  { name: "📺Aida tv", url: "https://lamovie.github.io/AIDA-TV/" },
+  { name: "📺Aida tv", url: "https://lamovie.github.io/MENU/AIDA-TV.html" },
   { name: "📺Autentica Tv", url: "https://live.obslivestream.com/autenticatvmux/index.m3u8" },
   { name: "📺Bum Tv", url: "https://movil.ejeserver.com/live/visiondorada.m3u8" },
   { name: "📺Lilo y Stitch Tv", url: "https://cloudvideo.servers10.com:8081/impactotv/index.m3u8" },
@@ -10,7 +10,7 @@
   { name: "📺Studio Delta Tv", url: "https://5ce9406b73c33.streamlock.net/RSD/ngrp:livestream_all/playlist.m3u8"}, 
   { name: "📺Pop World Tv", url: "https://janus.xpbroadcasting.com:8443/hls/popworld.m3u8"}, 
   { name: "📺Universal Tv", url: "https://imagenuniversaltv.net:3771/live/iutvlive.m3u8" },
-  { name: "📺IPTV", url: "https://lamovie.github.io/IPTV/" }, 
+  { name: "📺IPTV", url: "https://lamovie.github.io/MENU/IPTV.html" }, 
   { name: "📺Bass Nation tv", url: "https://lamovie.github.io/MENU/BASS-NATION.html" },
   { name: "📺X tv", url: "https://lamovie.github.io/MENU/X-TV.html" }, 
   { name: "📺Sport tv", url: "https://lamovie.github.io/MENU/SPORT-TV.html" }, 
