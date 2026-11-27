@@ -111,7 +111,8 @@ var COMEDY = [
   { NAME: "🍿COYOTE vs ACME", URL: "https://latino.solo-latino.com/es/detail/movie/bl8biK80WV1HctHblK1uA-Coyote-vs-ACME" },
   { NAME: "🍿Y DONDE ESTAN LAS RUBIAS", URL: "https://latino.solo-latino.com/es/detail/movie/6AWoQRYo5hNh5YsCGoCym-White-Chicks" },
   { NAME: "🍿DESNUDO", URL: "https://latino.solo-latino.com/es/detail/movie/E9iUOeHO8OMLc52eOKpjW-Naked" },
-  { NAME: "🍿JUNTOS Y REVUELTOS", URL: "https://latino.solo-latino.com/es/detail/movie/JMVrcy39n5GAFHCxrwUuW-Blended" }
+  { NAME: "🍿JUNTOS Y REVUELTOS", URL: "https://latino.solo-latino.com/es/detail/movie/JMVrcy39n5GAFHCxrwUuW-Blended" }, 
+  { NAME: "🍿AIDA Y VUELTA", URL: "https://latino.solo-latino.com/es/detail/movie/KUPJmrehxaarV3EMMXFxG-Aida-the-Movie" }
 ];
 
 
