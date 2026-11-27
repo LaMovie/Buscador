@@ -234,7 +234,8 @@ var SERIES = [
   { NAME: "🍿UN TRABAJO MALDITO", URL: "https://latino.solo-latino.com/es/detail/drama/UfAUwTenBanQN9Bxpz4j7-Dead-End-Job/1" },
   { NAME: "🍿ANILLOS DE PODER 3", URL: "https://latino.solo-latino.com/es/detail/drama/2VBnz0UzzpaCRcXukivQu-The-Lord-of-the-Rings-The-Rings-of-Power-Season-3/1" },
   { NAME: "🍿MIDNIGHT TEXAS", URL: "https://latino.solo-latino.com/es/detail/drama/rGmQV9LfKl8drtny18uF8-Midnight-Texas-Season-1" }, 
-  { NAME: "🍿12 MONOS", URL: "https://latino.solo-latino.com/es/detail/drama/iOFSIAKPPZTwonrKRBR61-12-Monkeys-Season-1" }
+  { NAME: "🍿12 MONOS", URL: "https://latino.solo-latino.com/es/detail/drama/iOFSIAKPPZTwonrKRBR61-12-Monkeys-Season-1" }, 
+  { NAME: "🍿THE MAGICIANS", URL: "https://latino.solo-latino.com/es/detail/drama/uJ7hcxJeqCxEYAZZMxuO9-The-Magicians-Season-1/1" }
 ];
 
 
